@@ -29,7 +29,7 @@
 ###4. `<ul>` -- unordered list
 * type: block level
 * content: flow content
-* support: all browsers
+* support: all browsers NO HTML 5
 * example:
 ```
 <ul>
