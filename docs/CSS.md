@@ -28,3 +28,13 @@
 * initial value -- user agent dependent
 
 
+### 4. `padding-left`
+
+* *elements:* all except table elements
+* *inherited:* no
+
+#### Values
+* `<length>` and `<percentage>`
+* initial value -- 0
+
+
