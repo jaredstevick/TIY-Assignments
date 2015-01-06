@@ -65,6 +65,16 @@
 
 #### Values
 * `<length>, <percentage>, auto`
-* initial value 0
+* initial value -- 0
+
+
+### 8. `max-height`
+
+* *elements:* all except non replaced inline elements, table columns and column groups
+* *inherited:* no
+
+#### Values
+* `<length>, <percentage>, none, max-content, min-content, fit-content, fill available`
+* initial value -- none
 
 
