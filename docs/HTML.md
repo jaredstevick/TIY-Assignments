@@ -179,3 +179,12 @@
 <a href="http://www.reddit.com/">Reddit</a>
 ```
 
+###19. `<abbr>` -- abbreviations (title contains info)
+* type: inline
+* content: phrasing
+* support: all browsers
+* example:
+```
+<p>B-Rock is the president of the <abbr title="United States of America">USA</abbr></p>
+```
+
