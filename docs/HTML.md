@@ -116,7 +116,7 @@
 <small>This text will be smaller</small>
 ```
 
-###12. `<strong>  -- makes text bold
+###12. `<strong>`  -- makes text bold
 * type: inline
 * content: phrasing content
 * support: all browsers
