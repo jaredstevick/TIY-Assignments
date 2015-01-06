@@ -133,3 +133,13 @@
 ```
 <button name="button">Click Here</button>
 ```
+
+###14. `<img>`  -- an image
+* type: image
+* content: none
+* support: all browsers
+* example:
+```
+<img src="image.jpg"/>
+```
+
