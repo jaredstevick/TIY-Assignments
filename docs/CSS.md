@@ -81,10 +81,19 @@
 ### 9. `line-height`
 
 * *elements:* all elements
-* *inherited:* normal
+* *inherited:* yes
 
 #### Values
 * `normal, <number>, <length>, <percentage>`
 * initial value -- normal
 
+
+### 10. `text-decoration`
+
+* *elements:* all elements
+* *inherited:* no
+
+#### Values
+* `none, blink, underline, overline, line-through, underline overline`
+* initial value -- concatenation of the initial values of its longhand properties
 
