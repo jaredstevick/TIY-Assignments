@@ -161,3 +161,11 @@
 <p>Here is some text <em>and this part will be italicized</em>. But not this stuff</p>
 ```
 
+###17. `<br>` -- inserts a line break (good for poems)
+* type: inline
+* content: empty
+* support: all browsers
+* example:
+```
+<br>
+```
