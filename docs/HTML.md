@@ -169,3 +169,13 @@
 ```
 <br>
 ```
+
+###18. `<a>` -- anchor (link)
+* type: inline
+* content: flow or phrasing content
+* support: all browsers
+* example:
+```
+<a href="http://www.reddit.com/">Reddit</a>
+```
+
