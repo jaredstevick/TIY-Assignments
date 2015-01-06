@@ -135,11 +135,20 @@
 ```
 
 ###14. `<img>`  -- an image
-* type: image
+* type: inline
 * content: none
 * support: all browsers
 * example:
 ```
 <img src="image.jpg"/>
+```
+
+###15. `<textarea>` -- a text field
+* type: inline
+* content: character data
+* support: all browsers
+* example:
+```
+<textarea name="textarea" rows="10" cols="50">Write your text here</textarea>
 ```
 
