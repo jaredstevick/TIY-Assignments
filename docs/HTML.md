@@ -152,3 +152,12 @@
 <textarea name="textarea" rows="10" cols="50">Write your text here</textarea>
 ```
 
+###16. `<em>` -- emphasis / italics
+* type: inline
+* content: phrasing
+* support: all browsers
+* example:
+```
+<p>Here is some text <em>and this part will be italicized</em>. But not this stuff</p>
+```
+
