@@ -18,3 +18,13 @@
 * iniitial value -- normal
 
 
+### 3. `font-family`
+
+* *elements:* all
+* *inherited:* yes
+
+#### Values
+* `<family-name>` (serif, sans serif, cursive, font name etc)
+* initial value -- user agent dependent
+
+
