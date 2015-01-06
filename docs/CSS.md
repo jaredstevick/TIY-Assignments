@@ -58,3 +58,13 @@
 * initial value -- none
 
 
+### 7. `margin-bottom`
+
+* *elements:* all elements with table display properties
+* *inherited:* no
+
+#### Values
+* `<length>, <percentage>, auto`
+* initial value 0
+
+
