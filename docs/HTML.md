@@ -188,3 +188,11 @@
 <p>B-Rock is the president of the <abbr title="United States of America">USA</abbr></p>
 ```
 
+###20. `<label>`
+* type: inline
+* content: flow, phrasing, interactive, form content
+* support: all browsers
+* example: 
+```
+<label>Click Here <input type="text" id="User" name="Name" /></label>
+```
