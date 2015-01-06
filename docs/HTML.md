@@ -109,7 +109,7 @@
 
 ###11. `<small>` -- makes text font size smaller
 * type: inline
-* content: phrasing content
+* content: phrasing and flow content
 * support: all browsers
 * example:
 ```
@@ -127,7 +127,7 @@
 
 ###13. `<button>`  -- a clickable button
 * type: inline
-* content: phrasing content
+* content: phrasing, flow, interactive content
 * support: all browsers
 * example:
 ```
@@ -136,7 +136,7 @@
 
 ###14. `<img>`  -- an image
 * type: inline
-* content: none
+* content: flow, phrasing
 * support: all browsers
 * example:
 ```
@@ -145,7 +145,7 @@
 
 ###15. `<textarea>` -- a text field
 * type: inline
-* content: character data
+* content: flow, phrasing, interactive 
 * support: all browsers
 * example:
 ```
@@ -154,7 +154,7 @@
 
 ###16. `<em>` -- emphasis / italics
 * type: inline
-* content: phrasing
+* content: flow, phrasing, palpable
 * support: all browsers
 * example:
 ```
@@ -163,7 +163,7 @@
 
 ###17. `<br>` -- inserts a line break (good for poems)
 * type: inline
-* content: empty
+* content: flow, phrasing
 * support: all browsers
 * example:
 ```
@@ -172,7 +172,7 @@
 
 ###18. `<a>` -- anchor (link)
 * type: inline
-* content: flow or phrasing content
+* content: flow, phrasing, interactive, palpable content
 * support: all browsers
 * example:
 ```
@@ -181,7 +181,7 @@
 
 ###19. `<abbr>` -- abbreviations (title contains info)
 * type: inline
-* content: phrasing
+* content: phrasing, flow, palpable
 * support: all browsers
 * example:
 ```
