@@ -124,3 +124,12 @@
 ```
 <strong>This text will be bold.</strong>
 ```
+
+###13. `<button>`  -- a clickable button
+* type: inline
+* content: phrasing content
+* support: all browsers
+* example:
+```
+<button name="button">Click Here</button>
+```
