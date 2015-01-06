@@ -78,3 +78,13 @@
 * initial value -- none
 
 
+### 9. `line-height`
+
+* *elements:* all elements
+* *inherited:* normal
+
+#### Values
+* `normal, <number>, <length>, <percentage>`
+* initial value -- normal
+
+
