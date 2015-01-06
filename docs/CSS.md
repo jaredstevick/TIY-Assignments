@@ -48,4 +48,13 @@
 * initial value -- the concatenation of the initial values of its longhand properties
 
 
+### 6. `float`
+
+* *elements:* all
+* *inherited:* no
+
+#### Values
+* inline, inline block, inline table, flex, etc
+* initial value -- none
+
 
