@@ -38,3 +38,14 @@
 * initial value -- 0
 
 
+### 5. `border-color`
+
+* *elements:* all 
+* *inherited:* no
+
+#### Values
+* `<color>, horizontal, vertical, top, bottom, left, right, inherit`
+* initial value -- the concatenation of the initial values of its longhand properties
+
+
+
