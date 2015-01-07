@@ -94,6 +94,12 @@
 ```
 <footer>copyright and author information</footer>
 ```
+#### Attributes: global and event attributes
+* example:
+```
+<footer style="background-color: black">footer content</footer>
+```
+
 
 ###7. `<header>` -- introductory or navigational info
 * type: block level
