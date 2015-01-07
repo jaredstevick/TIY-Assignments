@@ -4,7 +4,6 @@
 * type: block-level
 * content: flow  content
 * support: all browsers
-* attributes: global attributes
 * example:
 ```
 <address>
@@ -12,6 +11,9 @@
   101 S. Garland Ave, Suite 102 
   Orlando, FL 32801 </address>
 ```
+#### Attributes: Global Attributes
+
+
 
 ###2. `<div>` -- generic container for content
 * type: block-level
@@ -19,6 +21,12 @@
 * support: all browsers
 * example: 
 ```<div><p>Any type of content can go here</p></div>```
+#### Attributes: height and width
+* example:
+```
+<div style="height: 80%; width: 15%">div content here</div> 
+```
+
 
 ###3. `<hr>` -- horizontal rule
 * type: block-level
