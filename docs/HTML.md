@@ -4,6 +4,7 @@
 * type: block-level
 * content: flow  content
 * support: all browsers
+* attributes: global attributes
 * example:
 ```
 <address>
