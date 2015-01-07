@@ -202,6 +202,12 @@
 ```
 <strong>This text will be bold.</strong>
 ```
+#### Attributes:  global and event attributes
+* example:
+```
+<p><strong style="font-size: 2em">here is some text</strong></p>
+```
+
 
 ###13. `<button>`  -- a clickable button
 * type: inline
