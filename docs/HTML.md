@@ -34,7 +34,7 @@
 * support: all browsers
 * example: 
 `<hr>`
-#### Attributes: align, color
+#### Attributes: align, color, noshade, size, width
 * example:
 ```
 <hr style="color: darkgray">
@@ -53,7 +53,8 @@
     <li>list item </li)
 </ul>
 ```
-#### Attributes: Global 
+#### Attributes: Global
+* values: disc, circle, square
 * example:
 ```
 <ul type="circle">
@@ -74,6 +75,16 @@
   <li>list item 3</li>
 </ol>
 ```
+#### Attributes: compact, reversed, start, type, global, and event
+* values: 1, a, A, i, I
+* example:
+```
+<ol type="a">
+  <li>list item a</li>
+  <li>list item b</li>
+</ol>
+```
+
 
 ###6. `<footer>` -- footer with author info, copyright data, and related links
 * type: block level
