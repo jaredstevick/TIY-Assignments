@@ -106,3 +106,94 @@
     <p>Article text...</p>
 </article>
 ```
+
+###11. `<small>` -- makes text font size smaller
+* type: inline
+* content: phrasing and flow content
+* support: all browsers
+* example:
+```
+<small>This text will be smaller</small>
+```
+
+###12. `<strong>`  -- makes text bold
+* type: inline
+* content: phrasing content
+* support: all browsers
+* example:
+```
+<strong>This text will be bold.</strong>
+```
+
+###13. `<button>`  -- a clickable button
+* type: inline
+* content: phrasing, flow, interactive content
+* support: all browsers
+* example:
+```
+<button name="button">Click Here</button>
+```
+
+###14. `<img>`  -- an image
+* type: inline
+* content: flow, phrasing
+* support: all browsers
+* example:
+```
+<img src="image.jpg"/>
+```
+
+###15. `<textarea>` -- a text field
+* type: inline
+* content: flow, phrasing, interactive 
+* support: all browsers
+* example:
+```
+<textarea name="textarea" rows="10" cols="50">Write your text here</textarea>
+```
+
+###16. `<em>` -- emphasis / italics
+* type: inline
+* content: flow, phrasing, palpable
+* support: all browsers
+* example:
+```
+<p>Here is some text <em>and this part will be italicized</em>. But not this stuff</p>
+```
+
+###17. `<br>` -- inserts a line break (good for poems)
+* type: inline
+* content: flow, phrasing
+* support: all browsers
+* example:
+```
+<br>
+```
+
+###18. `<a>` -- anchor (link)
+* type: inline
+* content: flow, phrasing, interactive, palpable content
+* support: all browsers
+* example:
+```
+<a href="http://www.reddit.com/">Reddit</a>
+```
+
+###19. `<abbr>` -- abbreviations (title contains info)
+* type: inline
+* content: phrasing, flow, palpable
+* support: all browsers
+* example:
+```
+<p>B-Rock is the president of the <abbr title="United States of America">USA</abbr></p>
+```
+
+###20. `<label>`
+* type: inline
+* content: flow, phrasing, interactive, form content
+* support: all browsers
+* example: 
+```
+<label>Click Here <input type="text" id="User" name="Name" /></label>
+```
+
