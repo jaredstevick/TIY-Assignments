@@ -217,6 +217,13 @@
 ```
 <button name="button">Click Here</button>
 ```
+#### Attributes: name, type, value, form, formaction, autofocus, disabled, formenctype, formmethod, formnovalidate, formtarget
+* values: type: button | reset | submit, value: text, formtarget: _blank | _self | _parent | _top, framename, formmethod: get | post, formnovalidate: formnovalidate, form: form id, formaction: url, disabled: boolean, autofocus: boolean, formenctype: application | multipart | text
+* example:
+```
+<button type="button">Show hint</button>
+```
+
 
 ###14. `<img>`  -- an image
 * type: inline
