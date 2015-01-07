@@ -233,6 +233,10 @@
 ```
 <img src="image.jpg"/>
 ```
+#### Attributes: align, alt, border, crossorigin, height, hspace, ismap, longdesc, src, usemap, vspace, width, global and event attributes
+* values: width: pixels, vspace: pixels, usemap: #mapname, src: url, longdesc: url, ismap: ismap, hspace: pixels, height: pixels, crossorigin: anonymous use-credentials, border: pixels, alt: text, align: top, bottom, middle, left, right
+
+
 
 ###15. `<textarea>` -- a text field
 * type: inline
