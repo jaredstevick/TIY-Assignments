@@ -109,6 +109,12 @@
 ```
 <header>company logo</header>
 ```
+#### Attributes: global and event attributes
+* example:
+```
+<header style="background-color: blue">header content</header>
+```
+
 
 ###8. `<table>` -- table for storing data
 * type: block level
