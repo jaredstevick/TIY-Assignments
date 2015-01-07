@@ -34,6 +34,12 @@
 * support: all browsers
 * example: 
 `<hr>`
+#### Attributes: align, color
+* example:
+```
+<hr style="color: darkgray">
+```
+
 
 ###4. `<ul>` -- unordered list
 * type: block level
