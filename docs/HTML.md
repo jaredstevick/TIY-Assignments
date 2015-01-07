@@ -21,6 +21,7 @@
 * support: all browsers
 * example: 
 ```<div><p>Any type of content can go here</p></div>```
+
 #### Attributes: height and width
 * example:
 ```
@@ -34,6 +35,7 @@
 * support: all browsers
 * example: 
 `<hr>`
+
 #### Attributes: align, color, noshade, size, width
 * example:
 ```
@@ -170,8 +172,8 @@
     <p>Article text...</p>
 </article>
 ```
-#### Attributes:
-* example: global and event attributes
+#### Attributes:  global and event attributes
+* example:
 ```
 <article style="background-color: red">article content</article>
 ```
@@ -185,6 +187,12 @@
 ```
 <small>This text will be smaller</small>
 ```
+#### Attributes: global and event
+* example:
+```
+<p>The sentence will end with <small style="color: blue">smaller text</small></p>
+```
+
 
 ###12. `<strong>`  -- makes text bold
 * type: inline
