@@ -152,6 +152,12 @@
   <p>And a paragraph</p>
 </section>
 ```
+#### Attributes: global
+* example:
+```
+<section style="background-color: orange">section content</section>
+```
+
 
 ###10. `<article>` -- a self contained work of composition intended for redistribution
 * type: block level
