@@ -129,6 +129,18 @@
   </tr>
 </table>
 ```
+#### Attributes: sortable, global, and event
+* example:
+```
+<table style="width: 100%">
+  <tr>
+    <td>data</td>
+    <td>data</td>
+  </tr>
+</table>
+```
+
+
 ###9. `<section>` -- a generic section of the document
 * type: block level
 * content: flow, sectioning, and palpable content
