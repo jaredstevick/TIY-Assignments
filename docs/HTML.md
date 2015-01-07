@@ -53,6 +53,14 @@
     <li>list item </li)
 </ul>
 ```
+#### Attributes: Global 
+* example:
+```
+<ul type="circle">
+  <li>list item</li>
+</ul>
+```
+
 
 ###5. `<ol>` -- ordered list
 * type: block level
