@@ -248,6 +248,13 @@
 ```
 <textarea name="textarea" rows="10" cols="50">Write your text here</textarea>
 ```
+#### Attributes: maxlength, name, placeholder, readonly, required, rows, wrap, cols, dirname, disabled, form, autofocus, global and event attributes
+* values: autofocus: autofocus, cols: number, disabled: disabled, form: form id, maxlength: number, name: text, placeholder: text, readonly: readonly, required: required, rows: number, wrap: hard | soft
+```
+<textarea rows="4" cols="50">some textarea text</textarea>
+```
+
+
 
 ###16. `<em>` -- emphasis / italics
 * type: inline
