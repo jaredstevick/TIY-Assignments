@@ -170,6 +170,12 @@
     <p>Article text...</p>
 </article>
 ```
+#### Attributes:
+* example: global and event attributes
+```
+<article style="background-color: red">article content</article>
+```
+
 
 ###11. `<small>` -- makes text font size smaller
 * type: inline
