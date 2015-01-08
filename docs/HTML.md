@@ -11,6 +11,9 @@
   101 S. Garland Ave, Suite 102 
   Orlando, FL 32801 </address>
 ```
+#### Attributes: Global Attributes
+
+
 
 ###2. `<div>` -- generic container for content
 * type: block-level
@@ -19,12 +22,26 @@
 * example: 
 ```<div><p>Any type of content can go here</p></div>```
 
+#### Attributes: height and width
+* example:
+```
+<div style="height: 80%; width: 15%">div content here</div> 
+```
+
+
 ###3. `<hr>` -- horizontal rule
 * type: block-level
 * content: flow content
 * support: all browsers
 * example: 
 `<hr>`
+
+#### Attributes: align, color, noshade, size, width
+* example:
+```
+<hr style="color: darkgray">
+```
+
 
 ###4. `<ul>` -- unordered list
 * type: block level
@@ -38,6 +55,15 @@
     <li>list item </li)
 </ul>
 ```
+#### Attributes: Global
+* values: disc, circle, square
+* example:
+```
+<ul type="circle">
+  <li>list item</li>
+</ul>
+```
+
 
 ###5. `<ol>` -- ordered list
 * type: block level
@@ -51,6 +77,16 @@
   <li>list item 3</li>
 </ol>
 ```
+#### Attributes: compact, reversed, start, type, global, and event
+* values: 1, a, A, i, I
+* example:
+```
+<ol type="a">
+  <li>list item a</li>
+  <li>list item b</li>
+</ol>
+```
+
 
 ###6. `<footer>` -- footer with author info, copyright data, and related links
 * type: block level
@@ -60,6 +96,12 @@
 ```
 <footer>copyright and author information</footer>
 ```
+#### Attributes: global and event attributes
+* example:
+```
+<footer style="background-color: black">footer content</footer>
+```
+
 
 ###7. `<header>` -- introductory or navigational info
 * type: block level
@@ -69,6 +111,12 @@
 ```
 <header>company logo</header>
 ```
+#### Attributes: global and event attributes
+* example:
+```
+<header style="background-color: blue">header content</header>
+```
+
 
 ###8. `<table>` -- table for storing data
 * type: block level
@@ -83,6 +131,18 @@
   </tr>
 </table>
 ```
+#### Attributes: sortable, global, and event
+* example:
+```
+<table style="width: 100%">
+  <tr>
+    <td>data</td>
+    <td>data</td>
+  </tr>
+</table>
+```
+
+
 ###9. `<section>` -- a generic section of the document
 * type: block level
 * content: flow, sectioning, and palpable content
@@ -94,6 +154,12 @@
   <p>And a paragraph</p>
 </section>
 ```
+#### Attributes: global
+* example:
+```
+<section style="background-color: orange">section content</section>
+```
+
 
 ###10. `<article>` -- a self contained work of composition intended for redistribution
 * type: block level
@@ -106,6 +172,12 @@
     <p>Article text...</p>
 </article>
 ```
+#### Attributes:  global and event attributes
+* example:
+```
+<article style="background-color: red">article content</article>
+```
+
 
 ###11. `<small>` -- makes text font size smaller
 * type: inline
@@ -115,6 +187,12 @@
 ```
 <small>This text will be smaller</small>
 ```
+#### Attributes: global and event
+* example:
+```
+<p>The sentence will end with <small style="color: blue">smaller text</small></p>
+```
+
 
 ###12. `<strong>`  -- makes text bold
 * type: inline
@@ -124,6 +202,12 @@
 ```
 <strong>This text will be bold.</strong>
 ```
+#### Attributes:  global and event attributes
+* example:
+```
+<p><strong style="font-size: 2em">here is some text</strong></p>
+```
+
 
 ###13. `<button>`  -- a clickable button
 * type: inline
@@ -133,6 +217,13 @@
 ```
 <button name="button">Click Here</button>
 ```
+#### Attributes: name, type, value, form, formaction, autofocus, disabled, formenctype, formmethod, formnovalidate, formtarget
+* values: type: button | reset | submit, value: text, formtarget: _blank | _self | _parent | _top, framename, formmethod: get | post, formnovalidate: formnovalidate, form: form id, formaction: url, disabled: boolean, autofocus: boolean, formenctype: application | multipart | text
+* example:
+```
+<button type="button">Show hint</button>
+```
+
 
 ###14. `<img>`  -- an image
 * type: inline
@@ -141,6 +232,12 @@
 * example:
 ```
 <img src="image.jpg"/>
+```
+#### Attributes: align, alt, border, crossorigin, height, hspace, ismap, longdesc, src, usemap, vspace, width, global and event attributes
+* values: width: pixels, vspace: pixels, usemap: #mapname, src: url, longdesc: url, ismap: ismap, hspace: pixels, height: pixels, crossorigin: anonymous use-credentials, border: pixels, alt: text, align: top, bottom, middle, left, right
+* example: 
+```
+<img src="picture.jpg" alt="here's a picture">
 ```
 
 ###15. `<textarea>` -- a text field
@@ -151,6 +248,13 @@
 ```
 <textarea name="textarea" rows="10" cols="50">Write your text here</textarea>
 ```
+#### Attributes: maxlength, name, placeholder, readonly, required, rows, wrap, cols, dirname, disabled, form, autofocus, global and event attributes
+* values: autofocus: autofocus, cols: number, disabled: disabled, form: form id, maxlength: number, name: text, placeholder: text, readonly: readonly, required: required, rows: number, wrap: hard | soft
+```
+<textarea rows="4" cols="50">some textarea text</textarea>
+```
+
+
 
 ###16. `<em>` -- emphasis / italics
 * type: inline
