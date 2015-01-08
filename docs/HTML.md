@@ -298,6 +298,6 @@
 * support: all browsers
 * example: 
 ```
-<label>Click Here <input type="text" id="User" name="Name" /></label>
+<label>make words here<input type="text" id="User" name="Name" /></label>
 ```
 
