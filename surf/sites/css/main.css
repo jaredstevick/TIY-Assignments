@@ -289,6 +289,8 @@ li button:hover {
 #ad-content figcaption a {
     color: darkgray;
     margin-top: -4%;
+    text-decoration: none;
+    /*text-align: center;*/
 }
 
 #adphoto {
@@ -357,11 +359,11 @@ li button:hover {
     opacity: 0;
 }
 
-figure {
+.recent-posts figure {
     position: relative;
 }
 
-figcaption {
+.recent-posts figcaption {
     position: absolute;
     bottom: 4px;
     left: 8px;
