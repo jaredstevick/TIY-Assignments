@@ -25,7 +25,7 @@ html {
 
 hr {
     display: block;
-    height: 1px;
+    height: 2px;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
@@ -60,64 +60,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#header {
-    background-image: url(http://besttwitterheaders.com/wp-content/uploads/sites/2/2013/07/419846.jpg);
-    background-repeat: no-repeat;
-    min-height: 500px;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-}
-#blog-logo {
-    vertical-align: top;
-    display: inline-block;
-    padding-right: 3%;
-
-}
-#blog-logo img {
-    height: 75px;
-
-}
-
-#blog-logo a {
-    text-decoration: none;
-    color: #083451;
-
-}
-
-#header-nav {
-    float: right;
-    display: inline-block;
-    margin-right: 3%;
-    vertical-align: top;
-    
-}
-
-#header-nav a {
-    text-decoration: none;
-    color: #083451;
-
-}
-
-#site-title h1 {
-    margin-top: 15%;
-    text-align: center;
-}
-
-#site-title p {
-    
-    text-align: center;
-}
+/*Global Styles*/
 
 
-
-
-li button {
-    background-color: darkgray;
-}
 
 ul {
     list-style: none;
@@ -126,9 +71,336 @@ ul {
 li {
     display: inline;
 }
-.share-button {
-    background-color: darkgray;
+
+
+
+/*Header Styles*/
+
+#header {
+    /*background-image: url(http://besttwitterheaders.com/wp-content/uploads/sites/2/2013/06/01080_creteclifs_2560x1600.jpg);*/
+    background-image: url(http://besttwitterheaders.com/wp-content/uploads/sites/2/2013/07/419846.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
 }
+#header a, li, h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*Left Side*/
+#blog-logo {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+#blog-logo img {
+    height: 75px;
+}
+
+#blog-logo a {
+    text-decoration: none;
+    color: #083451;
+}
+
+
+/*Right Side*/
+#header-nav {
+    float: right;
+    display: inline-block;
+    margin-right: 3%;
+    vertical-align: top;
+    }
+
+#header-nav a {
+    text-decoration: none;
+    color: #083451;
+    margin: 3%;
+}
+
+
+/*Center*/
+#site-title h1 {
+    margin-top: 15%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+}
+
+#site-title p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-top: -4%;
+}
+
+
+
+
+/*Main Content Styles*/
+
+#main-content {
+    width: 80%;
+    margin: 1% 15% 10% 10%;
+}
+
+#center-column {
+    margin-right: 2.5%;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#center-column p {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5%;
+}
+
+#center-column h3 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    color: #083452;
+    margin-bottom: -2%;    
+}
+
+#post p {
+    color: #000000;
+}
+
+
+/*Author Styles*/
+
+#author a {
+    text-decoration: none;
+}
+
+#author img {
+    max-height: 25px;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+#name a {
+    color: #3E81BB;
+}
+
+#postdate a {
+    text-decoration: underline;
+    margin-left: 1%;
+    color: darkgray;
+}
+
+#postdate p {
+    font-style: normal;
+    color: darkgray;
+}
+
+
+/*Social buttons*/
+#social {
+    width: 50%;
+    white-space: nowrap;
+    margin: 5% 0 10% -7%;
+}
+li button {
+    background-color: #A3B3BF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li button:hover {
+    background-color: #106DB3;
+}
+
+
+
+/*Sidebar styles*/
+#sidebar {
+    float: right;
+    width: 35%;
+    margin: 10% 0% 10% 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+}
+
+#sidebar p {
+    margin-left: 5%;
+}
+
+#profilelogo img {
+    max-height: 75px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#profilelogo h4 {
+    text-align: center;
+}
+
+
+#profilelinks p {
+    margin: auto;
+}
+
+#profilelinks {
+    width: 100%;
+}
+
+
+#profilelinks a {
+    padding-left: 8%;
+    text-decoration: none;
+    color: darkgray;
+    text-align: center;
+}
+
+
+/*Ad Styles*/
+
+#adcontent div {
+    margin: auto;
+ }
+
+
+#ad-content h4 {
+    margin-left: 5%;
+    vertical-align: left;
+    color: #3E81BB;
+}
+
+#ad-content figcaption {
+    font-size: smaller;
+}
+
+figcaption a {
+    color: darkgray;
+    margin-top: -4%;
+}
+
+#adphoto {
+    vertical-align: left;
+    margin-left: 5%;
+}
+
+#ad-image {
+    vertical-align: left;
+    margin-top: 10%;
+}
+
+#adtext {
+    max-width: 300px;
+    display: block;
+    vertical-align: left;
+
+}
+
+#adtext h4 {
+    vertical-align: left;
+}
+
+#adtext p {
+    color: darkgray;
+}
+
+/*Bottom Post Container Styles*/
+
+#bottom-content {
+    clear: both;
+    width: 100%;
+}
+
+#bottom-content h2 {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Oswald';
+    color: #083452;
+}
+
+#postscontainer {
+    max-width: 97%;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.recent-posts {
+    display: inline-block;
+    width: 25%;
+    white-space: normal;
+}
+
+.overlay {
+    background-color: #083452;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 10;
+    opacity: .6;
+
+}
+
+.overlay:hover {
+    opacity: 0;
+}
+
+
+/*Footer Styles*/
+
+#footer {
+    background-color: #213138;
+    width: 100%;
+    min-height: 50px;
+    overflow: auto;
+    margin: 0;
+}
+
+#footernav {
+    width: 100%;
+}
+
+#footer img {
+    max-height: 75px;
+    margin-left: 10%;
+    display: inline-block;
+    float: left; 
+    padding-bottom: 10px; 
+}
+
+#footer h6 {
+    color: #7D94A4;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20%;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #7D94A4;
+    margin: 3% 3% 3% 1%;
+}
+
+#footer ul {
+    text-align: right;
+    display: inline;
+    float: right;
+    margin-right: 2%;
+}
+
+#footer li {
+    font-size: 1.5em;
+}
+
+
+
+
+
 
 
 
@@ -270,9 +542,9 @@ li {
         max-width: 100% !important;
     }
 
-    @page {
+   /* @page {
         margin: 0.5cm;
-    }
+    }*/
 
     p,
     h2,
