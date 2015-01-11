@@ -234,6 +234,11 @@ li button:hover {
     margin-left: 5%;
 }
 
+#profilelogo a {
+    text-decoration: none;
+    color: #3E81BB; 
+}
+
 #profilelogo img {
     max-height: 75px;
     display: block;
@@ -278,9 +283,10 @@ li button:hover {
 
 #ad-content figcaption {
     font-size: smaller;
+
 }
 
-figcaption a {
+#ad-content figcaption a {
     color: darkgray;
     margin-top: -4%;
 }
@@ -343,6 +349,7 @@ figcaption a {
     position: absolute;
     z-index: 10;
     opacity: .6;
+    cursor: pointer;
 
 }
 
@@ -350,6 +357,20 @@ figcaption a {
     opacity: 0;
 }
 
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    max-width: 300px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
 
 /*Footer Styles*/
 
