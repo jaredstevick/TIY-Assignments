@@ -145,8 +145,8 @@ li {
 /*Main Content Styles*/
 
 #main-content {
-    width: 80%;
-    margin: 1% 15% 10% 10%;
+    width: 90%;
+    margin: 1% 10% 10% 10%;
 }
 
 #center-column {
@@ -172,6 +172,49 @@ li {
 
 #post p {
     color: #000000;
+}
+
+#post a:visited {
+    color: darkgray;
+}
+
+/*#post a:hover {
+
+}*/
+
+.tooltip {
+    display: inline;
+    position: relative;
+        }
+        
+.tooltip:hover:after{
+    background: rgba(0,0,0,1);
+    border-radius: 13px;
+    bottom: 34px;
+    color: white;
+    font-family: 'papyrus', open-sans;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 98;
+    max-width: 60px;
+}
+
+
+blockquote {
+    border-left: 2px solid darkgray;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 25px;
+}
+
+blockquote p {
+color: #3E81BB !important;
 }
 
 
@@ -234,19 +277,25 @@ li button:hover {
     margin-left: 5%;
 }
 
-#profilelogo a {
-    text-decoration: none;
-    color: #3E81BB; 
+#facebox {
+    width: 100%;
 }
 
-#profilelogo img {
+#facebox a {
+    text-decoration: none;
+    color: #3E81BB;
+
+}
+
+#facebox img {
     max-height: 75px;
     display: block;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
+
 }
 
-#profilelogo h4 {
+#facebox h4 {
     text-align: center;
 }
 
@@ -270,31 +319,28 @@ li button:hover {
 
 /*Ad Styles*/
 
-#adcontent div {
+#ad-content {
     margin: auto;
  }
 
 
 #ad-content h4 {
     margin-left: 5%;
-    vertical-align: left;
     color: #3E81BB;
 }
 
 #ad-content figcaption {
     font-size: smaller;
-
 }
 
 #ad-content figcaption a {
     color: darkgray;
     margin-top: -4%;
     text-decoration: none;
-    /*text-align: center;*/
 }
 
 #adphoto {
-    vertical-align: left;
+    width: 100%;
     margin-left: 5%;
 }
 
@@ -349,7 +395,7 @@ li button:hover {
     height: 300px;
     width: 300px;
     position: absolute;
-    z-index: 10;
+    z-index: 2;
     opacity: .6;
     cursor: pointer;
 
@@ -549,7 +595,7 @@ li button:hover {
     pre,
     blockquote {
         border: 1px solid #999;
-        page-break-inside: avoid;
+        /*page-break-inside: avoid;*/
     }
 
     thead {
