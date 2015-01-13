@@ -64,12 +64,92 @@ extra margins?...extra math?..not right now..*/
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#container {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+header {
+    text-align: center;
+    color: #47a3da;
+    height: 150px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2em;
+ }
+
+.timeline > * {
+    background-color: #AFDCF8;
+    display: block;
+    padding: 1% 5%;
+    margin-top: 2%;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+}
+    
+.timeline > *:nth-child(even) {
+    background-color: #6CBFEE;
 }
 
+.timeline article  {
+    color: white;    
+}
+
+.timeline article > h3 {
+    border-bottom: 1px solid;
+    padding-bottom: 3%;
+    margin-top: 0;
+    font-size: 2em;
+}
+    
+.timeline time {
+    font-size: 150%;
+}
+    
+/*
+.timeline big {
+    font-size: 200%;
+}
+*/
+
+.timeline {
+    border-left: 10px solid #AFDCF8;
+}
+
+time {
+    color: darkgray;
+    margin-left: -225px;
+}
+
+time big {
+    margin-left: -225px;
+    
+}
+
+.odd time big {
+    color: #AFDCF8;
+}
+
+.even time big {
+    color: #6CBFEE;
+}
+
+.timeline {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -80px;
+    text-align: center;
+    background: #47a3da;
+    border-radius: 50%;
+    color: white;
+    border: 10px solid #AFDCF8;
+    line-height: 60px;
+    margin-top: -100px;
+}
+
+
+
+/*
 #main-content {
     width: 60%;
     margin-left: 15%;
@@ -78,10 +158,12 @@ extra margins?...extra math?..not right now..*/
     padding-left: 175px;
     display: block;
 }
+*/
 
+/*
 #date-time {
-    display:block;
-    width: 25%;
+    display: block;
+    width: 20%;
     margin-left: -30%;
     position: absolute;
 }
@@ -91,19 +173,21 @@ time span:first-child {
     font-size: 1.2em;
     color: darkgray;
 }
+*/
 
-
-
+/*
 .timeylight {
     color: #6CBFEE;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .timeydark {
     color: #47a3da;
-    font-size: 3em;
+    font-size: 2em;
 }
+*/
 
+/*
 .icon  {
     height: 50px;
     width: 50px;
@@ -115,56 +199,48 @@ time span:first-child {
     color: white;
     border: 10px solid #AFDCF8;
     display: inline;
-    margin-bottom: -20%;    
+    margin-bottom: -20%;
+    line-height: 60px;
+    
+    
+    
 }
+*/
 
 
+/*
 .light {
     background-color: #6CBFEE;
     border-radius: 5px;
-    padding: 10% 15%;
+    padding: 5% 15%;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cabin', sans-serif;
     margin-bottom: 5%;
-/*    position: relative;*/
+
     margin-right: 5%;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    width: 90%;
     
     
 }
+*/
 
+/*
 .dark {
     background-color: #47a3da;
     border-radius: 5px;
-    padding: 10% 15%;
+    padding: 5% 15%;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cabin', sans-serif;
     margin-bottom: 5%;
     margin-right: 5%;
-    font-size: 1.5em;
-/*    position: relative;*/
+    font-size: 1.2em;
+    width: 90%;
+
 
 }
+*/
 
-#most-recent {
-    
-}
-
-#second-post {
-    
-}
-
-#third-post {
-    
-}
-
-#fourth-post {
-    
-}
-
-#fifth-post {
-    
-}
 
 
 /* ==========================================================================
