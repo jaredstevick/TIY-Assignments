@@ -13,7 +13,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-*/
+just making sure this stuff doesn't interfere with anything while i figure everything out' */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -29,7 +29,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #A6D8F4;   <!--changed this for pixel perfection -->
     margin: 1em 0;
     padding: 0;
 }
@@ -58,7 +58,7 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-*/
+extra margins?...extra math?..not right now..*/ 
 
 
 /* ==========================================================================
@@ -69,14 +69,15 @@ textarea {
 }
 
 #main-content {
-    width: 100%;
-/*    margin-left: 15%;*/
-    padding-right: 15%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 10%;
     border-left: 10px solid #AFDCF8;
-    padding-left: 5%;
+    padding-left: 175px;
     display: block;
-    max-width: 800px;
-    margin-right: 5%;
+   
+ 
+
 }
 
 #date-time {
@@ -90,45 +91,43 @@ textarea {
 .icon  {
     height: 50px;
     width: 50px;
-    margin-left: -6.75%;
+    margin-left: -216px;
     position: absolute;
     background: #47a3da;
     border-radius: 50%;
     text-align: center;
-    line-height: 75px;
     color: white;
     border: 10px solid #AFDCF8;
-    display: block;
+    display: inline;
     margin-bottom: -20%;
+    
+   
+    
 }
 
-/*
-hr {
-    color: white;
-}
-*/
 
 .light {
     background-color: #6CBFEE;
     border-radius: 5px;
-    padding: 3% 5%;
+    padding: 10% 15%;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 5%;
 /*    position: relative;*/
-/*    max-width: inherit;*/
-    margin-right: 10%;
+    margin-right: 5%;
+    
 }
 
 .dark {
     background-color: #47a3da;
     border-radius: 5px;
-    padding: 3% 5%;
+    padding: 10% 15%;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
 /*    position: relative;*/
+
 }
 
 #most-recent {
