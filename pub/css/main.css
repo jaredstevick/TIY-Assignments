@@ -88,7 +88,8 @@ extra margins?...extra math?..not right now..*/
 
 
 time span:first-child {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    color: darkgray;
 }
 
 
