@@ -23,6 +23,7 @@ html {
     text-shadow: none;
 }
 
+/*
 hr {
     display: block;
     height: 1px;
@@ -31,6 +32,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+*/
 
 audio,
 canvas,
@@ -60,19 +62,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#main-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid #AFDCF8;
+    padding-left: 5%;
+}
 
+#date-time {
+    
+}
+hr {
+    color: white;
+}
 
+.light {
+    background-color: #6CBFEE;
+    border-radius: 5px;
+    padding: 3% 5%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+.dark {
+    background-color: #47a3da;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 3% 5%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+#most-recent {
+    
+}
 
+#second-post {
+    
+}
 
+#third-post {
+    
+}
 
+#fourth-post {
+    
+}
 
-
-
-
-
-
+#fifth-post {
+    
+}
 
 
 /* ==========================================================================
