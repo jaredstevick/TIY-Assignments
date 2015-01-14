@@ -51,19 +51,20 @@ textarea {
     resize: vertical;
 }
 
-/*
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
 }
-extra margins?...extra math?..not right now..*/ 
+
 
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 header {
     text-align: center;
     color: #47a3da;
@@ -71,6 +72,7 @@ header {
     font-family: 'Cabin', sans-serif;
     font-size: 2em;
  }
+
 
 .timeline > * {
     background-color: #AFDCF8;
@@ -81,17 +83,22 @@ header {
     font-family: 'Cabin', sans-serif;
 }
 
+
 .timeline p {
     font-size: 2em;
 }
-    
+
+
 .timeline > *:nth-child(even) {
     background-color: #6CBFEE;
 }
 
+
 .timeline article  {
-    color: white;    
+    color: white;
+    margin-top: -3%;
 }
+
 
 .timeline article > h3 {
     border-bottom: 1px solid;
@@ -100,38 +107,48 @@ header {
     margin-top: 0;
 }
 
+
 .timeline {
     border-left: 10px solid #AFDCF8;
 }
 
 li {
-    border-radius: 5px;
+    border-radius: .5em;
+}
+
+li.odd {
+    padding:
 }
 
 time {
     color: darkgray;
     margin-left: -225px;
     width: 20px;
-    text-align: left;   
+    text-align: left;
 }
+
 
 time big {
     margin-left: -225px;
     font-size: 1.5em;
 }
 
+
 .odd time big {
     color: #AFDCF8;
 }
+
 
 .even time big {
     color: #6CBFEE;
 }
 
+
 .timeline {
     width: 60%;
     margin: 0 auto;
 }
+
 
 .icon {
     height: 50px;
@@ -156,20 +173,25 @@ time big {
 
 }
 
+
 @media screen and (max-width: 900px) {
     time big {
-    margin-left: -175px;   
+    margin-left: -175px;
     }
     time {
     margin-left: -175px;
     }
+    timeline.p {
+        font-size: 1.5em;
+    }
 }
+
 
 @media screen and (max-width: 675px) {
     .timeline {
         margin-top: 100px;
-    }    
-    
+    }
+
     time {
         margin-left: 275px;
         margin-top: -50px;
@@ -187,6 +209,7 @@ time big {
     }
 }
 
+
 @media screen and (max-width: 480px) {
     time {
         margin-left: -10px;
@@ -199,6 +222,7 @@ time big {
         left: 200px;
     }
 }
+
 
 @media screen and (max-width: 375px) {
     .icon {
