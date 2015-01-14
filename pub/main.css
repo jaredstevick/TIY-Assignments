@@ -182,12 +182,27 @@ time big {
     .timeline p {
         font-size: 1em;
     }
+    li {
+        margin-top: 100px;
+    }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 480px) {
     time {
-        margin-left: 200px;
+        margin-left: -10px;
         font-size: 75%;
+    }
+    .timeline {
+        border: none;
+    }
+    .icon {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .icon {
+        left: 140px;
     }
 }
 
