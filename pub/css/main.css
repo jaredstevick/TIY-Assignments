@@ -185,10 +185,6 @@ article h3 {
 }
 
 
-
-
-
-
 /* Medium Breakpoint----------- */
 @media (min-width : 768px) {
 
@@ -205,17 +201,18 @@ header h1 {
 }
 
 
+
 .icon {
     float: left;
     right: 3.6em;
-    top: -1em
+    top: -1em;
+    margin-right: -4em
 }
 
 time {
     position: absolute;
     margin-left: -8.5em;
 }
-
 
 
 
@@ -234,8 +231,8 @@ time {
 }
 
 .icon {
-    font-size: 1.5em;
-    right: 3.19em;
+    font-size: 1.2em;
+    right: 3.65em;
 }
 
 
