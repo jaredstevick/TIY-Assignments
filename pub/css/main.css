@@ -71,7 +71,22 @@ header h1 {
     text-align: center;
     font-family: 'Droid Sans', sans-serif;
     color: #46A4DA;
-    margin-bottom: 4em;
+    font-size: 2em;
+}
+
+header i {
+    color: #46A4DA;
+    border: 1ex solid #46A4DA;
+    border-radius: 50%;
+    padding: 1ex;
+    margin-bottom: 5ex;
+}
+
+header div {
+    width: 30%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .timeline {
@@ -177,6 +192,10 @@ article h3 {
 /* Medium Breakpoint----------- */
 @media (min-width : 768px) {
 
+header h1 {
+    font-size: 3em;
+}
+
 .timeline {
     padding-left: 2em;
     border-left: 1em solid #46A4DA;
@@ -204,6 +223,10 @@ time {
 /*Large Breakpoint*/
 @media (min-width : 1024px) {
 
+header h1 {
+    font-size: 4em;
+}
+
 time {
     font-size: 1.5em;
 }
@@ -212,6 +235,7 @@ time {
     font-size: 1.5em;
     right: 3.19em;
 }
+
 
 
 
