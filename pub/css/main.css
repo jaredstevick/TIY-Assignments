@@ -201,16 +201,18 @@ header h1 {
     border-left: 1em solid #46A4DA;
     width: 70%;
     font-size: 1.2em;
+    padding-top: 0
 }
 
 
 .icon {
     float: left;
-    right: 3.65em;
+    right: 3.6em;
+    top: -1em
 }
 
 time {
-    position: relative;
+    position: absolute;
     margin-left: -8.5em;
 }
 
