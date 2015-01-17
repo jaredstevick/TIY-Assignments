@@ -96,20 +96,164 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Global Styles*/
+#container{
+}
+
+/*Header*/
+header{
+    background-image: url(http://images.sciencedaily.com/2014/01/140129114614-large.jpg);
+    background-repeat: no-repeat;
+    min-height: 140px;
+    width: 100%;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.co-name, .slogan {
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    margin-bottom: .75ex;
+}
+
+.header-nav {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-nav a {
+    text-decoration: none;
+    margin: 1%;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5ex;
+
+}
+
+.header-nav p {
+    padding-top: 1ex;
+    margin-top: 0;
+}
+
+.header-nav i {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);                transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
+    margin-left: .75em;
+    vertical-align: 25%;
+}
+
+.logo {
+    margin-top: 1em;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo img {
+    border: 3px solid #000000;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1ex;
+    max-height: 3.5ex;
+    margin-top: -1.2ex;
+}
+
+.co-name {
+    color:#FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3ex;
+    font-weight: 300;
+}
+
+.slogan {
+    margin-top: -1em;
+    padding-bottom: .8em;
+    font-family: 'Open Sans';
+    color: white;
+/*    font-size: smaller;*/
+    position: relative;
+    text-align: center;
+    z-index: 3;
+}
+
+.muted {
+  position: relative;
+}
+
+.muted:after {
+  content: " ";
+  z-index: 2;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(21, 36, 72, 0.3);
+}
 
 
+/*Main Content*/
+.main-content{
+
+}
+
+/*Left*/
+.left-column {
+    width: 90%;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.post-title {
+    text-transform: uppercase;
+    font-size: 2.25em;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1ex;
+    margin-bottom: -.25ex;
+    width: 70%;
+}
+
+.post time a {
+    margin-top: 0;
+    color: darkgray;
+    font-size: smaller;
+}
+
+.post a:hover {
+    color: darkgray;
+}
+
+.post blockquote {
+    margin-left: 0;
+}
+.post blockquote p {
+    border-left: .2em solid darkgray;
+    text-transform: uppercase;
+    font-size: 2ex;
+    color: darkblue;
+    padding-left: 1em;
+}
 
 
+/*Right*/
+.right-column{}
 
-
-
-
-
-
-
-
-
-
+/*Footer*/
+footer {}
 
 
 
