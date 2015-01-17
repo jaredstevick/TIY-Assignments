@@ -97,7 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*Global Styles*/
-#container{
+#container {
+    width: 95%;
+    margin: auto;
 }
 
 /*Header*/
@@ -207,15 +209,14 @@ header{
 
 /*Main Content*/
 .main-content{
-
 }
 
-/*Left*/
+/*Left Column*/
 .left-column {
-    width: 90%;
+/*    width: 90%;*/
     margin-left: 1em;
     margin-right: 1em;
-
+    margin-bottom: 10ex;
 }
 
 .post-title {
@@ -248,10 +249,6 @@ header{
     padding-left: 1em;
 }
 
-.share-buttons {
-    margin-bottom: 2ex;
-}
-
 .sharesquare, .commentsquare, .uploadsquare {
     background-color: darkgray;
     display: inline;
@@ -268,11 +265,53 @@ header{
 .sharesquare:hover, .commentsquare:hover, .uploadsquare:hover {
     background-color: darkblue;
     padding: 2%;
-    position: cover;
 }
 
-/*Right*/
-.right-column{}
+/*Right Column*/
+.right-column{
+    margin-bottom: 10ex;
+}
+
+.profile-image-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-image-box img {
+    max-height: 10ex;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author-social  a {
+    text-decoration: none;
+
+}
+
+.author-name a {
+    color: darkblue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.author-social p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.profile-links a  {
+    color: darkgray;
+
+}
+
+.profile-links a span {
+    color: lightgray;
+}
+
+
+/*End of Right Column*/
 
 /*Footer*/
 footer {}
