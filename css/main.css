@@ -182,7 +182,7 @@ header{
     padding-bottom: .8em;
     font-family: 'Open Sans';
     color: white;
-/*    font-size: smaller;*/
+    font-size: smaller;
     position: relative;
     text-align: center;
     z-index: 3;
@@ -233,7 +233,7 @@ header{
     font-size: smaller;
 }
 
-.post a:hover {
+.post p a:hover {
     color: darkgray;
 }
 
@@ -248,6 +248,28 @@ header{
     padding-left: 1em;
 }
 
+.share-buttons {
+    margin-bottom: 2ex;
+}
+
+.sharesquare, .commentsquare, .uploadsquare {
+    background-color: darkgray;
+    display: inline;
+    line-height: 2ex;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+.sharesquare a i, .commentsquare a i, .uploadsquare a i {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sharesquare:hover, .commentsquare:hover, .uploadsquare:hover {
+    background-color: darkblue;
+    padding: 2%;
+    position: cover;
+}
 
 /*Right*/
 .right-column{}
