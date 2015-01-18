@@ -98,7 +98,7 @@ textarea {
    ========================================================================== */
 /*Global Styles*/
 #container {
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -209,11 +209,11 @@ header{
 
 /*Main Content*/
 .main-content{
+    width: 100%;
 }
 
 /*Left Column*/
 .left-column {
-/*    width: 90%;*/
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 10ex;
@@ -310,6 +310,30 @@ header{
     color: lightgray;
 }
 
+/*Ad*/
+.ad {
+    margin-top: 8ex;
+}
+
+/*Ad Image*/
+.ad-image img {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*End of Ad Image*/
+.ad figcaption  {
+    font-size: smaller;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 1ex;
+}
+
+.ad a {
+    color: darkgray;
+}
+/*End of Ad*/
 
 /*End of Right Column*/
 
