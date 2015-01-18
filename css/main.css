@@ -240,12 +240,11 @@ header {
     font-size: 2.25em;
     font-family: 'Oswald', sans-serif;
     margin-top: 1ex;
-    margin-bottom: -.25ex;
-    width: 70%;
+    margin-bottom: .25ex;
+    width: 100%;
 }
 
 .post time a {
-    margin-top: 0;
     color: darkgray;
     font-size: smaller;
 }
@@ -271,7 +270,15 @@ header {
 /*End of Blockquote and Border*/
 
 /*Share Buttons*/
-.sharesquare, .commentsquare, .uploadsquare {
+.social-buttons {
+    margin-top: 2ex;
+}
+
+.social-buttons a {
+    text-decoration: none;
+}
+
+.sharesquare, .commentsquare, .likesquare {
     background-color: darkgray;
     display: inline;
     line-height: 2ex;
@@ -279,13 +286,17 @@ header {
     color: #FFFFFF;
 }
 
-.sharesquare a i, .commentsquare a i, .uploadsquare a i {
+.sharesquare a i, .commentsquare a i, .likesquare a i {
     color: #FFFFFF;
     text-decoration: none;
     padding: .5em;
 }
 
-.sharesquare:hover, .commentsquare:hover, .uploadsquare:hover {
+.sharesquare .button-text a {
+    text-decoration: none;
+}
+
+.sharesquare:hover, .commentsquare:hover, .likesquare:hover {
     background-color: darkblue;
     padding: 2%;
 }
@@ -360,6 +371,10 @@ header {
 .ad a {
     color: darkgray;
 }
+
+.ad-text {
+    display: none;
+}
 /*End of Ad*/
 
 
@@ -370,10 +385,8 @@ header {
     margin-right: auto;
     border-top: 1px solid darkgray;
     margin-top: 8ex;
-}
-
-.popular-posts  {
     text-align: center;
+    display: block;
 }
 
 .popular-posts h3 {
@@ -392,6 +405,7 @@ header {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 4ex;
 }
 
 .post1, .post2, .post3 {
@@ -426,9 +440,9 @@ header {
 
 /*Footer*/
 footer {
-    background-color: darkblue;
+    background-color: #0A3550;
     width: 100%;
-    bottom: 0px;
+    padding-bottom: 4ex;
 }
 
 /*Footer Nav*/
@@ -439,26 +453,29 @@ footer {
     text-align: center;
     padding-top: 3ex;
     padding-bottom: 3ex;
-    width: 85%;
+    width: 90%;
 }
 
 .footer-nav a {
     text-decoration: none;
     color: white;
-    font-size: -1em;
+    font-size: 2ex;
     font-family: sans-serif;
+    padding: 2%;
+    display: inline-block;
 }
 /*End of Footer Nav*/
 
 /*Footer Logo*/
 .logo-box {
     text-align: center;
-    max-height: 5ex;
-    margin-bottom: 7ex;
+    max-height: 4ex;
+    margin-bottom: 4ex;
+    margin-top: -2ex;
 }
 
 .logo-box img {
-    max-height: 10ex;
+    max-height: 7ex;
 }
 /*End of Footer Logo*/
 
@@ -468,11 +485,11 @@ footer p {
     color: white;
     margin-bottom: 0;
     font-family: sans-serif;
+    margin-top: .5ex;
+    font-size: 1.5ex;
 }
 
-footer p small {
-    margin-bottom: 0;
-}
+
 /*End of Footer Subtext*/
 /* ==========================================================================
    Helper classes
@@ -584,6 +601,229 @@ footer p small {
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
+
+
+
+/*Tablet Version*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/*Whole Site Content*/
+    .container {}
+
+    /*Header*/
+        header {
+            background-image: url(http://peacewave-station.com/wp-content/uploads/2014/05/Sunset-Splash.jpg);
+            min-height: 250px;
+            width: 100%;
+            background-size: 100%;
+            background-position: center 75%;
+        }
+
+
+        /*Top Nav*/
+            .header-nav a {
+                font-size: 4ex;
+            }
+
+        /*End of Top Nav*/
+
+
+        /*Site Logo Image and Image Container*/
+            .logo img {
+                max-height: 8ex;
+            }
+        /*End of Site Logo Image and Container*/
+
+
+        /*h1 Site Title and Subtitle and Positioning*/
+            .co-name {
+                font-size: 5em;
+                margin-top: -.2ex;
+            }
+
+            .slogan {
+                margin-top: -1.75em;
+                font-size: 1.5em;
+            }
+        /*End of Site Title and Subtitle and Positioning*/
+
+
+    /*Main Content*/
+        /*Left Column*/
+            .left-column {
+                margin-left: ;
+                margin-right: ;
+                margin-bottom: ;
+                width: 60%;
+                float: left;
+            }
+            /*Post Title*/
+                .post-title {
+                    font-size: ;
+                    margin-top: ;
+                    margin-bottom: ;
+                    width: ;
+                }
+            /*End of Post Title*/
+
+            /*Share Buttons*/
+                .share-buttons {
+                    margin-top: ;
+                }
+
+                .sharesquare, .commentsquare, .uploadsquare {
+                    line-height: ;
+                    padding: ;
+                }
+
+                .sharesquare a i. .commentsquare a i, .uploadsquare a i {
+                    padding: ;
+                }
+            /*End of Share Buttons*/
+
+            /*Right Column*/
+                .right-column {
+                    width: 30%;
+                    float: right;
+                    margin: 3ex 1em;
+                }
+
+
+                /*Ad*/
+                    .ad {
+                        max-width: 220px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    .ad-image img {
+                        max-width: 220px;
+                    }
+
+                    .ad figcaption {
+                        text-align: right;
+                    }
+
+                    .ad-text {
+                        display: block;
+                    }
+
+                    .ad-text a {
+                        text-decoration: none;
+                        color: darkblue;
+                    }
+                /*End of Ad*/
+        /*End of Right Column*/
+
+                /*Popular Posts*/
+                    .popular-posts {
+                        margin-top: ;
+                        clear: both;
+                    }
+
+                    .popular-posts h3 {
+                        font-size: ;
+                        margin-top: ;
+                    }
+
+                    .posts-container {
+                        width: ;
+                        margin-left: ;
+                        margin-right: ;
+                        padding-bottom: ;
+                    }
+
+                    .post1, .post2, .post3 {
+                        width: ;
+                        margin-bottom: ;
+                    }
+
+                    .post1 figure, .post2 figure, .post3 figure {
+                    height: ;
+                    }
+
+                    .post1 figcaption, .post2 figcaption, .post3 figcaption {
+                        font-size: ;
+                        margin-left: ;
+                        margin-top: ;
+                    }
+                    /**End of Popular Posts/
+
+    /*Footer*/
+        footer {
+            padding-bottom: ;
+        }
+
+        /*Footer Nav*/
+            .footer-nav {
+                padding-top: ;
+                padding-bottom: ;
+                width: ;
+            }
+
+            .footer-nav a {
+            font-size: ;
+            padding: ;
+            }
+        /*End of Footer Nav*/
+
+        /*Footer Logo*/
+            .logo-box {
+                max-height: ;
+                margin-bottom: ;
+                margin-top: ;
+            }
+
+            .logo-box img {
+            max-height: ;
+            }
+        /*End of Footer Logo*/
+
+        /*Footer Subtext*/
+            footer p {
+                margin-top: ;
+                font-size: ;
+            }
+
+
+}
+
+
+
+
+
+
+/*End of Tablet Version*/
+
+
+
+
+/*Desktop Version*/
+
+/*End of Desktop Version*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
