@@ -318,6 +318,7 @@ header {
     width: inherit;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
 }
 
 /*Ad Image*/
@@ -346,6 +347,8 @@ header {
     width: inherit;
     margin-left: auto;
     margin-right: auto;
+    border-top: 1px solid darkgray;
+    margin-top: 8ex;
 }
 
 .posts-container {
@@ -363,14 +366,35 @@ header {
     color: darkblue;
     font-family: 'Oswald', sans-serif;
     font-size: 1.75em;
+    margin-top: 3ex;
 }
 
 .post1, .post2, .post3 {
     width: 300px;
-    margin-bottom: 2ex;
+    margin-bottom: 4ex;
     position: relative;
-/*    width: 100%;*/
 }
+
+.post1 figure, .post2 figure, .post3 figure {
+    height: 200px;
+}
+
+.post1 figcaption, .post2 figcaption, .post3 figcaption {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: .5em;
+    font-family: 'Oswald', sans-serif;
+    z-index: 2;
+    position: relative;
+    margin-top: -3ex;
+}
+
+.posts-container .muted:hover:after {
+    opacity: 0;
+}
+
 /*End of Popular Posts*/
 
 /*End of Right Column*/
