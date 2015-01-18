@@ -97,13 +97,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*Global Styles*/
-#container {
+.container {
     width: 100%;
     margin: auto;
 }
 
 /*Header*/
-header{
+header {
     background-image: url(http://images.sciencedaily.com/2014/01/140129114614-large.jpg);
     background-repeat: no-repeat;
     min-height: 140px;
@@ -187,7 +187,7 @@ header{
     font-size: smaller;
     position: relative;
     text-align: center;
-    z-index: 3;
+    z-index: 4;
 }
 
 .muted {
@@ -196,7 +196,7 @@ header{
 
 .muted:after {
   content: " ";
-  z-index: 2;
+  z-index: 3;
   display: block;
   position: absolute;
   height: 100%;
@@ -267,6 +267,8 @@ header{
     padding: 2%;
 }
 
+
+
 /*Right Column*/
 .right-column{
     margin-bottom: 10ex;
@@ -313,11 +315,14 @@ header{
 /*Ad*/
 .ad {
     margin-top: 8ex;
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Ad Image*/
 .ad-image img {
-    max-width: 90%;
+    max-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -334,6 +339,39 @@ header{
     color: darkgray;
 }
 /*End of Ad*/
+
+
+/*Popular Posts*/
+.popular-posts {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posts-container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popular-posts  {
+    text-align: center;
+}
+
+.popular-posts h3 {
+    text-transform: uppercase;
+    color: darkblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+}
+
+.post1, .post2, .post3 {
+    width: 300px;
+    margin-bottom: 2ex;
+    position: relative;
+/*    width: 100%;*/
+}
+/*End of Popular Posts*/
 
 /*End of Right Column*/
 
