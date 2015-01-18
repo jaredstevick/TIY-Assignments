@@ -112,17 +112,13 @@ header {
     background-position: center center;
 }
 
-.co-name, .slogan {
-    z-index: 10;
-    position: relative;
-    text-align: center;
-    margin-bottom: .75ex;
-}
 
+
+/*Top Nav*/
 .header-nav {
     position: relative;
     text-align: center;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header-nav a {
@@ -132,14 +128,15 @@ header {
     color: #000000;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5ex;
-
 }
 
 .header-nav p {
     padding-top: 1ex;
     margin-top: 0;
 }
+/*End of Top Nav*/
 
+/*Nav Search Icon*/
 .header-nav i {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -149,7 +146,9 @@ header {
     margin-left: .75em;
     vertical-align: 25%;
 }
+/*End of Nav Search Icon*/
 
+/*Site Logo Container*/
 .logo {
     margin-top: 1em;
     -ms-transform: rotate(-20deg);
@@ -159,7 +158,9 @@ header {
     text-align: center;
     z-index: 1;
 }
+/*End of Site Logo Container*/
 
+/*Site Logo Image*/
 .logo img {
     border: 3px solid #000000;
     border-radius: 50%;
@@ -167,7 +168,9 @@ header {
     max-height: 3.5ex;
     margin: -1.2ex auto -1ex auto;
 }
+/*End of Site Logo*/
 
+/*h1 Site Title*/
 .co-name {
     color:#FFFFFF;
     font-family: 'Oswald', sans-serif;
@@ -175,7 +178,9 @@ header {
     font-size: 3ex;
     font-weight: 300;
 }
+/*End of h1 Site Title*/
 
+/*Page Subtitle*/
 .slogan {
     margin-top: -1em;
     padding-bottom: .8em;
@@ -186,7 +191,18 @@ header {
     text-align: center;
     z-index: 4;
 }
+/*End of Page Subtitle*/
 
+/*Header and Subtitle Positioning*/
+.co-name, .slogan {
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    margin-bottom: .75ex;
+}
+/*End of Header and Subtitle Positioning*/
+
+/*Blue Overlay*/
 .muted {
   position: relative;
 }
@@ -202,7 +218,9 @@ header {
   right: 0;
   background: rgba(21, 36, 72, 0.3);
 }
+/*End of Blue Overlay*/
 
+/*End of Header*/
 
 /*Main Content*/
 .main-content{
@@ -216,6 +234,7 @@ header {
     margin-bottom: 10ex;
 }
 
+/*Post Title*/
 .post-title {
     text-transform: uppercase;
     font-size: 2.25em;
@@ -230,11 +249,15 @@ header {
     color: darkgray;
     font-size: smaller;
 }
+/*End of Post Title*/
 
+/*Post Link Styling*/
 .post p a:hover {
     color: darkgray;
 }
+/*End of Post Link Styling*/
 
+/*Blockquote and Border*/
 .post blockquote {
     margin-left: 0;
 }
@@ -245,7 +268,9 @@ header {
     color: darkblue;
     padding-left: 1em;
 }
+/*End of Blockquote and Border*/
 
+/*Share Buttons*/
 .sharesquare, .commentsquare, .uploadsquare {
     background-color: darkgray;
     display: inline;
@@ -257,13 +282,14 @@ header {
 .sharesquare a i, .commentsquare a i, .uploadsquare a i {
     color: #FFFFFF;
     text-decoration: none;
+    padding: .5em;
 }
 
 .sharesquare:hover, .commentsquare:hover, .uploadsquare:hover {
     background-color: darkblue;
     padding: 2%;
 }
-
+/*End of Share Buttons*/
 
 
 /*Right Column*/
@@ -271,6 +297,7 @@ header {
     margin-bottom: 10ex;
 }
 
+/*Author Profile Stuff*/
 .profile-image-box {
     display: block;
     margin-left: auto;
@@ -286,7 +313,6 @@ header {
 
 .author-social  a {
     text-decoration: none;
-
 }
 
 .author-name a {
@@ -302,12 +328,12 @@ header {
 
 .profile-links a  {
     color: darkgray;
-
 }
 
 .profile-links a span {
     color: lightgray;
 }
+/*End of Author Profile Stuff*/
 
 /*Ad*/
 .ad {
@@ -317,14 +343,13 @@ header {
     width: 300px;
 }
 
-/*Ad Image*/
 .ad-image img {
     max-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/*End of Ad Image*/
+
 .ad figcaption  {
     font-size: smaller;
     text-align: right;
@@ -347,12 +372,6 @@ header {
     margin-top: 8ex;
 }
 
-.posts-container {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .popular-posts  {
     text-align: center;
 }
@@ -363,6 +382,16 @@ header {
     font-family: 'Oswald', sans-serif;
     font-size: 1.75em;
     margin-top: 3ex;
+}
+
+.popular-posts a {
+    text-decoration: none;
+}
+
+.posts-container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post1, .post2, .post3 {
@@ -390,10 +419,10 @@ header {
 .posts-container .muted:hover:after {
     opacity: 0;
 }
-
 /*End of Popular Posts*/
 
 /*End of Right Column*/
+
 
 /*Footer*/
 footer {
@@ -402,6 +431,7 @@ footer {
     bottom: 0px;
 }
 
+/*Footer Nav*/
 .footer-nav {
     margin-left: auto;
     margin-right: auto;
@@ -412,14 +442,15 @@ footer {
     width: 85%;
 }
 
-
 .footer-nav a {
     text-decoration: none;
     color: white;
     font-size: -1em;
     font-family: sans-serif;
 }
+/*End of Footer Nav*/
 
+/*Footer Logo*/
 .logo-box {
     text-align: center;
     max-height: 5ex;
@@ -429,7 +460,9 @@ footer {
 .logo-box img {
     max-height: 10ex;
 }
+/*End of Footer Logo*/
 
+/*Footer Subtext*/
 footer p {
     text-align: center;
     color: white;
@@ -440,6 +473,7 @@ footer p {
 footer p small {
     margin-bottom: 0;
 }
+/*End of Footer Subtext*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
