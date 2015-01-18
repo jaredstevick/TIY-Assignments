@@ -164,11 +164,8 @@ header {
     border: 3px solid #000000;
     border-radius: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -1ex;
     max-height: 3.5ex;
-    margin-top: -1.2ex;
+    margin: -1.2ex auto -1ex auto;
 }
 
 .co-name {
@@ -315,7 +312,6 @@ header {
 /*Ad*/
 .ad {
     margin-top: 8ex;
-    width: inherit;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -400,10 +396,50 @@ header {
 /*End of Right Column*/
 
 /*Footer*/
-footer {}
+footer {
+    background-color: darkblue;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-top: 3ex;
+    padding-bottom: 3ex;
+    width: 85%;
+}
 
 
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: -1em;
+    font-family: sans-serif;
+}
 
+.logo-box {
+    text-align: center;
+    max-height: 5ex;
+    margin-bottom: 7ex;
+}
+
+.logo-box img {
+    max-height: 10ex;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+footer p small {
+    margin-bottom: 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
