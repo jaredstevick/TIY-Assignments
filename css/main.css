@@ -684,9 +684,6 @@ footer p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
 
 
@@ -952,7 +949,7 @@ and (min-device-width : 1200px) {
                 .sharebutton, .commentbutton, .likebutton {
                     display: inline;
                     font-size: 1.5ex;
-}
+                }
 
             /*End of Share Buttons*/
 
@@ -1049,44 +1046,24 @@ and (min-device-width : 1200px) {
 
 
 
-/*Ridiculous Version*/
-
+/*Ludicrous Version*/
+/*
 @media only screen
 and (min-device-width : 1900px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    header {
+        background-image: url(http://www.wallpapersam.com/wp-content/uploads/2013/05/Sunset-Ocean-Beach.jpg);
+        min-height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center 15%;
+        }
 
 
 
 }
+*/
 
-
-
-
-
-
-
-
-
-
-/*End of Ridiculous Version*/
+/*End of Ludicrous Version*/
 
 
 
