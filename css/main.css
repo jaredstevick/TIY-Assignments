@@ -469,6 +469,10 @@ header {
     padding-bottom: 4ex;
 }
 
+.post4 {
+    display: none;
+}
+
 .post1, .post2, .post3, .post4 {
     width: 300px;
     margin-bottom: 4ex;
@@ -714,35 +718,30 @@ and (max-device-width : 1024px) {
     /*Main Content*/
         /*Left Column*/
             .left-column {
-                margin-left: ;
-                margin-right: ;
-                margin-bottom: ;
                 width: 60%;
                 float: left;
             }
             /*Post Title*/
                 .post-title {
-                    font-size: ;
-                    margin-top: ;
-                    margin-bottom: ;
-                    width: ;
+                    font-size: 3.5em;
                 }
+
+            .post p {
+                font-size: 1.5em;
+            }
             /*End of Post Title*/
 
+
+
             /*Share Buttons*/
-                .share-buttons {
-                    margin-top: ;
-                }
+                .sharebutton, .commentbutton, .likebutton {
+                    display: inline;
+                    font-size: 1.25em;
+}
 
-                .sharesquare, .commentsquare, .uploadsquare {
-                    line-height: ;
-                    padding: ;
-                }
-
-                .sharesquare a i. .commentsquare a i, .uploadsquare a i {
-                    padding: ;
-                }
             /*End of Share Buttons*/
+
+
 
             /*Right Column*/
                 .right-column {
@@ -769,6 +768,7 @@ and (max-device-width : 1024px) {
 
                     .ad-text {
                         display: block;
+                        font-size: 1.5em;
                     }
 
                     .ad-text a {
@@ -778,84 +778,59 @@ and (max-device-width : 1024px) {
                 /*End of Ad*/
         /*End of Right Column*/
 
+
+
                 /*Popular Posts*/
+                   .post1, .post2, .post3, .post4 {
+                        display: inline-block;
+                        margin: 2ex 1em;
+                    }
+
                     .popular-posts {
-                        margin-top: ;
+                        width: 700px;
                         clear: both;
                     }
 
                     .popular-posts h3 {
-                        font-size: ;
-                        margin-top: ;
+                        font-size: 4em;
+                        margin-top: 1ex;
+                        margin-bottom: .5ex;
                     }
 
                     .posts-container {
-                        width: ;
-                        margin-left: ;
-                        margin-right: ;
-                        padding-bottom: ;
+                        width: 700px;
                     }
 
-                    .post1, .post2, .post3 {
-                        width: ;
-                        margin-bottom: ;
-                    }
 
-                    .post1 figure, .post2 figure, .post3 figure {
-                    height: ;
-                    }
-
-                    .post1 figcaption, .post2 figcaption, .post3 figcaption {
-                        font-size: ;
-                        margin-left: ;
-                        margin-top: ;
-                    }
                     /**End of Popular Posts/
 
     /*Footer*/
-        footer {
-            padding-bottom: ;
-        }
+
 
         /*Footer Nav*/
-            .footer-nav {
-                padding-top: ;
-                padding-bottom: ;
-                width: ;
-            }
-
-            .footer-nav a {
-            font-size: ;
-            padding: ;
+           .footer-nav a {
+                font-size: 2em;
             }
         /*End of Footer Nav*/
 
         /*Footer Logo*/
             .logo-box {
                 max-height: ;
-                margin-bottom: ;
-                margin-top: ;
+                margin-bottom: 6ex;
             }
 
             .logo-box img {
-            max-height: ;
+                max-height: 8ex;
             }
         /*End of Footer Logo*/
 
         /*Footer Subtext*/
             footer p {
-                margin-top: ;
-                font-size: ;
+                font-size: 2ex;
             }
 
 
 }
-
-
-
-
-
-
 /*End of Tablet Version*/
 
 
