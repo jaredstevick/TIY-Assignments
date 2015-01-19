@@ -741,6 +741,7 @@ and (max-device-width : 1024px) {
             .left-column {
                 width: 60%;
                 float: left;
+                margin-left: 2em;
             }
             /*Post*/
                 .post-title {
@@ -775,7 +776,7 @@ and (max-device-width : 1024px) {
                 .right-column {
                     width: 30%;
                     float: right;
-                    margin: 3ex 1em;
+                    margin-right: .5em;
                 }
 
 
@@ -815,7 +816,7 @@ and (max-device-width : 1024px) {
                     }
 
                     .popular-posts {
-                        width: 700px;
+                        width: 800px;
                         clear: both;
                     }
 
@@ -866,6 +867,7 @@ and (max-device-width : 1024px) {
 
 
 /*Desktop Version*/
+
 @media only screen
 and (min-device-width : 1200px) {
 
@@ -878,13 +880,13 @@ and (min-device-width : 1200px) {
             min-height: 400px;
             width: 100%;
             background-size: 100%;
-            background-position: ;
+            background-position: center center;
         }
 
 
         /*Top Nav*/
             .header-nav a {
-                font-size: ;
+                font-size: 4ex;
             }
 
         /*End of Top Nav*/
@@ -892,20 +894,20 @@ and (min-device-width : 1200px) {
 
         /*Site Logo Image and Image Container*/
             .logo img {
-                max-height: ;
+                max-height: 12ex;
             }
         /*End of Site Logo Image and Container*/
 
 
         /*h1 Site Title and Subtitle and Positioning*/
             .co-name {
-                font-size: ;
-                margin-top: ;
+                font-size: 7em;
+                margin-top: -.2ex;
             }
 
             .slogan {
-                margin-top: ;
-                font-size: ;
+                margin-top: -2.5ex;
+                font-size: 2.5em;
             }
         /*End of Site Title and Subtitle and Positioning*/
 
@@ -913,12 +915,13 @@ and (min-device-width : 1200px) {
     /*Main Content*/
         /*Left Column*/
             .left-column {
-                width: 60%;
+                width: 65%;
                 float: left;
+                margin-left: 2em;
             }
             /*Post*/
                 .post-title {
-                    font-size: ;
+                    font-size: 4em;
                 }
                 .profile-image-box-small {
                     display: inline-block;
@@ -926,10 +929,20 @@ and (min-device-width : 1200px) {
 
                 .post .author-name {
                     display: inline;
+                    font-size: 2.5ex;
+                }
+
+                .post time a {
+                    font-size: 2ex;
+                }
+
+
+                .post blockquote p {
+                    font-size: 3.5ex;
                 }
 
                 .post p {
-                    font-size: ;
+                    font-size: 2ex;
                 }
             /*End of Post*/
 
@@ -938,7 +951,7 @@ and (min-device-width : 1200px) {
             /*Share Buttons*/
                 .sharebutton, .commentbutton, .likebutton {
                     display: inline;
-                    font-size: ;
+                    font-size: 1.5ex;
 }
 
             /*End of Share Buttons*/
@@ -947,30 +960,28 @@ and (min-device-width : 1200px) {
 
             /*Right Column*/
                 .right-column {
-                    width: 30%;
+                    width: 25%;
                     float: right;
-                    margin: ;
+                    margin-right: 2em;
+                    margin-top: 10ex;
                 }
 
+                .profile-image-box img {
+                    max-height: 20ex;
+                }
+
+                .author-name {
+                    font-size: 2.5ex;
+                }
+
+                .profile-links a {
+                    font-size: 1.3em;
+                }
 
                 /*Ad*/
-                    .ad {
-                        max-width: ;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-
-                    .ad-image img {
-                        max-width: ;
-                    }
-
-                    .ad figcaption {
-                        text-align: right;
-                    }
-
                     .ad-text {
                         display: block;
-                        font-size: ;
+                        font-size: 2ex;;
                     }
 
                     .ad-text a {
@@ -985,22 +996,22 @@ and (min-device-width : 1200px) {
                 /*Popular Posts*/
                    .post1, .post2, .post3, .post4 {
                         display: inline-block;
-                        margin: ;
+                        margin: 1.5em 1.5em;
                     }
 
                     .popular-posts {
-                        width: ;
+                        width: 100%;
                         clear: both;
                     }
 
                     .popular-posts h3 {
-                        font-size: ;
+                        font-size: 4em;
                         margin-top: ;
                         margin-bottom: ;
                     }
 
                     .posts-container {
-                        width: ;
+                        width: 75%;
                     }
 
 
@@ -1011,25 +1022,37 @@ and (min-device-width : 1200px) {
 
         /*Footer Nav*/
            .footer-nav a {
-                font-size: ;
+                font-size: 2.5em;
             }
         /*End of Footer Nav*/
 
         /*Footer Logo*/
             .logo-box {
-                max-height: ;
-                margin-bottom: ;
+                max-height: 10ex;
             }
 
             .logo-box img {
-                max-height: ;
+                max-height: 10ex;
             }
         /*End of Footer Logo*/
 
         /*Footer Subtext*/
             footer p {
-                font-size: ;
+                font-size: 3ex;
             }
+}
+
+/*End of Desktop Version*/
+
+
+
+
+
+
+/*Ridiculous Version*/
+
+@media only screen
+and (min-device-width : 1900px) {
 
 
 
@@ -1060,11 +1083,10 @@ and (min-device-width : 1200px) {
 
 
 
-/*End of Desktop Version*/
 
 
 
-
+/*End of Ridiculous Version*/
 
 
 
