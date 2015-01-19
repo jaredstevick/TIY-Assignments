@@ -830,7 +830,7 @@ and (max-device-width : 1024px) {
                     }
 
 
-                    /**End of Popular Posts/
+                /**End of Popular Posts/
 
     /*Footer*/
 
@@ -857,14 +857,208 @@ and (max-device-width : 1024px) {
                 font-size: 2ex;
             }
 
-
 }
 /*End of Tablet Version*/
 
 
 
 
+
+
 /*Desktop Version*/
+@media only screen
+and (min-device-width : 1200px) {
+
+/*Whole Site Content*/
+    .container {}
+
+    /*Header*/
+        header {
+            background-image: url(http://hdwallpaperfun.com/wp-content/uploads/2014/09/Sea-Waves-Wallpaper-Widescreen-HD-18256.jpg);
+            min-height: 400px;
+            width: 100%;
+            background-size: 100%;
+            background-position: ;
+        }
+
+
+        /*Top Nav*/
+            .header-nav a {
+                font-size: ;
+            }
+
+        /*End of Top Nav*/
+
+
+        /*Site Logo Image and Image Container*/
+            .logo img {
+                max-height: ;
+            }
+        /*End of Site Logo Image and Container*/
+
+
+        /*h1 Site Title and Subtitle and Positioning*/
+            .co-name {
+                font-size: ;
+                margin-top: ;
+            }
+
+            .slogan {
+                margin-top: ;
+                font-size: ;
+            }
+        /*End of Site Title and Subtitle and Positioning*/
+
+
+    /*Main Content*/
+        /*Left Column*/
+            .left-column {
+                width: 60%;
+                float: left;
+            }
+            /*Post*/
+                .post-title {
+                    font-size: ;
+                }
+                .profile-image-box-small {
+                    display: inline-block;
+                }
+
+                .post .author-name {
+                    display: inline;
+                }
+
+                .post p {
+                    font-size: ;
+                }
+            /*End of Post*/
+
+
+
+            /*Share Buttons*/
+                .sharebutton, .commentbutton, .likebutton {
+                    display: inline;
+                    font-size: ;
+}
+
+            /*End of Share Buttons*/
+
+
+
+            /*Right Column*/
+                .right-column {
+                    width: 30%;
+                    float: right;
+                    margin: ;
+                }
+
+
+                /*Ad*/
+                    .ad {
+                        max-width: ;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    .ad-image img {
+                        max-width: ;
+                    }
+
+                    .ad figcaption {
+                        text-align: right;
+                    }
+
+                    .ad-text {
+                        display: block;
+                        font-size: ;
+                    }
+
+                    .ad-text a {
+                        text-decoration: none;
+                        color: darkblue;
+                    }
+                /*End of Ad*/
+        /*End of Right Column*/
+
+
+
+                /*Popular Posts*/
+                   .post1, .post2, .post3, .post4 {
+                        display: inline-block;
+                        margin: ;
+                    }
+
+                    .popular-posts {
+                        width: ;
+                        clear: both;
+                    }
+
+                    .popular-posts h3 {
+                        font-size: ;
+                        margin-top: ;
+                        margin-bottom: ;
+                    }
+
+                    .posts-container {
+                        width: ;
+                    }
+
+
+                /**End of Popular Posts/
+
+    /*Footer*/
+
+
+        /*Footer Nav*/
+           .footer-nav a {
+                font-size: ;
+            }
+        /*End of Footer Nav*/
+
+        /*Footer Logo*/
+            .logo-box {
+                max-height: ;
+                margin-bottom: ;
+            }
+
+            .logo-box img {
+                max-height: ;
+            }
+        /*End of Footer Logo*/
+
+        /*Footer Subtext*/
+            footer p {
+                font-size: ;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 /*End of Desktop Version*/
 
