@@ -691,9 +691,9 @@ footer p {
 
 /*Tablet Version*/
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+@media screen
+and (min-width : 768px)
+and (max-width : 1024px) {
 /*Whole Site Content*/
     .container {}
 
@@ -867,8 +867,9 @@ and (max-device-width : 1024px) {
 
 /*Desktop Version*/
 
-@media only screen
-and (min-device-width : 1200px) {
+@media screen
+and (min-width : 1025px)
+and (max-width : 1900px) {
 
 /*Whole Site Content*/
     .container {}
@@ -1051,7 +1052,7 @@ and (min-device-width : 1200px) {
 /*Ludicrous Version*/
 /*
 @media only screen
-and (min-device-width : 1900px) {
+and (min-width : 1900px) {
     header {
         background-image: url(http://www.wallpapersam.com/wp-content/uploads/2013/05/Sunset-Ocean-Beach.jpg);
         min-height: 250px;
@@ -1162,3 +1163,4 @@ and (min-device-width : 1900px) {
         page-break-after: avoid;
     }
 }
+br

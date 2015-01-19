@@ -20,9 +20,7 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald:300,400|Open+Sans' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body><script type='text/javascript' id="__bs_script__">//<![CDATA[
-    document.write("<script async src='/browser-sync/browser-sync-client.1.9.0.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
-//]]></script>
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -212,9 +210,11 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
 
+            <script type='text/javascript' id="__bs_script__">//<![CDATA[
+    document.write("<script async src='//HOST:3000/browser-sync/browser-sync-client.1.9.0.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
+//]]></script>
 
 
 
-        </script>
     </body>
 </html>
