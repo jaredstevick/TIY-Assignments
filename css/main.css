@@ -99,7 +99,7 @@ textarea {
 /*Global Styles*/
 .container {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /*Header*/
@@ -462,7 +462,7 @@ header {
 
 /*Popular Posts*/
 .popular-posts {
-    width: 100%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     border-top: 1px solid darkgray;
@@ -484,14 +484,10 @@ header {
 }
 
 .posts-container {
-    width: 100%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 4ex;
-}
-
-.post4 {
-    display: none;
 }
 
 .post1, .post2, .post3, .post4 {
@@ -500,9 +496,14 @@ header {
     display: inline;
 }
 
+.post4 {
+    display: none;
+}
+
 .post1 figure, .post2 figure, .post3 figure, .post4 figure {
     height: 200px;
-    margin: 0;
+    margin: 2em auto;
+
 }
 
 .post1 figcaption, .post2 figcaption, .post3 figcaption, .post4 figcaption {
