@@ -244,6 +244,27 @@ header {
     width: 100%;
 }
 
+.profile-image-box-small {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-image-box-small img {
+    max-height: 5ex;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post .author-name  {
+    display: none;
+    text-decoration: none;
+    color: darkblue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
 .post time a {
     color: darkgray;
     font-size: smaller;
@@ -721,15 +742,22 @@ and (max-device-width : 1024px) {
                 width: 60%;
                 float: left;
             }
-            /*Post Title*/
+            /*Post*/
                 .post-title {
                     font-size: 3.5em;
                 }
+                .profile-image-box-small {
+                    display: inline-block;
+                }
 
-            .post p {
-                font-size: 1.5em;
-            }
-            /*End of Post Title*/
+                .post .author-name {
+                    display: inline;
+                }
+
+                .post p {
+                    font-size: 1.5em;
+                }
+            /*End of Post*/
 
 
 
