@@ -469,17 +469,17 @@ header {
     padding-bottom: 4ex;
 }
 
-.post1, .post2, .post3 {
+.post1, .post2, .post3, .post4 {
     width: 300px;
     margin-bottom: 4ex;
     position: relative;
 }
 
-.post1 figure, .post2 figure, .post3 figure {
+.post1 figure, .post2 figure, .post3 figure, .post4 figure {
     height: 200px;
 }
 
-.post1 figcaption, .post2 figcaption, .post3 figcaption {
+.post1 figcaption, .post2 figcaption, .post3 figcaption, .post4 figcaption {
     color: #FFFFFF;
     font-size: 2em;
     text-transform: uppercase;
