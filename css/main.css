@@ -269,7 +269,7 @@ header {
 }
 /*End of Blockquote and Border*/
 
-/*Share Buttons*/
+/*Social Buttons*/
 .social-buttons {
     margin-top: 2ex;
 }
@@ -278,28 +278,89 @@ header {
     text-decoration: none;
 }
 
-.sharesquare, .commentsquare, .likesquare {
-    background-color: darkgray;
+.sharebutton, .commentbutton, .likebutton {
     display: inline;
+    font-size: .75em;
+}
+
+.social-buttons a i {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: .5em;
+}
+/*Button Specific Styles*/
+
+/*Share Button*/
+.sharesquare {
+    background-color: darkgray;
+    line-height: 2ex;
+    padding: 2% 0;
+}
+
+.sharebutton .share-button-text {
+    background-color: lightgray;
     line-height: 2ex;
     padding: 2%;
     color: #FFFFFF;
 }
 
-.sharesquare a i, .commentsquare a i, .likesquare a i {
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: .5em;
-}
-
-.sharesquare .button-text a {
-    text-decoration: none;
-}
-
-.sharesquare:hover, .commentsquare:hover, .likesquare:hover {
+.sharebutton:hover .sharesquare {
     background-color: darkblue;
-    padding: 2%;
 }
+
+.sharebutton:hover .share-button-text {
+    background-color: lightblue;
+}
+/*End of Share Button*/
+
+
+/*Comment Button*/
+.commentsquare {
+    background-color: darkgray;
+    line-height: 2ex;
+    padding: 2% 0;
+}
+
+.commentbutton .comment-button-text {
+    background-color: lightgray;
+    line-height: 2ex;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+.commentbutton:hover .commentsquare {
+    background-color: darkblue;
+}
+
+.commentbutton:hover .comment-button-text{
+    background-color: lightblue;
+}
+/*End of Comment Button*/
+
+
+/*Like Button*/
+.likesquare {
+    background-color: darkgray;
+    line-height: 2ex;
+    padding: 2% 0;
+}
+
+.likebutton .like-button-text {
+    background-color: lightgray;
+    line-height: 2ex;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+.likebutton:hover .likesquare {
+    background-color: darkblue;
+}
+
+.likebutton:hover .like-button-text {
+    background-color: lightblue;
+}
+/*End of Like Button*/
+
 /*End of Share Buttons*/
 
 
