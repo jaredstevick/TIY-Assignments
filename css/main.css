@@ -462,7 +462,7 @@ header {
 
 /*Popular Posts*/
 .popular-posts {
-    width: inherit;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border-top: 1px solid darkgray;
@@ -484,7 +484,7 @@ header {
 }
 
 .posts-container {
-    width: 300px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 4ex;
@@ -495,13 +495,14 @@ header {
 }
 
 .post1, .post2, .post3, .post4 {
-    width: 300px;
+    width: auto;
     margin-bottom: 4ex;
-    position: relative;
+    display: inline;
 }
 
 .post1 figure, .post2 figure, .post3 figure, .post4 figure {
     height: 200px;
+    margin: 0;
 }
 
 .post1 figcaption, .post2 figcaption, .post3 figcaption, .post4 figcaption {
