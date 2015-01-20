@@ -242,6 +242,7 @@ header {
     margin-top: 1ex;
     margin-bottom: .25ex;
     width: 100%;
+    color: #08314D;
 }
 
 .profile-image-box-small {
@@ -260,7 +261,7 @@ header {
 .post .author-name  {
     display: none;
     text-decoration: none;
-    color: darkblue;
+    color: #08314D;
     text-transform: uppercase;
     font-family: sans-serif;
 }
@@ -285,7 +286,7 @@ header {
     border-left: .2em solid darkgray;
     text-transform: uppercase;
     font-size: 2ex;
-    color: darkblue;
+    color: #08314D;
     padding-left: 1em;
 }
 /*End of Blockquote and Border*/
@@ -326,11 +327,11 @@ header {
 }
 
 .sharebutton:hover .sharesquare {
-    background-color: darkblue;
+    background-color: #08314D;
 }
 
 .sharebutton:hover .share-button-text {
-    background-color: lightblue;
+    background-color: #106DB3;
 }
 /*End of Share Button*/
 
@@ -350,11 +351,11 @@ header {
 }
 
 .commentbutton:hover .commentsquare {
-    background-color: darkblue;
+    background-color: #08314D;
 }
 
 .commentbutton:hover .comment-button-text{
-    background-color: lightblue;
+    background-color: #106DB3;
 }
 /*End of Comment Button*/
 
@@ -374,11 +375,11 @@ header {
 }
 
 .likebutton:hover .likesquare {
-    background-color: darkblue;
+    background-color: #08314D;
 }
 
 .likebutton:hover .like-button-text {
-    background-color: lightblue;
+    background-color: #106DB3;
 }
 /*End of Like Button*/
 
@@ -409,7 +410,7 @@ header {
 }
 
 .author-name a {
-    color: darkblue;
+    color: #08314D;
     text-transform: uppercase;
     font-family: sans-serif;
 }
@@ -473,7 +474,7 @@ header {
 
 .popular-posts h3 {
     text-transform: uppercase;
-    color: darkblue;
+    color: #08314D;
     font-family: 'Oswald', sans-serif;
     font-size: 1.75em;
     margin-top: 3ex;
@@ -804,7 +805,7 @@ and (max-width : 1024px) {
 
                     .ad-text a {
                         text-decoration: none;
-                        color: darkblue;
+                        color: #08314D;
                     }
                 /*End of Ad*/
         /*End of Right Column*/
@@ -996,7 +997,7 @@ and (max-width : 1900px) {
 
                     .ad-text a {
                         text-decoration: none;
-                        color: darkblue;
+                        color: #08314D;
                     }
                 /*End of Ad*/
         /*End of Right Column*/
