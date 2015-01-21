@@ -222,6 +222,8 @@ table {
     font-size: 2em;
 }
 
+
+
 /*Black Pieces*/
 
 /*rooks*/
@@ -229,35 +231,88 @@ table {
     position: absolute;
     content: "\265C";
 }
+#A8:hover {
+    background-color: blue;
+}
+#H8:hover {
+    background-color: blue;
+}
+
 
 /*knights*/
 #B8:before, #G8:before {
     position: absolute;
     content: "\265E"
 }
+#B8:hover {
+    background-color: blue;
+}
+#G8:hover {
+    background-color: blue;
+}
+
 
 /*bishops*/
 #C8:before, #F8:before {
     position: absolute;
     content: "\265D";
 }
+#C8:hover {
+    background-color: blue;
+}
+#F8:hover {
+    background-color: blue;
+}
+
 
 /*queen*/
 #D8:before {
     position: absolute;
     content: "\265B";
 }
+#D8:hover {
+    background-color: blue;
+}
+
 
 /*king*/
 #E8:before {
     position: absolute;
     content: "\265A";
 }
+#E8:hover {
+    background-color: blue;
+}
+
 
 /*pawns*/
 #A7:before, #B7:before, #C7:before, #D7:before, #E7:before, #F7:before, #G7:before, #H7:before {
     position: absolute;
     content: "\265F";
+}
+#A7:hover {
+    background-color: blue;
+}
+#B7:hover {
+    background-color: blue;
+}
+#C7:hover {
+    background-color: blue;
+}
+#D7:hover {
+    background-color: blue;
+}
+#E7:hover {
+    background-color: blue;
+}
+#F7:hover {
+    background-color: blue;
+}
+#G7:hover {
+    background-color: blue;
+}
+#H7:hover {
+    background-color: blue;
 }
 
 
@@ -268,37 +323,89 @@ table {
     position: absolute;
     content: "\2656";
 }
+#A1:hover {
+    background-color: blue;
+}
+#H1:hover {
+    background-color: blue;
+}
+
 
 /*knights*/
 #B1:before, #G1:before {
     position: absolute;
     content: "\2658";
 }
+#B1:hover {
+    background-color: blue;
+}
+#G1:hover {
+    background-color: blue;
+}
+
 
 /*bishops*/
 #C1:before, #F1:before {
     position: absolute;
     content: "\2657";
 }
+#C1:hover {
+    background-color: blue;
+}
+#F1:hover {
+    background-color: blue;
+}
+
 
 /*queen*/
 #D1:before {
     position: absolute;
     content: "\2655";
 }
+#D1:hover {
+    background-color: blue;
+}
+
 
 /*king*/
 #E1:before {
     position: absolute;
     content: "\2654";
 }
+#E1:hover {
+    background-color: blue;
+}
+
 
 /*pawns*/
 #A2:before, #B2:before, #C2:before, #D2:before, #E2:before, #F2:before, #G2:before, #H2:before {
     position: absolute;
     content: "\2659";
 }
-
+#A2:hover {
+    background-color: blue;
+}
+#B2:hover {
+    background-color: blue;
+}
+#C2:hover {
+    background-color: blue;
+}
+#D2:hover {
+    background-color: blue;
+}
+#E2:hover {
+    background-color: blue;
+}
+#F2:hover {
+    background-color: blue;
+}
+#G2:hover {
+    background-color: blue;
+}
+#H2:hover {
+    background-color: blue;
+}
 
 /* ==========================================================================
    Helper classes
