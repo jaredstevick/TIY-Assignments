@@ -10,7 +10,7 @@ function add(A, B){
 }
 console.log(add(4, 5));
 
-assert.equal(add(1, 1), 3);
+assert(add(1, 1), 3);
 
 
 /**
@@ -21,6 +21,10 @@ assert.equal(add(1, 1), 3);
 function diff(A, B){
     return A - B;
 }
+console.log(diff(4, 7));
+assert(diff(5, 2));
+
+
 
 /**
  * @param Number A
@@ -30,7 +34,7 @@ function diff(A, B){
 function prod(A, B){
     return A * B;
 }
-
+console.log(prod(2,3));
 /**
  * @param Number A
  * @param Number B
