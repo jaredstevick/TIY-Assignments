@@ -219,3 +219,33 @@ var n1 = !true;  // !t returns false and var n2 = !false; // !f returns true
 ```javescript
 "cat + "dog" // "catdog" and "10" + 2 // 102
 ```
+
+### [Global Object: Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
+* _symbol_: `undefined`
+* _pronunciation_: "undefined"
+* _examples_: 
+```javascript
+if var(x)=undefined{this code executes} else {this happens}
+```
+
+### [Global Object: Not a Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+
+* _symbol_: `NaN`
+* _pronunciation_: "not a number"
+* _examples_:
+```javascript
+NaN === NaN;        // false and Number.NaN === NaN; // false
+```
+
+### [Global Objects: Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+
+* _symbol_: `Infinity`
+* _pronunciation_: "Infinity"
+* _examples_:
+```javascript
+var smallNumber = (-Number.MAX_VALUE) * 2; and if (smallNumber == Number.NEGATIVE_INFINITY) {
+  smallNumber = returnFinite();
+}
+```
+
