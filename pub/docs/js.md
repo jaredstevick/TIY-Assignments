@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 ## Javascript Documentation
 
-### [Primative: Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+### [Primitive: Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 
 * _symbol_: `null`
 * _pronunciation_: "null", "null value", "is null"
@@ -10,7 +10,7 @@
 null // how exciting
 ```
 
-### [Primative: Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+### [Primitive: Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 * _symbol_: `true` and `false`
 * _pronunciation_: "True" and "False"
@@ -19,7 +19,7 @@ null // how exciting
 'hello'==4 // false
 ```
 
-### [Primative: Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+### [Primitive: Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 * _symbol_: `new Number(value);`
 * _pronunciation_: "number"
@@ -28,7 +28,7 @@ null // how exciting
 Number("123") // 123
 ```
 
-### [Primative: String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+### [Primitive: String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 * _symbol_: `"string"`
 * _pronunciation_: "string 'this is a string'"
@@ -148,4 +148,74 @@ var object = {} // creates an empty object with no properties
 1 + 2 + 3 // 6, of course
 '1' + 2 + 3 // '123', obviously... WTF?
 ```
->>>>>>> 4f0c68d2baa79b55340aedecb95e97699347438d
+
+### [Operator: Modulus](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+* _symbol_: `%`
+* _pronuntciation_: 'mod u lus'
+* _examples_:
+```javascript
+12 % 5 // 2 and 15 % 3 // 0
+```
+
+### [Operator: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+* _symbol_: `++`
+* _pronunciation_: `in cre ment`
+* _examples:
+```javascript
+4++ // 5, 6, 7....
+```
+
+### [Operator: Equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `==`
+* _pronunciation_: "equals"
+* _examples_: 
+```javascript
+4 == "four"  // false  and 4 == 5 // false
+```
+
+### [Operator: Not Equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `!=`
+* _pronunciation_: does not equal
+* _examples: 
+```javascript
+4 != 4 // false and 4 != 5 // true
+```
+### [Operator: Strict Not Equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `!==`
+* _pronunciation_: "strict not equals"
+* _example_:
+```javascript
+var1 !== ""3" and 3 !== '3'
+```
+
+### [Logical Operator: &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `&&`
+* _pronunciation_: Logical AND
+* _examples_:
+```javaascript
+var a1 =  true && true;  // t && t returns true and var a5 = "Cat" && "Dog";    // t && t returns Dog
+```
+
+### [Logical Operator: !](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `!`
+* _pronunciation_: `logical not`
+* _examples_:
+```javascript
+var n1 = !true;  // !t returns false and var n2 = !false; // !f returns true
+```
+
+### [String Operator: Concatenation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `+`
+* _pronunciation_: "concatenate"
+* _examples_:
+```javescript
+"cat + "dog" // "catdog" and "10" + 2 // 102
+```
