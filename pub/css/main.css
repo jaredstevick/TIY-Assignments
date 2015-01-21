@@ -122,14 +122,18 @@ td {
     width: 5em;
     height: 5em;
     background-color: white;
+    color: black;
 
 }
 
 tr:nth-child(2n+1) td:nth-child(2n+1) {
-  background-color: #000000;
+    background-color: #000000;
+    color: white;
 }
+
 tr:nth-child(2n) td:nth-child(2n) {
-  background-color: #000000;
+    background-color: #000000;
+    color: white;
 }
 
 
