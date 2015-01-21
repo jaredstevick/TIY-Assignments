@@ -1,0 +1,1177 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*Global Styles*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Header*/
+header {
+    background-image: url(http://images.sciencedaily.com/2014/01/140129114614-large.jpg);
+    background-repeat: no-repeat;
+    min-height: 20%;
+    width: 100%;
+    background-size: 100%;
+    background-position: center center;
+}
+
+
+
+/*Top Nav*/
+.header-nav {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+.header-nav a {
+    text-decoration: none;
+    margin: 1%;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5ex;
+}
+
+.header-nav p {
+    padding-top: 1ex;
+    margin-top: 0;
+}
+/*End of Top Nav*/
+
+/*Nav Search Icon*/
+.header-nav i {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);                transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
+    margin-left: .75em;
+    vertical-align: 25%;
+}
+/*End of Nav Search Icon*/
+
+/*Site Logo Container*/
+.logo {
+    margin-top: 1em;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+/*End of Site Logo Container*/
+
+/*Site Logo Image*/
+.logo img {
+    border: 3px solid #000000;
+    border-radius: 50%;
+    display: block;
+    max-height: 3.5ex;
+    margin: -1.2ex auto -1ex auto;
+}
+/*End of Site Logo*/
+
+/*h1 Site Title*/
+.co-name {
+    color:#FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3ex;
+    font-weight: 300;
+}
+/*End of h1 Site Title*/
+
+/*Page Subtitle*/
+.slogan {
+    margin-top: -1em;
+    padding-bottom: .8em;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: smaller;
+    position: relative;
+    text-align: center;
+    z-index: 4;
+}
+/*End of Page Subtitle*/
+
+/*Header and Subtitle Positioning*/
+.co-name, .slogan {
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    margin-bottom: .75ex;
+}
+/*End of Header and Subtitle Positioning*/
+
+/*Blue Overlay*/
+.muted {
+  position: relative;
+}
+
+.muted:after {
+  content: " ";
+  z-index: 3;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(21, 36, 72, 0.3);
+}
+/*End of Blue Overlay*/
+
+/*End of Header*/
+
+/*Main Content*/
+.main-content{
+    width: 100%;
+}
+
+/*Left Column*/
+.left-column {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10ex;
+}
+
+/*Post Title*/
+.post-title {
+    text-transform: uppercase;
+    font-size: 2.25em;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1ex;
+    margin-bottom: .25ex;
+    width: 100%;
+    color: #08314D;
+}
+
+.profile-image-box-small {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-image-box-small img {
+    max-height: 5ex;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post .author-name  {
+    display: none;
+    text-decoration: none;
+    color: #08314D;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.post time a {
+    color: darkgray;
+    font-size: smaller;
+}
+/*End of Post Title*/
+
+/*Post Link Styling*/
+.post p a:hover {
+    color: darkgray;
+}
+/*End of Post Link Styling*/
+
+/*Blockquote and Border*/
+.post blockquote {
+    margin-left: 0;
+}
+.post blockquote p {
+    border-left: .2em solid darkgray;
+    text-transform: uppercase;
+    font-size: 2ex;
+    color: #08314D;
+    padding-left: 1em;
+}
+/*End of Blockquote and Border*/
+
+/*Social Buttons*/
+.social-buttons {
+    margin-top: 2ex;
+}
+
+.social-buttons a {
+    text-decoration: none;
+}
+
+.sharebutton, .commentbutton, .likebutton {
+    display: inline;
+    font-size: .75em;
+}
+
+.social-buttons a i {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: .5em;
+}
+/*Button Specific Styles*/
+
+/*Share Button*/
+.sharesquare {
+    background-color: darkgray;
+    line-height: 2ex;
+    padding: 2% 0;
+}
+
+.sharebutton .share-button-text {
+    background-color: lightgray;
+    line-height: 2ex;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+.sharebutton:hover .sharesquare {
+    background-color: #08314D;
+}
+
+.sharebutton:hover .share-button-text {
+    background-color: #106DB3;
+}
+/*End of Share Button*/
+
+
+/*Comment Button*/
+.commentsquare {
+    background-color: darkgray;
+    line-height: 2ex;
+    padding: 2% 0;
+}
+
+.commentbutton .comment-button-text {
+    background-color: lightgray;
+    line-height: 2ex;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+.commentbutton:hover .commentsquare {
+    background-color: #08314D;
+}
+
+.commentbutton:hover .comment-button-text{
+    background-color: #106DB3;
+}
+/*End of Comment Button*/
+
+
+/*Like Button*/
+.likesquare {
+    background-color: darkgray;
+    line-height: 2ex;
+    padding: 2% 0;
+}
+
+.likebutton .like-button-text {
+    background-color: lightgray;
+    line-height: 2ex;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+.likebutton:hover .likesquare {
+    background-color: #08314D;
+}
+
+.likebutton:hover .like-button-text {
+    background-color: #106DB3;
+}
+/*End of Like Button*/
+
+/*End of Share Buttons*/
+
+
+/*Right Column*/
+.right-column{
+    margin-bottom: 10ex;
+}
+
+/*Author Profile Stuff*/
+.profile-image-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-image-box img {
+    max-height: 10ex;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author-social  a {
+    text-decoration: none;
+}
+
+.author-name a {
+    color: #08314D;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.author-social p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.profile-links a  {
+    color: darkgray;
+}
+
+.profile-links a span {
+    color: lightgray;
+}
+/*End of Author Profile Stuff*/
+
+/*Ad*/
+.ad {
+    margin-top: 8ex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.ad-image img {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ad figcaption  {
+    font-size: smaller;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 1ex;
+}
+
+.ad a {
+    color: darkgray;
+}
+
+.ad-text {
+    display: none;
+}
+/*End of Ad*/
+
+
+/*Popular Posts*/
+.popular-posts {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid darkgray;
+    margin-top: 8ex;
+    text-align: center;
+    display: block;
+}
+
+.popular-posts h3 {
+    text-transform: uppercase;
+    color: #08314D;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    margin-top: 3ex;
+}
+
+.popular-posts a {
+    text-decoration: none;
+}
+
+.posts-container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4ex;
+}
+
+.post1, .post2, .post3, .post4 {
+    width: auto;
+    margin-bottom: 4ex;
+    display: inline;
+}
+
+.post4 {
+    display: none;
+}
+
+.post1 figure, .post2 figure, .post3 figure, .post4 figure {
+    height: 200px;
+    margin: 2em auto;
+
+}
+
+.post1 figcaption, .post2 figcaption, .post3 figcaption, .post4 figcaption {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: .5em;
+    font-family: 'Oswald', sans-serif;
+    z-index: 2;
+    position: relative;
+    margin-top: -3ex;
+}
+
+.posts-container .muted:hover:after {
+    opacity: 0;
+}
+/*End of Popular Posts*/
+
+/*End of Right Column*/
+
+
+/*Footer*/
+footer {
+    background-color: #0A3550;
+    width: 100%;
+    padding-bottom: 2ex;
+}
+
+/*Footer Nav*/
+.footer-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-top: 1ex;
+    padding-bottom: 2ex;
+    width: 90%;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 2ex;
+    font-family: sans-serif;
+    padding: 2%;
+    display: inline-block;
+}
+/*End of Footer Nav*/
+
+/*Footer Logo*/
+.logo-box {
+    text-align: center;
+    max-height: 4ex;
+    margin-bottom: 4ex;
+    margin-top: -2ex;
+}
+
+.logo-box img {
+    max-height: 7ex;
+}
+/*End of Footer Logo*/
+
+/*Footer Subtext*/
+footer p {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    margin-top: .5ex;
+    font-size: 1.5ex;
+}
+
+
+/*End of Footer Subtext*/
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+
+
+/*Tablet Version*/
+
+@media screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/*Whole Site Content*/
+    .container {}
+
+    /*Header*/
+        header {
+            background-image: url(http://peacewave-station.com/wp-content/uploads/2014/05/Sunset-Splash.jpg);
+            min-height: 30%;
+            width: 100%;
+            background-size: 100%;
+            background-position: center 75%;
+        }
+
+
+        /*Top Nav*/
+            .header-nav a {
+                font-size: 4ex;
+            }
+
+        /*End of Top Nav*/
+
+
+        /*Site Logo Image and Image Container*/
+            .logo img {
+                max-height: 8ex;
+            }
+        /*End of Site Logo Image and Container*/
+
+
+        /*h1 Site Title and Subtitle and Positioning*/
+            .co-name {
+                font-size: 5em;
+                margin-top: -.2ex;
+            }
+
+            .slogan {
+                margin-top: -1.75em;
+                font-size: 1.5em;
+            }
+        /*End of Site Title and Subtitle and Positioning*/
+
+
+    /*Main Content*/
+        /*Left Column*/
+            .left-column {
+                width: 60%;
+                float: left;
+                margin-left: 2em;
+            }
+            /*Post*/
+                .post-title {
+                    font-size: 3.5em;
+                }
+                .profile-image-box-small {
+                    display: inline-block;
+                }
+
+                .post .author-name {
+                    display: inline;
+                }
+
+                .post p {
+                    font-size: 1.5ex;
+                }
+            /*End of Post*/
+
+
+
+            /*Share Buttons*/
+                .sharebutton, .commentbutton, .likebutton {
+                    display: inline;
+                    font-size: 1.25ex;
+                }
+
+            /*End of Share Buttons*/
+
+
+
+            /*Right Column*/
+                .right-column {
+                    width: 30%;
+                    float: right;
+/*                    margin-right: .5em;*/
+                }
+                /*Author Social*/
+                    .author-social {
+                        margin-top: 4ex;
+                    }
+
+                /*Ad*/
+                    .ad {
+                        width: 80%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    .ad-image img {
+                        width: 100%;
+                    }
+
+                    .ad figcaption {
+                        text-align: right;
+                    }
+
+                    .ad-text {
+                        display: block;
+                        font-size: 1.5ex;
+                    }
+
+                    .ad-text a {
+                        text-decoration: none;
+                        color: #08314D;
+                    }
+                /*End of Ad*/
+        /*End of Right Column*/
+
+
+
+                /*Popular Posts*/
+                   .post1, .post2, .post3, .post4 {
+                        display: inline-block;
+                        margin: -2.5ex 1ex;
+                    }
+
+                    .popular-posts {
+                        width: 100%;
+                        clear: both;
+                    }
+
+                    .popular-posts h3 {
+                        font-size: 4em;
+                        margin-top: 1ex;
+                        margin-bottom: .5ex;
+                    }
+
+                    .posts-container {
+                        width: 700px;
+                    }
+
+
+                /**End of Popular Posts/
+
+    /*Footer*/
+
+
+        /*Footer Nav*/
+           .footer-nav a {
+                font-size: 1.5em;
+            }
+        /*End of Footer Nav*/
+
+        /*Footer Logo*/
+            .logo-box {
+                max-height: ;
+                margin-bottom: 6ex;
+            }
+
+            .logo-box img {
+                max-height: 8ex;
+            }
+        /*End of Footer Logo*/
+
+        /*Footer Subtext*/
+            footer p {
+                font-size: 1.5ex;
+            }
+
+}
+/*End of Tablet Version*/
+
+
+
+
+
+
+/*Desktop Version*/
+
+@media screen
+and (min-width : 1025px)
+and (max-width : 1900px) {
+
+/*Whole Site Content*/
+    .container {}
+
+    /*Header*/
+        header {
+            background-image: url(http://hdwallpaperfun.com/wp-content/uploads/2014/09/Sea-Waves-Wallpaper-Widescreen-HD-18256.jpg);
+            min-height: 15%;
+            width: 100%;
+            background-size: 100%;
+            background-position: center center;
+        }
+
+
+        /*Top Nav*/
+            .header-nav a {
+                font-size: 4ex;
+            }
+
+        /*End of Top Nav*/
+
+
+        /*Site Logo Image and Image Container*/
+            .logo img {
+                max-height: 12ex;
+            }
+        /*End of Site Logo Image and Container*/
+
+
+        /*h1 Site Title and Subtitle and Positioning*/
+            .co-name {
+                font-size: 7em;
+                margin-top: -.2ex;
+            }
+
+            .slogan {
+                margin-top: -2.5ex;
+                font-size: 2.5em;
+            }
+        /*End of Site Title and Subtitle and Positioning*/
+
+
+    /*Main Content*/
+        /*Left Column*/
+            .left-column {
+                width: 65%;
+                float: left;
+                margin-left: 2em;
+            }
+            /*Post*/
+                .post-title {
+                    font-size: 3em;
+                }
+                .profile-image-box-small {
+                    display: inline-block;
+                }
+
+                .post .author-name {
+                    display: inline;
+                    font-size: 2ex;
+                }
+
+                .post time a {
+                    font-size: 1.5ex;
+                }
+
+
+                .post blockquote p {
+                    font-size: 3.5ex;
+                }
+
+                .post p {
+                    font-size: 1.75ex;
+                }
+            /*End of Post*/
+
+
+
+            /*Share Buttons*/
+                .social-buttons {
+                    margin-top: 4ex;
+                }
+
+                .sharebutton, .commentbutton, .likebutton {
+                    display: inline;
+                    font-size: 1ex;
+                }
+
+            /*End of Share Buttons*/
+
+
+
+            /*Right Column*/
+                .right-column {
+                    width: 25%;
+                    float: right;
+                    margin-right: 3em;
+                    margin-top: 10ex;
+                }
+
+                .profile-image-box img {
+                    max-height: 20ex;
+                }
+
+                .author-name {
+                    font-size: 2ex;
+                }
+
+                .profile-links a {
+                    font-size: 2ex;
+                }
+
+                /*Ad*/
+                    .ad-image img {
+                        width: 100%;
+                    }
+                    .ad-text {
+                        display: block;
+                        font-size: 1.5ex;;
+                    }
+
+                    .ad-text a {
+                        text-decoration: none;
+                        color: #08314D;
+                    }
+                /*End of Ad*/
+        /*End of Right Column*/
+
+
+
+                /*Popular Posts*/
+                   .post1, .post2, .post3, .post4 {
+                        display: inline-block;
+                        margin: -2ex 2ex;
+                    }
+
+                    .popular-posts {
+                        width: 100%;
+                        clear: both;
+                    }
+
+                    .popular-posts h3 {
+                        font-size: 4em;
+                        margin-top: 1ex;
+                        margin-bottom: .5ex;
+                    }
+
+                    .posts-container {
+                        width: 75%;
+                    }
+
+
+                /**End of Popular Posts/
+
+    /*Footer*/
+
+
+        /*Footer Nav*/
+           .footer-nav a {
+                font-size: 2.5ex;
+            }
+        /*End of Footer Nav*/
+
+        /*Footer Logo*/
+            .logo-box {
+                max-height: 10ex;
+            }
+
+            .logo-box img {
+                max-height: 10ex;
+            }
+        /*End of Footer Logo*/
+
+        /*Footer Subtext*/
+            footer p {
+                font-size: 1ex;
+            }
+}
+
+/*End of Desktop Version*/
+
+
+
+
+
+
+/*Ludicrous Version*/
+/*
+@media only screen
+and (min-width : 1900px) {
+    header {
+        background-image: url(http://www.wallpapersam.com/wp-content/uploads/2013/05/Sunset-Ocean-Beach.jpg);
+        min-height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center 15%;
+        }
+
+
+
+}
+*/
+
+/*End of Ludicrous Version*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+br
