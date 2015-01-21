@@ -96,15 +96,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background-color: #042904;
+    color: #FFFFFF;
+}
 
+/*
+#container {
+    background-color: darkgreen;
+    width: 90%;
+    margin:auto;
+}
+*/
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+th {
+    text-align: center;
+}
 
+td {
+    width: 5em;
+    height: 5em;
+    background-color: white;
 
+}
 
-
-
-
-
+tr:nth-child(2n+1) td:nth-child(2n+1) {
+  background-color: #000000;
+}
+tr:nth-child(2n) td:nth-child(2n) {
+  background-color: #000000;
+}
 
 
 
