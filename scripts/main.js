@@ -11,6 +11,7 @@ function add(A, B){
 console.log(add(4, 5));
 
 assert(add(1, 1), 3);
+assert(add(4, 7));
 
 
 /**
@@ -35,6 +36,10 @@ function prod(A, B){
     return A * B;
 }
 console.log(prod(2,3));
+assert(prod(4, 5));
+assert(prod(11, 2));
+
+
 /**
  * @param Number A
  * @param Number B
@@ -43,3 +48,6 @@ console.log(prod(2,3));
 function div(A, B){
     return A / B;
 }
+console.log(div(12, 3));
+assert(div(10, 5));
+assert(div(6, 2));
