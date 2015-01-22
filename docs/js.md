@@ -263,3 +263,34 @@ iterates over values of objects' properties, not names --  for each (var item in
 //this is a comment that takes up one line only
 /* this comment can span more than one line and be as long as you want....kinda looks like a css comment */
 ```
+
+### [Literal: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+* *symbol:* `[ ]`
+* *pronunciation:* "array", "new array"
+* *examples:*
+```javascript
+// New empty Array  [  ]
+// New Array with some elements [element0, element1, element2, element3...]
+// Any other way to do it?  new Array(element0, element1, element2, element3...)
+```
+
+#### [Array.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+
+* *symbol:* `arr.length`
+* *value:* `Number` of elements in the array
+* *examples:*
+```javascript
+var numbers = [1, 2, 3, 4, 5]  for(var i =0; i < numbers.length; i++) { numbers[i] *= 2;} changes elements in array to [2, 4, 6, 8, 10]
+```
+
+#### [Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+* *symbol:* `arr.pop()`
+* *result:* removes the last element from the array and provides the value to the caller
+* *parameters:* does it have any? Nope!
+* *returns:* any type of item allowed in an array (string, number, boolean, even another array)
+* *examples:*
+```javascript
+var fruits = ["Banana", "Strawberry", "Apple", "Orange"];   fruits(pop); fruits = Banana, Strawberry, Apple ----  var popped = fruits.pop()
+```
