@@ -192,4 +192,13 @@ if (condition) { statement runs if statement evaluates to true; / if (x=y) { do 
 if (condition1) { statement runs if condition1 true} else { statement 2;}
 ```
 
-### []()
+### [Statement: Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+
+* _symbol_: `return`
+* pronunciation_: "return"
+* _examples_:
+```javascript
+return [[expression]] // expression   --  stops the execution of a function  -- return true; return false; etc
+```
+
+
