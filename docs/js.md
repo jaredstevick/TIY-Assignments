@@ -1,5 +1,6 @@
 ## Javascript Documentation
 
+
 ### [Primative: Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 
 * _symbol_: `null`
@@ -72,3 +73,123 @@ var object = {} // creates an empty object with no properties
 1 + 2 + 3 // 6, of course
 '1' + 2 + 3 // '123', obviously... WTF?
 ```
+
+### [Operator: Modulus](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+* _symbol_: `%`
+* _pronuntciation_: 'mod u lus'
+* _examples_:
+```javascript
+12 % 5 // 2 and 15 % 3 // 0
+```
+
+### [Operator: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+* _symbol_: `++`
+* _pronunciation_: `in cre ment`
+* _examples:
+```javascript
+4++ // 5, 6, 7....
+```
+
+### [Operator: Equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `==`
+* _pronunciation_: "equals"
+* _examples_:
+```javascript
+4 == "four"  // false  and 4 == 5 // false
+```
+
+### [Operator: Not Equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `!=`
+* _pronunciation_: does not equal
+* _examples:
+```javascript
+4 != 4 // false and 4 != 5 // true
+```
+### [Operator: Strict Not Equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `!==`
+* _pronunciation_: "strict not equals"
+* _example_:
+```javascript
+var1 !== ""3" and 3 !== '3'
+```
+
+### [Logical Operator: &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `&&`
+* _pronunciation_: Logical AND
+* _examples_:
+```javaascript
+var a1 =  true && true;  // t && t returns true and var a5 = "Cat" && "Dog";    // t && t returns Dog
+```
+
+### [Logical Operator: !](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `!`
+* _pronunciation_: `logical not`
+* _examples_:
+```javascript
+var n1 = !true;  // !t returns false and var n2 = !false; // !f returns true
+```
+
+### [String Operator: Concatenation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+* _symbol_: `+`
+* _pronunciation_: "concatenate"
+* _examples_:
+```javescript
+"cat + "dog" // "catdog" and "10" + 2 // 102
+```
+
+### [Global Object: Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
+* _symbol_: `undefined`
+* _pronunciation_: "undefined"
+* _examples_:
+```javascript
+if var(x)=undefined{this code executes} else {this happens}
+```
+
+### [Global Object: Not a Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+
+* _symbol_: `NaN`
+* _pronunciation_: "not a number"
+* _examples_:
+```javascript
+NaN === NaN;        // false and Number.NaN === NaN; // false
+```
+
+### [Global Objects: Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+
+* _symbol_: `Infinity`
+* _pronunciation_: "Infinity"
+* _examples_:
+```javascript
+var smallNumber = (-Number.MAX_VALUE) * 2; and if (smallNumber == Number.NEGATIVE_INFINITY) {
+  smallNumber = returnFinite();
+}
+```
+
+### [Conditional Statement: If](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _symbol_: `if`
+* _pronunciation_: "if" lol
+* _examples:
+```javascript
+if (condition) { statement runs if statement evaluates to true; / if (x=y) { do this;}
+```
+
+### [Conditional Statement: Else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _symbol_: `else`
+* _pronunciation_: "else"
+* _examples_:
+```javascript
+if (condition1) { statement runs if condition1 true} else { statement 2;}
+```
+
+### []()
