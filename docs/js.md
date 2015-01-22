@@ -219,5 +219,47 @@ for ([initialExpression]; [condition]; [incrementExpression]) statement --for(va
 do { statement;  } while (condition); --  do { i +=1; document.write(i);} while (i < 5);
 ```
 
-### []()
+### [Loop Statement: While Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#while_Statement)
 
+* _symbol_: `while`
+* _pronunciation_: "while"
+* _examples_:
+```javascript
+while (condition) - statement      n=0; x=0; while (n < 3) {n++; x += n;}
+```
+
+### [Loop Statement: Break Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#break_Statement)
+
+* _symbol_: `break`
+* _pronunciation_: "break"
+* _examples_:
+```javascript
+break;  for (i = 0; i < a.length; i++) {if (a[i] == theValue)   break;  }
+```
+
+### [Loop Statement: Continue Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#continue_Statement)
+
+* _symbol_: `continue`
+* _pronunciation_: "continue"
+* _examples_:
+```javascript
+continue;       i = 0; n = 0;   while (i < 5) {i++;  if (i ==3)  continue;   n+=1;}
+
+### [Object Manipulation Statement: For Each...In Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#for_each...in_Statement)
+
+* _symbol_: `for each...in`
+* _pronunciation_: "for each...in"
+* _examples_:
+```javascript
+iterates over values of objects' properties, not names --  for each (var item in obj) { sum += item;}
+```
+
+### [Control Flow Statement: Comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#Comments)
+
+* _symbol_: `//`
+* _pronunciation_: "comment"
+* _examples_:
+```javascript
+//this is a comment that takes up one line only
+/* this comment can span more than one line and be as long as you want....kinda looks like a css comment */
+```
