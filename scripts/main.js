@@ -51,3 +51,28 @@ function div(A, B){
 console.log(div(12, 3));
 assert(div(10, 5));
 assert(div(6, 2));
+
+
+
+
+
+string calculator:
+
+//definitely need to define the numbers//
+
+'zero' = 0
+'one' = 1
+'two' = 2
+'three' = 3
+'four' = 4
+'five' = 5
+'six' = 6
+'seven' = 7
+'eight' = 8
+'nine' = 9
+'ten' = 10
+
+//not sure what to do here yet//
+function plus(string1, string2) {
+    return Number;
+}
