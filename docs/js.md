@@ -201,4 +201,23 @@ if (condition1) { statement runs if condition1 true} else { statement 2;}
 return [[expression]] // expression   --  stops the execution of a function  -- return true; return false; etc
 ```
 
+### [Loop Statement: for statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#for_Statement)
+
+* _symbol_: `for`
+* _pronunciation_: "for"
+* _examples_:
+```javascript
+for ([initialExpression]; [condition]; [incrementExpression]) statement --for(var i=0; i < selectObject.options.length; i++) { if (selectObject.options[i].selected)  numberSelected++; }   return numberSelected;}
+```
+
+### [Loop Statement: Do...While Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#do...while_Statement)
+
+* _symbol_: `do`
+* _pronunciation_: "do"
+* _examples_:
+```javascript
+do { statement;  } while (condition); --  do { i +=1; document.write(i);} while (i < 5);
+```
+
+### []()
 
