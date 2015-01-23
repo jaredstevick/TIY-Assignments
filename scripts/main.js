@@ -27,3 +27,27 @@ console.log(board.join('\n') + '\n\n');
 //console.log(board.join('\n'));
 // success!!
 
+//to print the board
+var printBoard = function() {
+    console.log(board.join('\n'));
+}
+
+
+//let's move some pieces
+var movePiece = function (fromX, fromY, toX, toY) {
+// to make it match our board numbers and avoid confusion, subtract one(since arrays start at 0)
+    fromX = fromX - 1;
+    fromY = fromY - 1;
+    toX = toX - 1;
+    toY = toY - 1;
+//the actual movement of the piece
+    board[toY][toX] = board[fromY][fromX];
+    board[fromY][fromX] = ' ';
+//don't forget to redraw the board
+    printBoard();
+};
+
+//testing testing
+//movePiece(4, 6, 4, 5);
+//sweet, it works
+//movePiece(3, 7, 3, 6);
