@@ -200,66 +200,109 @@ body {
 }
 
 table {
-    width: 90%;
+    width: 100%;
 }
 
-    thead th {
-        border-bottom: 1px solid black;
-        text-align: center;
-        color: white;
-    }
-    tbody th {
-        border-right: 1px solid black;
-        text-align: center;
-        color: white;
-    }
-    tbody td {
-        width: 10%;
-        padding-bottom: 10%;
-        border: 1px solid black;
-        background-color: #e6e4de;
-    }
+thead th {
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
 
-    tbody :nth-child(even) td:nth-child(even),
-    tbody :nth-child(odd) td:nth-child(odd){
-        background-color: #5a5b71;
-    }
+tbody th {
+    border-right: 1px solid black;
+    text-align: center;
+    color: white;
+}
 
-/*
+tbody td {
+    width: 12.5%;
+    padding-bottom: 12.5%;
+    border: 1px solid black;
+    background-color: snow;
+}
+
+
+
+tbody :nth-child(even) td:nth-child(even),
+tbody :nth-child(odd) td:nth-child(odd){
+    background-color: #5a5b71;
+}
+
 :before {
-    font-size: 2em;
-}
-*/
-
-.white.queen {
-    width: 10em;
-    width: 19ex;
+    font-size: 10vw;
 }
 
-.piece.white.queen:before {
-    content: "\2655";
-    font-size: 7em;
-}
 
-/*Black Pieces*/
-
-/*rooks*/
-#A8:before, #H8:before {
+/*black pieces*/
+.black-queen:before {
+    content: '\265B';
     position: absolute;
-    content: "\265C";
 }
+
+.black-king:before {
+    content: '\265A';
+    position: absolute;
+}
+
+.black-bishop:before {
+    content: '\265D';
+    position: absolute;
+}
+
+.black-knight:before {
+    content: '\265E';
+    position: absolute;
+}
+
+.black-rook:before {
+    content: '\265D';
+    position: absolute;
+}
+
+.black-pawn:before {
+    content: '\265F';
+    position: absolute;
+}
+
+
+/*white pieces*/
+.white-queen:before {
+    content: '\2655';
+    position: absolute;
+}
+
+.white-king:before {
+    content: '\2654';
+    position: absolute;
+}
+
+.white-bishop:before {
+    content: '\2657';
+    position: absolute;
+}
+
+.white-knight:before {
+    content: '\2658';
+    position: absolute;
+}
+
+.white-rook:before {
+    content: '\2656';
+    position: absolute;
+}
+
+.white-pawn:before {
+    content: '\2659';
+    position: absolute;
+}
+
+
 #A8:hover {
     background-color: blue;
 }
 #H8:hover {
     background-color: blue;
-}
-
-
-/*knights*/
-#B8:before, #G8:before {
-    position: absolute;
-    content: "\265E"
 }
 #B8:hover {
     background-color: blue;
@@ -267,45 +310,17 @@ table {
 #G8:hover {
     background-color: blue;
 }
-
-
-/*bishops*/
-#C8:before, #F8:before {
-    position: absolute;
-    content: "\265D";
-}
 #C8:hover {
     background-color: blue;
 }
 #F8:hover {
     background-color: blue;
 }
-
-
-/*queen*/
-#D8:before {
-    position: absolute;
-    content: "\265B";
-}
 #D8:hover {
     background-color: blue;
 }
-
-
-/*king*/
-#E8:before {
-    position: absolute;
-    content: "\265A";
-}
 #E8:hover {
     background-color: blue;
-}
-
-
-/*pawns*/
-#A7:before, #B7:before, #C7:before, #D7:before, #E7:before, #F7:before, #G7:before, #H7:before {
-    position: absolute;
-    content: "\265F";
 }
 #A7:hover {
     background-color: blue;
@@ -331,27 +346,11 @@ table {
 #H7:hover {
     background-color: blue;
 }
-
-
-
-/*white pieces*/
-/*rooks*/
-#A1:before, #H1:before {
-    position: absolute;
-    content: "\2656";
-}
 #A1:hover {
     background-color: blue;
 }
 #H1:hover {
     background-color: blue;
-}
-
-
-/*knights*/
-#B1:before, #G1:before {
-    position: absolute;
-    content: "\2658";
 }
 #B1:hover {
     background-color: blue;
@@ -359,45 +358,17 @@ table {
 #G1:hover {
     background-color: blue;
 }
-
-
-/*bishops*/
-#C1:before, #F1:before {
-    position: absolute;
-    content: "\2657";
-}
 #C1:hover {
     background-color: blue;
 }
 #F1:hover {
     background-color: blue;
 }
-
-
-/*queen*/
-#D1:before {
-    position: absolute;
-    content: "\2655";
-}
 #D1:hover {
     background-color: blue;
 }
-
-
-/*king*/
-#E1:before {
-    position: absolute;
-    content: "\2654";
-}
 #E1:hover {
     background-color: blue;
-}
-
-
-/*pawns*/
-#A2:before, #B2:before, #C2:before, #D2:before, #E2:before, #F2:before, #G2:before, #H2:before {
-    position: absolute;
-    content: "\2659";
 }
 #A2:hover {
     background-color: blue;
