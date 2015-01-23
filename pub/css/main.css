@@ -225,11 +225,13 @@ table {
         background-color: #5a5b71;
     }
 
+/*
 :before {
     font-size: 2em;
 }
+*/
 
-.piece.white.queen {
+.white.queen {
     width: 10em;
     width: 19ex;
 }
