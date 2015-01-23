@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 var board = [
     ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'],
     ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
@@ -28,4 +26,4 @@ console.log(board.join('\n') + '\n\n');
 //board[7][1] = ' ';
 //console.log(board.join('\n'));
 // success!!
->>>>>>> Stashed changes
+
