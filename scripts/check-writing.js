@@ -123,7 +123,7 @@ function toEnglish (a) {
         return "this is not the number ten";
     }
 }
-console.log(toEnglish(6));
+console.log(toEnglish(10));
 
 it('should return "ten" when 10 is entered and "not the number 10" if any other number is entered', function() {
     assert.equal(toEnglish(10), "ten");
