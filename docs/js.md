@@ -263,3 +263,164 @@ iterates over values of objects' properties, not names --  for each (var item in
 //this is a comment that takes up one line only
 /* this comment can span more than one line and be as long as you want....kinda looks like a css comment */
 ```
+### [Iterator Method: Array.prototype.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+* summary: `every()` tests whether ALL elements in the array pass the test given in the function
+* syntax: `arr.every(callback[, thisArg])`
+* parameters:
+*    `callback:` -function to test each element against - takes three arguments:
+*       `currentValue` -the current element being processed in the array
+*       `index` -the index of the current element being processed in the array
+*       `array` -the array `every()` was called upon
+*       `thisArg` -optional. the value to use as "this" when executing the callback
+* Returns: Booleans -if `callback` returns true for EVERY element
+* Example:
+```javascript
+function every(anArray, callback){
+  var hasFailed = false; // it hasn't has it?
+  // iterate...
+  anArray.foreach(function(item, index, all){
+    if ( hasFailed ) return; // one failure ruins everything...
+    hasFailed = !callback(item, index, all); // why invert here?
+  });
+  return !hasFailed; // Another inverse?
+  // If `anArray` is empty, it will return true
+}
+function isBigEnough(element, index, array) {
+  return element >= 10;
+}
+[12, 5, 8, 130, 44].every(isBigEnough);   // false - 5 and 8 are not larger than or equal to 10
+[12, 54, 18, 130, 44].every(isBigEnough); // true  - all elements are larger than 10
+```
+
+### [Iterator Method: Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* summary: `forEach()` executes the provided function once per element in the array
+* syntax: `arr.forEach(callback[, thisArg])`
+* parameters:
+*   `callback:` -function that produces an element of the new array - takes three arguments:
+*       `currentValue` -the current array element being processed
+*       `index` -the index of the current array element being processed
+*       `array` -the array `forEach` was called upon
+*       `thisArg` -optional. the value to use as this when executing the callback
+* Returns: depends on what the function returns
+* Example:
+```javascript
+function logArrayElements(element, index, array) {
+  console.log('a[' + index + '] = ' + element);
+}
+
+// no element at index 2, so it is not visited
+[2, 5, , 9].forEach(logArrayElements);
+// will log to the console:
+// a[0] = 2
+// a[1] = 5
+// a[3] = 9
+```
+
+### [Iterator Method: Array.prototype.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+* summary: `some()` tests whether a particular element in the array passes the test given by the provided function. executes once per element until callback returns true
+* syntax: `arr.some(callback[, thisArg])`
+* parameters:
+*   `callback:` -function to test each element - takes three arguments
+*       `currentValue` -the current element being processed
+*       `index` -the index of the element being processed
+*       `array` -the array `some()` was called on
+*   `thisArg` -optional. this is the value used when executing callback
+* Returns: Boolean -returns true if it finds an element that meets the conditions set in the function
+* Example:
+```javascript
+function isBiggerThan10(element, index, array) {
+  return element > 10;
+}
+[2, 5, 8, 1, 4].some(isBiggerThan10);  // false -none of the elements are larger than ten
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true -12 is larger than 10
+```
+
+### [Iterator Method: Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* summary: `filter()` creates a new array with all elements that pass the test implemented by the provided function
+* syntax: `arr.filter(callback[, thisArg])`
+* parameters:
+*   `callback:` -function to test each element in the array. it is invoked with three arguments: element, index, and array
+*   `thisArg` -optional. -value to use as `this` when executing callback
+* Returns: depends on what the function asks for
+* Example:
+```javascript
+function isBigEnough(element) {
+  return element >= 10;
+}
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44] // `filter(isBigEnough)` creates a new array with the elements that meet the condition >= ten
+```
+
+### [Iterator Method: Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* summary: `map()` creates a new array with the results of calling a provided function once on every element in the array
+* syntax: `arr.map(callback[, thisArg])`
+* parameters:
+*   `callback:` -function that produces an element of the new array. takes three arguments:
+*       `currentValue` -current element being processed in the array
+*       `index` -the index of the current element being processed
+*       `array` -the array `map()` was called on
+*   `thisArg` -optional. the value to use as `this` when executing the callback
+* Returns: calls the function once on every element and returns a new array from the results
+* Example:
+```javascript
+var numbers = [1, 4, 9];
+var roots = numbers.map(Math.sqrt);
+// roots is now [1, 2, 3], numbers is still [1, 4, 9] //does not change the array it acted on, creates a new one with the results of Math.sqrt//
+var numbers = [1, 4, 9];
+var doubles = numbers.map(function(num) {
+  return num * 2;
+});
+// doubles is now [2, 8, 18]. numbers is still [1, 4, 9] //doubles the numbers and creates a new array with those values
+```
+
+### [Iterator Method: Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+* summary: `reduce()` applies a function against an accumulator AND each value of the array from left to right
+* syntax: `arr.reduce(callback[, initialValue])`
+* parameters:
+*   `callback:` -function to execute on each value- takes FOUR arguments:
+*       `previousValue` -the value previously returned in the last invocation of the callback=initialValue (if one was supplied)
+*       `currentValue` -the current element being processed
+*       `index` -the index of the element being processed
+*       `array` -the array `reduce()` was called on
+*   `initialValue` -optional. object to used as the first argument to the first call of the callback
+* Returns: the value of the last callback invocation
+* Example:
+```javascript
+[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+}); //`reduce` will return 10 here.
+var total = [0, 1, 2, 3].reduce(function(a, b) {
+  return a + b;
+});
+// total == 6
+can also flatten an array of arrays:
+var flattened = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
+  return a.concat(b);
+});
+// flattened is [0, 1, 2, 3, 4, 5]
+```
+
+### [Iterator Method: Array.prototype.reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight)
+* summary: `reduceRight()` applies a function against an accumulator and each value of the array has to reduce it to a single value
+* syntax: `arr.reduceRight(callback[, initialValue])`
+* parameters:
+*   `callback:` -function to execute on each value in the array. takes four arguments:
+*       `previousValue` -the value previously returned in the last invocatio of the callback, or initialValue, if one is supplied
+*       `currentValue` -the current element being processed
+*       `index` -the index of the element being processed
+*       `array` -the array `reduce()` is called on
+*   `initialValue` -optional. object to use as the first argument to the first call of the `callback`
+* Returns: returns the value of the last invocation of the callback
+* Examples:
+```javascript
+//adding the values within the array
+var total = [0, 1, 2, 3].reduceRight(function(a, b) {
+  return a + b;
+});
+// total == 6
+//flattening an array of arrays
+var flattened = [[0, 1], [2, 3], [4, 5]].reduceRight(function(a, b) {
+    return a.concat(b);
+}, []);
+// flattened is [4, 5, 2, 3, 0, 1]
+```
