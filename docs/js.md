@@ -263,6 +263,7 @@ iterates over values of objects' properties, not names --  for each (var item in
 //this is a comment that takes up one line only
 /* this comment can span more than one line and be as long as you want....kinda looks like a css comment */
 ```
+
 ### [Iterator Method: Array.prototype.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 * summary: `every()` tests whether ALL elements in the array pass the test given in the function
 * syntax: `arr.every(callback[, thisArg])`
@@ -423,4 +424,101 @@ var flattened = [[0, 1], [2, 3], [4, 5]].reduceRight(function(a, b) {
     return a.concat(b);
 }, []);
 // flattened is [4, 5, 2, 3, 0, 1]
+
+
+### [Literal: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+* *symbol:* `[ ]`
+* *pronunciation:* "array", "new array"
+* *examples:*
+```javascript
+// New empty Array  [  ]
+// New Array with some elements [element0, element1, element2, element3...]
+// Any other way to do it?  new Array(element0, element1, element2, element3...)
+```
+
+### [Array.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+
+* *symbol:* `arr.length`
+* *value:* `Number` of elements in the array
+* *examples:*
+```javascript
+var numbers = [1, 2, 3, 4, 5]  for(var i =0; i < numbers.length; i++) { numbers[i] *= 2;} changes elements in array to [2, 4, 6, 8, 10]
+```
+
+### [Mutator Method: Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+* *symbol:* `arr.pop()`
+* *result:* removes the last element from the array and provides the value to the caller
+* *parameters:* does it have any? Nope!
+* *returns:* any type of item allowed in an array (string, number, boolean, even another array)
+* *examples:*
+```javascript
+var fruits = ["Banana", "Strawberry", "Apple", "Orange"];   fruits(pop); fruits = Banana, Strawberry, Apple ----  var popped = fruits.pop()
+```
+
+### [Mutator Method: Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+* *symbol:* ``arr.push(element1, element2, element3....)`
+* *result:* adds one or more elements to end of array and returns the new length of the array
+* *parameters:* elementN (the elements to add to the end of the array)
+* *returns:* returns the new length property of the object that it was used on
+* *examples:*
+```javascript
+var foods = ["pizza", "tacos"];  ---  var foodstotal = foods.push("chicken", "sandwiches"); array now is ["pizza", "tacos", "chicken", "sandwiches"]
+```
+
+### [Mutator Method: Array.prototype.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+
+* *symbol:* `arr.reverse()`
+* *result:* reverses the order of the elements in an array
+* *parameters:* None!
+* *returns:* returns the elements in the array in reverse order
+* *examples:*
+``javascript
+var anArray = "["A", "B", "C", "D"];   ----  anArray.reverse(); --- anArray is now: ["D", "C", "B", "A"]
+```
+
+### [Mutator Method: Array.prototype.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+
+* *symbol:* `arr.shift()`
+* *result:* removes the first element (position 0) from an array, changes the length of the array
+* *returns:* returns the value that was removed from the array
+* *examples:*
+```javascript
+var animals = ['horse', 'cow', 'chicken', 'pig']; --- animals.shift(); // horse has been removed from the array
+```
+
+### [Mutator Method: Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+* *symbol:* `arr.sort([compareFunction])`
+* *result:* sorts the elements in the array and returns the array in sort order according to unicode code points (http://www.utf8-chartable.de/)
+* *returns:* the sorted array
+* *parameters:* compareFunction (optional: a function that defines the sort order)
+* *examples:*
+```javascript
+var stringArray = ["Blue", "Humpback", "Beluga"]; -- stringArray.sort(); // will give you Blue, Humpback, Beluga
+```
+
+### [Mutator Method: Array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+* *symbol:* `array.splice(start, deleteCount[, item1[, item2[, ...]]])`
+* *result:* changes the content of an array by removing existing and adding new elements
+* *parameters:* start: where to start the changes, deleteCount: the number of elements to remove, itemN: the element to add to the array
+* *returns:* an array containing the deleted elements
+* *examples:*
+```javascript
+var fish = ["angel", "clown", "mandarin", "sturgeon"]; --  var removed = fish.splice(2, 0, "drum"); // fish = ["angel", clown", "drum", "mandarin", "sturgeon"] because 0, nothing was removed. alternately: var removed = fish.splice(3, 1); // fish = ["angel", "clown", "drum", "sturgeon"]; -- mandarin was removed from index 3, nothing was removed
+```
+
+### [Mutator Method: Array.prototype.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+* *symbol:* `arr.unshift([element1[, ...[, elementN]]])`
+* *result:* adds one or more elements to the beginning of an array and returns the new length
+* *parameters:* elementN - the elements to add to the front of the array
+* *returns:* returns the new length of the array
+* *examples:*
+```javascript
+var arr = [1, 2]; -- arr.unshift(0); // result is 3, new array length // arr = [0, 1, 2] -----  arr.unshift(-2, -1); results is 5, new array length // arr = [-2, -1, 0, 1, 2]
+
 ```

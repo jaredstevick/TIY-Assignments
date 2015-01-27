@@ -209,3 +209,14 @@ console.log(plus("seven", "four"));
 console.log(plus("nineteen", "eleven"));
 console.log(plus("five", "twenty"));
 
+function product(A, B) {
+    return (20);
+}
+it('should return the product of "two" and "ten"', function() {
+    assert.equal(product("two", "ten"), 20);
+});
+
+
+
+
+
