@@ -3,28 +3,32 @@ var events = require('../apis/github/users/jaredstevick/events.json');
 
 assert(events.length);
 
+
 //answer function
 function answer() {
     var index = 0;
     var numberofPushEvents = 0;
 
-events.forEach(function(item){
-    if ( item.type == "PushEvent" ) {
+    events.forEach(function(item){
+        if ( item.type == "PushEvent" ) {
         numberofPushEvents++;
-    }
-});
-var pushEvents = events.filter(function(item){
-    return item.type == "PushEvent";
-});
+        }
+    });
+    var pushEvents = events.filter(function(item){
+        return item.type == "PushEvent";
+        });
 
-pushEvents.length == numberofPushEvents;
-    return {
-        'total': events.length,
-        'PushEvents': {
-            'total': numberofPushEvents,
-    }
-}
-};    //end answer
+        pushEvents.length ==  numberofPushEvents; {
+            return {
+                'total': events.length,
+                'PushEvents': {
+                'total': numberofPushEvents
+                }
+            }
+        }
+};
+    //end answer
+
 
 
 
@@ -54,5 +58,4 @@ describe('the answer', function(){
         assert(theAnswer.PushEvents.total);
     });
 });
-
 
