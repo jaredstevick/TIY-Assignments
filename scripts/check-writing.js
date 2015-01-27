@@ -225,7 +225,6 @@ console.log(toEnglish(19));
 console.log(toEnglish(14));
 
 
-
 var assert = require('assert');
 
 function toEnglish(A){
