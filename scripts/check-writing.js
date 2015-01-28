@@ -57,5 +57,34 @@ it('should take 9 and return "nine"', function(){
 it('should take 10 and return "ten"', function(){
     assert.equal(toEnglish(10), "ten");
 });
-
+it('should take 11 and return "eleven"', function(){
+    assert.equal(toEnglish(11), "eleven");
+});
+it('should take 12 and return "twelve"', function(){
+    assert.equal(toEnglish(12), "twelve");
+});
+it('should take 13 and return "thirteen"', function(){
+    assert.equal(toEnglish(13), "thirteen");
+});
+it('should take 14 and return "fourteen"', function(){
+    assert.equal(toEnglish(14), "fourteen");
+});
+it('should take 15 and return "fifteen"', function(){
+    assert.equal(toEnglish(15), "fifteen");
+});
+it('should take 16 and return "sixteen"', function(){
+    assert.equal(toEnglish(16), "sixteen");
+});
+it('should take 17 and return "seventeen"', function(){
+    assert.equal(toEnglish(17), "seventeen");
+});
+it('should take 18 and return "eighteen"', function(){
+    assert.equal(toEnglish(18), "eighteen");
+});
+it('should take 19 and return "nineteen"', function(){
+    assert.equal(toEnglish(19), "nineteen");
+});
+it('should take 20 and return "twenty"', function(){
+    assert.equal(toEnglish(20), "twenty");
+});
 
