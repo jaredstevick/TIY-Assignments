@@ -6,29 +6,31 @@ assert(events.length);
 
 //answer function
 function answer() {
-    var index = 0;
-    var numberofPushEvents = 0;
-
-    events.forEach(function(item){
-        if ( item.type == "PushEvent" ) {
-        numberofPushEvents++;
-        }
-    });
     var pushEvents = events.filter(function(item){
         return item.type == "PushEvent";
         });
+    var pullRequests = events.filter(function(item){
+        return item.type == 'PullRequestEvent';
+    });
+    var issueComment = events.filter(function(item){
+        return item.type == 'IssueCommentEvent';
+    });
 
-        pushEvents.length ==  numberofPushEvents; {
-            return {
-                'total': events.length,
-                'PushEvents': {
-                'total': numberofPushEvents
-                }
-            }
+    return {
+        'total': events.length,
+        'PushEvent': {
+            'total': pushEvents.length,
+            },
+        'PullRequestEvent': {
+            'total': pullRequests.length,
+            },
+        'IssueCommentEvent': {
+            'total': issueComment.length,
         }
+        };
 };
     //end answer
-
+console.log(answer());
 
 
 
@@ -54,8 +56,8 @@ describe('the answer', function(){
     });
 
     it('should have some `PushEvent` entries', function(){
-        assert(theAnswer.PushEvents);
-        assert(theAnswer.PushEvents.total);
+        assert(theAnswer.PushEvent);
+        assert(theAnswer.PushEvent.total);
     });
 });
 
