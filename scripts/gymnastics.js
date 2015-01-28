@@ -8,7 +8,7 @@ assert(events.length);
 function answer() {
     var pushEvents = events.filter(function(item){
         return item.type == "PushEvent";
-        });
+    });
     var pullRequests = events.filter(function(item){
         return item.type == 'PullRequestEvent';
     });
@@ -26,7 +26,7 @@ function answer() {
             },
         'IssueCommentEvent': {
             'total': issueComment.length,
-        }
+            }
         };
 };
     //end answer
@@ -36,16 +36,22 @@ console.log(answer());
 
 //testing, testing
 
-describe('the setup', function(){
+
+    it('should have an `answer` function', function(){
+        assert(answer);
+        assert.equal(typeof answer, 'function');
+        assert.equal(typeof answer(), 'object');
+    });
+
+
     it('should have events', function(){
         assert(events);
     });
 
-    it('should have an `answer` function', function(){
-        assert(answer);
-        assert(typeof answer == 'function');
+    it('should have a `total` key', function() {
+        var theAnswer = answer();
+        assert.equal(theAnswer.total, 30);
     });
-});
 
 
 describe('the answer', function(){
@@ -56,7 +62,7 @@ describe('the answer', function(){
     });
 
     it('should have some `PushEvent` entries', function(){
-        assert(theAnswer.PushEvent);
+        assert.equal(typeof theAnswer.PushEvent, 'object');
         assert(theAnswer.PushEvent.total);
     });
 });
