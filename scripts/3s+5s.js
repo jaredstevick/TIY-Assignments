@@ -4,13 +4,11 @@ var assert = require('assert');
 //
 //}
 var sum = 0;
-for(i = 0; i < 10; i++) {
-    if (i % 3 === 0){
+for(i = 0; i < 20; i++) {
+    if (i % 3 === 0 || i % 5 === 0){
         sum+=i;
     }
-    if(i % 5 === 0){
-        sum+=i;
-    }
+
 }
  console.log(sum);
 
