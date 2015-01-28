@@ -62,6 +62,7 @@ function fromEnglish(A){
     };
 
     return numbers[A];
+
 };
 
 
@@ -75,11 +76,11 @@ function fromEnglish(A){
 //but now i can do ALL THE MATHS! yay maths!
 
 
-console.log(fromEnglish("five") + fromEnglish("seven"));
-console.log(fromEnglish("five") * fromEnglish("seven"));
-console.log(fromEnglish("eighteen") / fromEnglish("six"));
-console.log(fromEnglish("nineteen") - fromEnglish("four"));
-console.log(fromEnglish("eleven") % fromEnglish("five"));
+console.log(fromEnglish("five") + fromEnglish("seven")); //12
+console.log(fromEnglish("five") * fromEnglish("seven"));  //35
+console.log(fromEnglish("eighteen") / fromEnglish("six"));  //3
+console.log(fromEnglish("nineteen") - fromEnglish("four"));  //15
+console.log(fromEnglish("eleven") % fromEnglish("five"));  //1
 
 
 //pointless tests because i know my function works, and javascript knows how to do math
@@ -105,7 +106,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("zero") + fromEnglish("eighteen"), 18);
     assert.equal(fromEnglish("zero") + fromEnglish("nineteen"), 19);
     assert.equal(fromEnglish("zero") + fromEnglish("twenty"), 20);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("one") + fromEnglish("zero"), 1);
     assert.equal(fromEnglish("one") + fromEnglish("one"), 2);
     assert.equal(fromEnglish("one") + fromEnglish("two"), 3);
@@ -127,7 +129,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("one") + fromEnglish("eighteen"), 19);
     assert.equal(fromEnglish("one") + fromEnglish("nineteen"), 20);
     assert.equal(fromEnglish("one") + fromEnglish("twenty"), 21);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("two") + fromEnglish("zero"), 2);
     assert.equal(fromEnglish("two") + fromEnglish("one"), 3);
     assert.equal(fromEnglish("two") + fromEnglish("two"), 4);
@@ -149,7 +152,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("two") + fromEnglish("eighteen"), 20);
     assert.equal(fromEnglish("two") + fromEnglish("nineteen"), 21);
     assert.equal(fromEnglish("two") + fromEnglish("twenty"), 22);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("three") + fromEnglish("zero"), 3);
     assert.equal(fromEnglish("three") + fromEnglish("one"), 4);
     assert.equal(fromEnglish("three") + fromEnglish("two"), 5);
@@ -171,7 +175,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("three") + fromEnglish("eighteen"), 21);
     assert.equal(fromEnglish("three") + fromEnglish("nineteen"), 22);
     assert.equal(fromEnglish("three") + fromEnglish("twenty"), 23);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("four") + fromEnglish("zero"), 4);
     assert.equal(fromEnglish("four") + fromEnglish("one"), 5);
     assert.equal(fromEnglish("four") + fromEnglish("two"), 6);
@@ -193,7 +198,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("four") + fromEnglish("eighteen"), 22);
     assert.equal(fromEnglish("four") + fromEnglish("nineteen"), 23);
     assert.equal(fromEnglish("four") + fromEnglish("twenty"), 24);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("five") + fromEnglish("zero"), 5);
     assert.equal(fromEnglish("five") + fromEnglish("one"), 6);
     assert.equal(fromEnglish("five") + fromEnglish("two"), 7);
@@ -215,7 +221,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("five") + fromEnglish("eighteen"), 23);
     assert.equal(fromEnglish("five") + fromEnglish("nineteen"), 24);
     assert.equal(fromEnglish("five") + fromEnglish("twenty"), 25);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("six") + fromEnglish("zero"), 6);
     assert.equal(fromEnglish("six") + fromEnglish("one"), 7);
     assert.equal(fromEnglish("six") + fromEnglish("two"), 8);
@@ -237,7 +244,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("six") + fromEnglish("eighteen"), 24);
     assert.equal(fromEnglish("six") + fromEnglish("nineteen"), 25);
     assert.equal(fromEnglish("six") + fromEnglish("twenty"), 26);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("seven") + fromEnglish("zero"), 7);
     assert.equal(fromEnglish("seven") + fromEnglish("one"), 8);
     assert.equal(fromEnglish("seven") + fromEnglish("two"), 9);
@@ -259,7 +267,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("seven") + fromEnglish("eighteen"), 25);
     assert.equal(fromEnglish("seven") + fromEnglish("nineteen"), 26);
     assert.equal(fromEnglish("seven") + fromEnglish("twenty"), 27);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("eight") + fromEnglish("zero"), 8);
     assert.equal(fromEnglish("eight") + fromEnglish("one"), 9);
     assert.equal(fromEnglish("eight") + fromEnglish("two"), 10);
@@ -281,7 +290,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("eight") + fromEnglish("eighteen"), 26);
     assert.equal(fromEnglish("eight") + fromEnglish("nineteen"), 27);
     assert.equal(fromEnglish("eight") + fromEnglish("twenty"), 28);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("nine") + fromEnglish("zero"), 9);
     assert.equal(fromEnglish("nine") + fromEnglish("one"), 10);
     assert.equal(fromEnglish("nine") + fromEnglish("two"), 11);
@@ -303,7 +313,8 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("nine") + fromEnglish("eighteen"), 27);
     assert.equal(fromEnglish("nine") + fromEnglish("nineteen"), 28);
     assert.equal(fromEnglish("nine") + fromEnglish("twenty"), 29);
-
+});
+it('should do math on two string numbers and return the result as an integer', function(){
     assert.equal(fromEnglish("ten") + fromEnglish("zero"), 10);
     assert.equal(fromEnglish("ten") + fromEnglish("one"), 11);
     assert.equal(fromEnglish("ten") + fromEnglish("two"), 12);
@@ -325,7 +336,6 @@ it('should do math on two string numbers and return the result as an integer', f
     assert.equal(fromEnglish("ten") + fromEnglish("eighteen"), 28);
     assert.equal(fromEnglish("ten") + fromEnglish("nineteen"), 29);
     assert.equal(fromEnglish("ten") + fromEnglish("twenty"), 30);
-
 });
 
 
@@ -333,3 +343,11 @@ it('should do math on two string numbers and return the result as an integer', f
 
 //if only i knew how to write a loop with 3 variables to print this crap out
 //    assert.equal(fromEnglish(A)) + fromEnglish(B), C);
+
+
+
+//some more tests to see what i can do
+console.log(fromEnglish("twentyone")); //undefined, obviously
+console.log(fromEnglish("twenty one")); //undefined
+
+/*need to find a way to turn number words > 19 into fromEnglish("twenty", "thirty", "forty", etc) + numbers[A] */
