@@ -38,6 +38,14 @@ it('return an integer for an english number word', function(){
 
 function fromEnglish(A){
     var numbers = {
+
+        "ninety": 90,
+        "eighty": 80,
+        "seventy": 70,
+        "sixty": 60,
+        "fifty": 50,
+        "forty": 40,
+        "thirty": 30,
         "twenty": 20,
         "nineteen": 19,
         "eighteen": 18,
@@ -62,6 +70,7 @@ function fromEnglish(A){
     };
 
     return numbers[A];
+
 
 };
 
@@ -349,5 +358,12 @@ it('should do math on two string numbers and return the result as an integer', f
 //some more tests to see what i can do
 console.log(fromEnglish("twentyone")); //undefined, obviously
 console.log(fromEnglish("twenty one")); //undefined
+console.log(fromEnglish("forty") + fromEnglish("seven")); //47
+console.log(fromEnglish("forty", "one")); // 40   :-(
+console.log(fromEnglish("applesauce") + fromEnglish("four")); //  NaN
+console.log(fromEnglish("FIFTEEN") + fromEnglish("nine")); //  NaN
 
 /*need to find a way to turn number words > 19 into fromEnglish("twenty", "thirty", "forty", etc) + numbers[A] */
+
+/* other bug fixes -- caps returns errors need to use string.toLowerCase()
+should put in something incase something other than a number is entered */
