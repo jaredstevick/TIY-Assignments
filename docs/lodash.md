@@ -107,7 +107,7 @@
   * `Array`|`Object`|`string` the collection to iterate over
   * `Function`|`Object`|`string` `[predicate=_.identity]` the function invoked per iteration.
   * `[]accumulator` the initial value
- * [thisArg] the this binding of predicate
+  * [thisArg] the this binding of predicate
 * _returns:_
   * returns the new mapped array
 * _differences:_
@@ -117,11 +117,33 @@
 ### [`_.reduceRight(collection, [iteratee=_.identity], [accumulator], [thisArg])`](https://lodash.com/docs#reduceRight)
 
 * _params:_
-   * Array`|`Object`|`string` the collection to iterate over
-  * `Function` `[iteratee=_.identity]` the function invoked per iteration.
-  * `[]accumulator` the initial value
- * [thisArg] the this binding of iteratee
+   * `Array`|`Object`|`string` the `collection` to iterate over
+   * `Function` `[iteratee=_.identity]` the function invoked per iteration.
+   * `[]accumulator` the initial value
+   * [thisArg] the this binding of iteratee
 * _returns:_
   * returns the accumulated value
 * _differences:_
   * the same as reduce except runs from right to left.  like reduce, it's a little different from the built in reduce
+
+### [`_.slice(array, [start=0])`](https://lodash.com/docs#slice)
+
+* _params:_
+  * `Array` the array to slice
+  * `[start=0]` `(number)` the start position
+  * `[end=array.length]` the end position
+* _returns:_ the slice of `array`
+* _differences:_
+  * this function is used to support node lists in crappy web browsers to make sure that dense arrays are returned, not shallow copies
+
+
+### [`_.forEach(collection, [iteratee=_.identity], [thisArg])`](https://lodash.com/docs#forEach)
+
+* _params:_
+  * `Array`|`Object`|`string` the `collection` to iterate over
+  * `Function` `[iteratee=_.identity]`  the function invoked per iteration.
+  * [thisArg] the this binding of iteratee
+* _returns:_
+  * `Array|Object|string` returns `collection`
+* _differences:_
+  * iterates over elements of `collection` invoking the `iteratee` for each element. `iteratee` is bound to `thisArg` and invoked with  `(value, index|key, collection)`
