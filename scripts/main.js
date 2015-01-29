@@ -42,9 +42,6 @@
 //trying out the new board made with the javascripts
 var _ = require('lodash');
 
-var row = [ "<tr>", "</tr>"];
-
-var square = [ "<td>", "</td>"]
 
 function print(board){
   // Before any rows are printed, print the `<table>`...
@@ -52,15 +49,15 @@ function print(board){
 
   _.forEach(board, function(row, rank){
 
-
-        console.log("<tr>");
+        console.log(rank);
 
       // Before any cells are printed...
 
       _.forEach(row, function(square, file){
 
 
-        console.log("<td>");
+        console.log(file);
+
 
 
           // In here, we have `rank`, `file`, and `square`...
@@ -76,11 +73,7 @@ function print(board){
 
 } // END print
 
-console.log(print({8: "<tr>", rank: 8, square: 5, file: 2}));
-
-
-
-
+print({"<tr>": {"<td>":{file:8}}});
 
 
 
