@@ -1,5 +1,7 @@
 var assert = require('assert');
-var events = require('../apis/github/users/jaredstevick/events.json');
+_ = require('lodash'),
+events = require('../apis/github/users/jaredstevick/events.json');
+
 
 assert(events.length);
 
