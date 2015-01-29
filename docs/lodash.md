@@ -89,3 +89,39 @@
 
 
 ### [`_.map(collection, [iteratee=_.identity], [thisArg])`](https://lodash.com/docs#map)
+
+* _params:_
+  * `Array`|`Object`|`string` the collection to iterate over
+  * `Function`|`Object`|`string` `[predicate=_.identity]` the function invoked per iteration.
+   * if a property name of object is provided, it is used to create a ".property" or ".matches" style callback
+  * [thisArg] the this binding of predicate
+* _returns:_
+  * returns the new mapped array
+* _differences:_
+  * creates an array of values by running each element in collection through iteratee. iterateee is bound to `thisArg` and is invoked with three arguments. `.property style` returns the property value of the given element
+
+
+### [`_.reduce(collection, [iteratee=_.identity], [accumulator], [thisArg])`](https://lodash.com/docs#reduce)
+
+* _params:_
+  * `Array`|`Object`|`string` the collection to iterate over
+  * `Function`|`Object`|`string` `[predicate=_.identity]` the function invoked per iteration.
+  * `[]accumulator` the initial value
+ * [thisArg] the this binding of predicate
+* _returns:_
+  * returns the new mapped array
+* _differences:_
+  * reduces the `collection` to a value which is the accumulated result of running each element in the `collection`  - each successive invocation is started with the return value of the previous invocation. if no `accumulator` is provided, the first element of `collection` is used as the initial value invoked with: (accumulator, value, index|key, collection)
+
+
+### [`_.reduceRight(collection, [iteratee=_.identity], [accumulator], [thisArg])`](https://lodash.com/docs#reduceRight)
+
+* _params:_
+   * Array`|`Object`|`string` the collection to iterate over
+  * `Function` `[iteratee=_.identity]` the function invoked per iteration.
+  * `[]accumulator` the initial value
+ * [thisArg] the this binding of iteratee
+* _returns:_
+  * returns the accumulated value
+* _differences:_
+  * the same as reduce except runs from right to left.  like reduce, it's a little different from the built in reduce
