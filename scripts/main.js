@@ -32,17 +32,36 @@
 //    console.log(board.join('\n'));
 //}
 
+
+
+
+
+
+
+
 //trying out the new board made with the javascripts
-var _ = require('lodash')
+var _ = require('lodash');
+
+var row = [ "<tr>", "</tr>"];
+
+var square = [ "<td>", "</td>"]
+
 function print(board){
   // Before any rows are printed, print the `<table>`...
   console.log('<table class="chessboard">');
 
   _.forEach(board, function(row, rank){
 
+
+        console.log("<tr>");
+
       // Before any cells are printed...
 
       _.forEach(row, function(square, file){
+
+
+        console.log("<td>");
+
 
           // In here, we have `rank`, `file`, and `square`...
 
@@ -54,7 +73,14 @@ function print(board){
 
   // After all the rows are printed...
   console.log('</table> <!-- .chessboard -->');
+
 } // END print
+
+console.log(print({8: "<tr>", rank: 8, square: 5, file: 2}));
+
+
+
+
 
 
 
@@ -82,3 +108,6 @@ function print(board){
 //movePiece(4, 6, 4, 5);
 //sweet, it works
 //movePiece(3, 7, 3, 6);
+
+
+
