@@ -156,9 +156,8 @@ p {
     color: darkgray;
 }
 
-.menu {
-  /* generic styles */
-}
+/*
+
 p[data-state=closed] {
   display: none;
   background: RED;
@@ -166,6 +165,7 @@ p[data-state=closed] {
 p[data-state=open] {
   display: inherit;
 }
+*/
 
 
 
