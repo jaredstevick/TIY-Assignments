@@ -167,6 +167,10 @@ p[data-state=open] {
 }
 */
 
+h3.open > a:before
+    content: '\2193';
+    color: #47A3DA;
+
 .open {
     display: block;
 }

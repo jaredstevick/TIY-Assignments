@@ -15,7 +15,17 @@
 //    };
 //
 //})();
+_.forEach(document.getElementsByTagName('h3'), function(h3) {
+    h3.onclick = function() {
+        event.preventDefault();
+        if (h3.className = 'open'){
+            h3.className = '';
+        } else {
 
+        }
+        h3.className = 'open';
+    }
+});
 
 
 var clickToShow = function() {
