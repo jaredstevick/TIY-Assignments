@@ -1,18 +1,39 @@
+//
+//(function () {
+//
+//    var squeezebox = document.querySelector('.squeezebox_toggle');
+//    var toggleState = function (elem, one, two) {
+//        var elem = document.querySelector(elem);
+//        elem.setAttribute('data-state', elem.getAttribute('data-state') === one ? two : one);
+//    };
+//
+//    squeezebox.onclick = function (e) {
+//        toggleState('p', 'closed', 'open');
+//        e.preventDefault();
+//
+//
+//    };
+//
+//})();
 
-(function () {
-
-    var squeezebox = document.querySelector('.squeezebox_toggle');
-    var toggleState = function (elem, one, two) {
-        var elem = document.querySelector(elem);
-        elem.setAttribute('data-state', elem.getAttribute('data-state') === one ? two : one);
-    };
-
-    squeezebox.onclick = function (e) {
-        toggleState('p', 'closed', 'open');
-        e.preventDefault();
 
 
-    };
+var clickToShow = function() {
+        if (this.nextElement.className === 'open'){
+            this.nextElementSibling.className = '';
+        }
+  };
 
-})();
+  var articleHeadings = document.getElementsByTagName('h3');
+
+ for (var index = 0; index < articleHeadings.length; index++){
+         articleHeadings[index].onclick = clickToShow;
+ }
+
+ var subArticleHeadings = document.getElementsByTagName('h4');
+
+ for (var index2 = 0; index2 < subArticleHeadings.length; index2++){
+         subArticleHeadings[index2].onclick = clickToShow;
+ }
+
 

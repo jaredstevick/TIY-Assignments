@@ -167,6 +167,18 @@ p[data-state=open] {
 }
 */
 
+.open {
+    display: block;
+}
+
+h3 + article {
+    display: none;
+}
+
+h4 + article {
+    display: none;
+}
+
 
 
 
