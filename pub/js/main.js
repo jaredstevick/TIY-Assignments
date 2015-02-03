@@ -21,7 +21,9 @@
 var clickToShow = function() {
         if (this.nextElement.className === 'open'){
             this.nextElementSibling.className = '';
-        }
+        } else if (this.nextElementSibling.className != 'open') {
+            this.nextElementSibling.className = 'open';
+        } else {}
   };
 
   var articleHeadings = document.getElementsByTagName('h3');
