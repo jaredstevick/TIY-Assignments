@@ -153,7 +153,18 @@ h4 > a:hover:before {
 }
 
 p {
-    display: none;
+    color: darkgray;
+}
+
+.menu {
+  /* generic styles */
+}
+p[data-state=closed] {
+  display: none;
+  background: RED;
+}
+p[data-state=open] {
+  display: inherit;
 }
 
 
