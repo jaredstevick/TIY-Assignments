@@ -13,6 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -22,7 +23,121 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <form>
+                    <div class="form-group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Heywood">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Jablowme">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email" placeholder="dude@lebowski.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option>Choose your home country</option>
+                            <option>Albania</option>
+                            <option>Azerbaijan</option>
+                            <option>Canada</option>
+                            <option>Costa Rica</option>
+                            <option>Denmark</option>
+                            <option>Estonia</option>
+                            <option>France</option>
+                            <option>Hungary</option>
+                            <option>Laos</option>
+                            <option>Myanmar</option>
+                            <option>New Zealand</option>
+                            <option>Peru</option>
+                            <option>Romania</option>
+                            <option>Sweden</option>
+                            <option>USA</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bio">Biography</label>
+                        <textarea id="bio" name="bio"></textarea>
+                    </div>
+                </form>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <form>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone" placeholder="+555 867 5309">
+                    </div>
+                    <div class="form-group">
+                        <label for="affiliations">Affiliations</label>
+                        <textarea id="affiliations" name="affiliations"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Occupation</label>
+                        <select id="occupation" name="occupation">
+                        <option>Choose your occupation</option>
+                        <option>Designer</option>
+                        <option>Developer</option>
+                        <option>Cobra Commander</option>
+                        <option>Ninja</option>
+                        <option>GI Joe</option>
+                        <option>Photographer</option>
+                        <option>Disc Golfer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="pet_name">Pet's name</label>
+                        <input type="text" id="pet_name" name="pet_name" placeholder="Ubu">
+                    </div>
+                    <div class="form-group">
+                        <label for="food">Favorite Food</label>
+                        <input type="text" id="food" name="food" placeholder="Tacos">
+                    </div>
+                    </form>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <form>
+                    <div class="form-group">
+                    <label>Special skills</label>
+                        <select id="skills" name="skills">
+                            <option>Choose your skill</option>
+                            <option>Ninja skills</option>
+                            <option>Computer hacking skills</option>
+                            <option>Sweet dance moves</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="beer">Favorite Beer</label>
+                        <input type="text" id="beer" name="beer" placeholder="Samuel Smith's Oatmeal Stout">
+                    </div>
+                    <div class="form-group">
+                        <label for="power">Super power</label>
+                        <input type="text" id="power" name="power" placeholder="X-ray vision">
+                    </div>
+                    <div class="form-group">
+                        <label for="weapon">Weapon</label>
+                        <input type="weapon" id="weapon" name="weapon" placeholder="Ray gun">
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
