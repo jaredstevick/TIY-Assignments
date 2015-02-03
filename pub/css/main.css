@@ -139,7 +139,22 @@ h3 >:hover:before {
     color: #47A3DA;
  }
 
+h4 > a:before {
+    padding-right: 0.5em;
+    color: darkgray;
+    display: inline-block;
+    width: 1em;
+    content: '\2799';
+}
 
+h4 > a:hover:before {
+    content: '\2798';
+    color: #47A3DA;
+}
+
+p {
+    display: none;
+}
 
 
 
