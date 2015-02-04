@@ -167,6 +167,17 @@ textarea {
     color: white;
 }
 
+.btn {
+    background-color: #10689A;
+    color: white;
+    padding: 5%;
+}
+
+.btn:hover {
+    background-color: #1478B1;
+    color: white;
+    padding: 5%;
+}
 
 
 

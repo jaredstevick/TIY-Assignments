@@ -1,4 +1,4 @@
-/*wanted to see if i could make this work.  i'm not entirely sure how all of it works, but you can find the whole explanation here: http://exceptionallyexceptionalexceptions.blogspot.com/2011/12/convert-html-form-to-json.html */
+/*wanted to see if i could make this work.  i'm not entirely sure how all of it works, especially since it doesn't..... ajax? wha?   but you can find the whole explanation here: http://exceptionallyexceptionalexceptions.blogspot.com/2011/12/convert-html-form-to-json.html */
 $( "form" ).submit(function( event ) {
   alert( "Handler for .submit() called." );
 
