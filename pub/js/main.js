@@ -55,8 +55,21 @@ $.fn.formToJSON = function() {
                             //have you service return the created object
                             var items = [];
                             items.push(data.id);
-                            items.push(data.meh.feh)
-                            items.push(data.meh.peh);
+                            items.push(data.first_name);
+                            items.push(data.last_name);
+                            items.push(data.email);
+                            items.push(data.country);
+                            items.push(data.bio);
+                            items.push(data.phone);
+                            items.push(data.affiliations);
+                            items.push(data.occupation);
+                            items.push(data.pet_name);
+                            items.push(data.food);
+                            items.push(data.skills);
+                            items.push(data.beer);
+                            items.push(data.power);
+                            items.push(data.weapon);
+                            items.push(data.comments);
                             //etc
                             $('#submit').html(items.join(''));
                         }
