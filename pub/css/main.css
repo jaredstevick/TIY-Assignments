@@ -103,6 +103,11 @@ body {
     text-transform: uppercase;
     padding-top: 8ex;
     font-size: 2.5ex;
+    line-height: 3ex;
+}
+
+h2 {
+    padding-bottom: 4ex;
 }
 
 form label {
@@ -161,10 +166,6 @@ textarea {
     background-color: #47a3da;
     color: white;
 }
-
-
-
-
 
 
 
