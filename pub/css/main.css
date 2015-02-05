@@ -99,98 +99,6 @@ textarea {
 
 
 
-.tabs {
-    margin-bottom: 6ex;
-
-/*
-h3 > i {
-    color: darkgray;
-}
-
-h3 > i:hover {
-    -ms-transform: rotate(45deg); /* IE 9 */
-/*    -webkit-transform: rotate(45deg); *//* Chrome, Safari, Opera */ /*
-    transform: rotate(45deg);
-    color: blue;
-} */
-
-.container a {
-    text-decoration: none;
-    color: #47A3DA;
-}
-.container a:hover {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-h3 {
-    border-bottom: 1px solid darkgray;
-    padding-bottom: 1ex;
-    font-family: sans-serif;
-}
-
-h3 > a:before {
-    content: '\2799';
-    padding-right: 0.5em;
-    color: darkgray;
-    display: inline-block;
-    width: 1em;
-}
-
-h3 >:hover:before {
-    content: '\2798';
-    color: #47A3DA;
- }
-
-h4 > a:before {
-    padding-right: 0.5em;
-    color: darkgray;
-    display: inline-block;
-    width: 1em;
-    content: '\2799';
-}
-
-h4 > a:hover:before {
-    content: '\2798';
-    color: #47A3DA;
-}
-
-p {
-    color: darkgray;
-}
-
-/*
-
-p[data-state=closed] {
-  display: none;
-  background: RED;
-}
-p[data-state=open] {
-  display: inherit;
-}
-*/
-
-h3.open > a:before
-    content: '\2193';
-    color: #47A3DA;
-
-.open {
-    display: block;
-}
-
-h3 + article {
-    display: none;
-}
-
-h4 + article {
-    display: none;
-
-}
-
-
 
 
 
@@ -336,12 +244,10 @@ h4 + article {
         text-shadow: none !important;
     }
 
-/*
     a,
     a:visited {
         text-decoration: underline;
     }
-*/
 
     a[href]:after {
         content: " (" attr(href) ")";
