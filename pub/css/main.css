@@ -98,9 +98,23 @@ textarea {
    ========================================================================== */
 
 
+aside {
+    float: left;
+}
 
+.tabs {
+    width: 60%;
+}
 
+.tabpanel {
+    width: 60%;
+    float: right;
+    display: inline-block;
+}
 
+.right {
+    float: right;
+}
 
 
 
