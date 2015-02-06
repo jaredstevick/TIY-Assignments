@@ -116,6 +116,9 @@ aside {
     float: right;
 }
 
+form {
+    clear: both;
+}
 
 
 
