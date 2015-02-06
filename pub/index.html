@@ -28,7 +28,7 @@
 <!--row-->
     <div class="row">
     <!-- nav tabs -->
-        <section role="tabpanel" class="col-md 8 tabpanel">
+        <section role="tabpanel" class="col-md-8 tabpanel">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active hidden-sm hidden-md hidden-lg"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
                 <li role="presentation" class="hidden-xs"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions</a></li>
@@ -38,42 +38,72 @@
 
         <!-- tab panes -->
             <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="about">...</div>
+                <div role="tabpanel" class="tab-pane hidden-sm hidden-md hidden-lg" id="about">...hi</div>
 
-                <div role="tabpanel" class="tab-pane" id="contributions">
-                <div class="row">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Popular Repositories</h3>
+                <div role="tabpanel" class="tab-pane active" id="contributions">
+                    <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Popular Repositories</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group repos">
+                                <li class="list-group-item"><a href="#">hello-world</a></li>
+                                <li class="list-group-item"><a href="#">username.github.io</a></li>
+                                <li class="list-group-item"><a href="#">javascript-koans</a></li>
+                                <li class="list-group-item"><a href="#">Spoon-Knife</a></li>
+                                <li class="list-group-item"><a href="#">TIY-Assignments</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Repositories Contributed To</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">TIY-Chessboard</a></li>
+                                <li class="list-group-item"><a href="#">The Iron Yard--... /FEE-2015-S</a></li>
+                                <li class="list-group-item"><a href="#">ToDoMVC</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <ul class="list-group">
-                            <li class="list-group-item"><a href="#">hello-world</a></li>
-                            <li class="list-group-item"><a href="#">username.github.io</a></li>
-                            <li class="list-group-item"><a href="#">javascript-koans</a></li>
-                            <li class="list-group-item"><a href="#">Spoon-Knife</a></li>
-                            <li class="list-group-item"><a href="#">TIY-Assignments</a></li>
-                        </ul>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Contributions</h3>
+                        </div>
+                        <div class="panel-body">
+                            <img src="http://lorempixel.com/700/275/">
+                        </div>
+                    </div>
+                    <h4>Contribution Activity</h4>
+                    <h5>N Commits</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Pushed n commits to</a> Date</li>
+                        <li class="list-group-item"><a href="#">Pushed n commits to</a> Date</li>
+                        <li class="list-group-item"><a href="#">Pushed n commits to</a> Date</li>
+                    </ul>
+                     <h5>N Pull Requests</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">PR N <a href="#">Title</a> Date</li>
+                        <li class="list-group-item">PR N <a href="#">Title</a> Date</li>
+                        <li class="list-group-item">PR N <a href="#">Title</a> Date</li>
+                    </ul>
+                    <h5>N Issues Reported</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Issue N<a href="#">Issue Title</a> Date</li>
+                        <li class="list-group-item">Issue N<a href="#">Issue Title</a> Date</li>
+                        <li class="list-group-item">Issue N<a href="#">Issue Title</a> Date</li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="must sleep">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
 
                     </div>
-                    </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Repositories Contributed To</h3>
-                    </div>
-                    <div class="panel-body">
-                        <ul class="list-group">
-                            <li class="list-group-item"><a href="#">TIY-Chessboard</a></li>
-                            <li class="list-group-item"><a href="#">The Iron Yard--... /FEE-2015-S</a></li>
-                            <li class="list-group-item"><a href="#">ToDoMVC</a></li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-
-
-                </div>
-
 
                 <div role="tabpanel" class="tab-pane" id="repositories">
                     <ul class="list-group">
@@ -94,7 +124,17 @@
                         </li>
                     </ul>
                 </div>
-                <div role="tabpanel" class="tab-pane" id="activity">...</div>
+
+                <div role="tabpanel" class="tab-pane" id="activity">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                    </ul>
+                </div>
+
             </div>
         <!-- end of tab panes -->
         </section>
