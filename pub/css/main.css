@@ -96,9 +96,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.tabpanel {
+    float: right;
+    margin: auto;
+}
+#facebox  {
+    display: inline-block;
+    width: auto;
+    float: left;
+}
 
-
-
+.panel {
+    margin-top: 4ex;
+    margin-bottom: 4ex;
+}
 
 
 
@@ -213,8 +224,12 @@ textarea {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-sm-min) {
+
+
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }
@@ -226,11 +241,6 @@ textarea {
 
 
 
-
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
