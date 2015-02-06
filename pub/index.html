@@ -11,130 +11,90 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<<<<<<< HEAD
         <link rel="stylesheet" href="css/main.css">
-=======
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
->>>>>>> feature/17--codrops-nested-accordion
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<<<<<<< HEAD
-
-        <!-- Add your site or application content here -->
-        <div class="container">
-
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="tab" class="active" role="tab" data-toggle="tab"><a href="#">one</a></li>
-                <li role="tab" data-toggle="tab"><a href="#">two</a></li>
-                <li role="tab" data-toggle="tab"><a href="#">three</a></li>
-                <li role="tab" data-toggle="tab"><a href="#">four</a></li>
-            </ul>
-
-        <div class="tab-content">
-            <div class="tabe-pane active" role="tabpanel" id="one">
-                <img src="http://lorempixel.com/300/200"/>
-                <h2>title</h2>
-                <p>filler text blah blah blah blah blah blah blah yada yada yada yada yada yada. filler text blah blah blah blah blah blah blah yada yada yada yada yada yada, filler text blah blah blah blah blah blah blah yada yada yada yada yada yada.</p>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="two">
-                <img src="http://lorempixel.com/300/200"/>
-                <h2>title</h2>
-                <p>filler text blah blah blah blah blah blah blah yada yada yada yada yada yada. filler text blah blah blah blah blah blah blah yada yada yada yada yada yada, filler text blah blah blah blah blah blah blah yada yada yada yada yada yada.</p>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="three">
-                <img src="http://lorempixel.com/300/200"/>
-                <h2>title</h2>
-                <p>filler text blah blah blah blah blah blah blah yada yada yada yada yada yada. filler text blah blah blah blah blah blah blah yada yada yada yada yada yada, filler text blah blah blah blah blah blah blah yada yada yada yada yada yada.</p>
-            </div>
-
-
-
-
-        </div>
-=======
 
         <!-- Add your site or application content here -->
     <div class="container">
 
-        <!--first fold-->
-            <h3><a href="">First Fold in the Accordion</a></h3>
-            <article>
-            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-            <!--first subfold-->
-                    <h4><a href="">First subfold in the Accordion</a></h4>
-            <article>
-        The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream.
-            </article>
-        </article>
+        <aside class="profile">
+            <img src="http://lorempixel.com/250/250"/>            
+
+        </aside>
+<!--right-->
+<div class="right">
+<!--tabs  -->
+        <div role="tabpanel">
+          <ul class="nav nav-tabs" role="tablist">
+            
+            <li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+            
+            <li role="presentation"><a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories</a></li>
+            
+            <li role="presentation"><a href="#public" aria-controls="public" role="tab" data-toggle="tab">Public</a></li>
+            
+          </ul>
+    
+        </div> 
+
+<!-- tab content -->
+        <div class="tab-content">
+<!--first tab-->
+            <div role="tabpanel" class="tab-pane active" id="about">
+                    words words words words words
+            </div>
+<!--end of first tab-->
+<!-- second tab -->
+
+            <div role="tabpanel" class="tab-pane" id="repos">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Panel title</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Panel content maybe a ul, who knows</p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Panel title</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Panel content maybe a ul, who knows</p>
+                    </div>
+                </div>
+            </div>
+<!-- end of second tab-->            
 
 
-                <h4><a href="">First subfold in the Accordion</a></h4>
-        <article>
-        <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.</p>
-            </article>
-            <h4><a href="">First subfold in the Accordion</a></h4>
-            <article>
-            <p>Drops of rain could be heard hitting the pane, which made him feel quite sad. "How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was something he was unable to do because he was used to sleeping on his right, and in his present state couldn't get into that position. However hard he threw himself onto his right, he always rolled back to where he was.</p>
-        </article>
 
-                <!--second fold-->
-
-            <h3><a href="">Second Fold in the Accordion</a></h3>
-        <article>
-        <p>He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never felt before. "Oh, God", he thought, "what a strenuous career it is that I've chosen! Travelling day in and day out.</p>
-
-            <!--second subfold-->
-
-                    <h4><a href="">Second subfold in the Accordion</a></h4>
-        <article>
-        Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!
-        </article>
-        </article>
-
-            <h4><a href="">Second subfold in the Accordion</a></h4>
-        <article>
-        <p>" He felt a slight itch up on his belly; pushed himself slowly up on his back towards the headboard so that he could lift his head better; found where the itch was, and saw that it was covered with lots of little white spots which he didn't know what to make of; and when he tried to feel the place with one of his legs he drew it quickly back because as soon as he touched it he was overcome by a cold shudder. He slid back into his former position. "Getting up early all the time", he thought, "it makes you stupid. You've got to get enough sleep.</p>
-        </article>
-            <h4><a href="">Second subfold in the Accordion</a></h4>
-        <article>
-        <p>Other travelling salesmen live a life of luxury. For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts. I ought to just try that with my boss; I'd get kicked out on the spot. But who knows, maybe that would be the best thing for me. If I didn't have my parents to think about I'd have given in my notice a long time ago, I'd have gone up to the boss and told him just what I think, tell him everything I would, let him know just what I feel. He'd fall right off his desk!</p>
-        </article>
+<!-- third tab -->
+            <div role="tabpanel" class="tab-pane" id="public">
+               
 
 
-        <!--third fold-->
->>>>>>> feature/17--codrops-nested-accordion
-
-            <h3><a href="">Third Fold in the Accordion</a></h3>
-        <article>
-        <p>And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have to go right up close because the boss is hard of hearing. Well, there's still some hope; once I've got the money together to pay off my parents' debt to him - another five or six years I suppose - that's definitely what I'll do. That's when I'll make the big change. First of all though, I've got to get up, my train leaves at five. " And he looked over at the alarm clock, ticking on the chest of drawers. "God in Heaven! " he thought.</p>
-                <!--third subfold-->
-
-<<<<<<< HEAD
+            </div>
+<!-- end of third tab -->
         </div>
-=======
-                    <h4><a href="">Third subfold in the Accordion</a></h4>
-        <article>
-        It was half past six and the hands were quietly moving forwards, it was even later than half past, more like quarter to seven. Had the alarm clock not rung? He could see from the bed that it had been set for four o'clock as it should have been; it certainly must have rung. Yes, but was it possible to quietly sleep through that furniture-rattling noise? True, he had not slept peacefully, but probably all the more deeply because of that. What should he do now?
-        </article>
-    </article>
->>>>>>> feature/17--codrops-nested-accordion
-
-            <h4><a href="">Third subfold in the Accordion</a></h4>
-        <article>
-        <p>The next train went at seven; if he were to catch that he would have to rush like mad and the collection of samples was still not packed, and he did not at all feel particularly fresh and lively. And even if he did catch the train he would not avoid his boss's anger as the office assistant would have been there to see the five o'clock train go, he would have put in his report about Gregor's not being there a long time ago. The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never once yet been ill.</p>
-        </article>
-            <h4><a href="">Third subfold in the Accordion</a></h4>
-        <article>
-        <p>His boss would certainly come round with the doctor from the medical insurance company, accuse his parents of having a lazy son, and accept the doctor's recommendation not to make any claim as the doctor believed that no-one was ever ill but that many were workshy. And what's more, would he have been entirely wrong in this case? Gregor did in fact, apart from excessive sleepiness after sleeping for so long, feel completely well and even felt much hungrier than usual. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-        </article>
+<!-- end of tab content -->
+        </div>
+<!--end of row-->
+<!-- comments -->
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="must sleep">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+<!-- end of comments -->
 
 
 
@@ -145,16 +105,15 @@
 
 
 
+    </div>
 
-
-
-</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
