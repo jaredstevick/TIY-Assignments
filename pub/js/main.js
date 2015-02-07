@@ -1,6 +1,13 @@
-apidata = require('../apis/github/users/jaredstevick/jaredstevick.json');
+(function (window) {
+    'use strict';
+
+
 $(document).ready(function() {
-    //function
+
+$.getJSON('..apis/github/users/jaredstevick/jaredstevick.json', function(json) {
+    console.log(json.login);
+});
+
 
 $('button').click(function makewords() {
     //function
@@ -12,7 +19,7 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
 
 
 });
-
+})(window);
 //example
 //$("h1").text("changed");
 
