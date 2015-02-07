@@ -15,9 +15,17 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
 $.get("jaredstevick.json", function(user) {
     $('aside').find('h2').append(user.name);}, "json");
 
+$.get("jaredstevick.json", function(user) {
+    $('aside').find('h3').append(user.login);}, "json");
 
+$.get("jaredstevick.json", function(user) {
+    $('aside').find('a').append(user.email);}, "json");
 
+$.get("jaredstevick.json", function(user) {
+    $('aside').find('.location').append(user.location);}, "json");
 
+$.get("jaredstevick.json", function(user) {
+    $('aside').find('.joined').append(user.created_at);}, "json");
 
 });
 
