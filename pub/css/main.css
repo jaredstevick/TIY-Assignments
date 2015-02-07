@@ -111,7 +111,10 @@ textarea {
     margin-bottom: 4ex;
 }
 
-
+.col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /* ==========================================================================
    Helper classes
