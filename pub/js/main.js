@@ -20,6 +20,7 @@ $.getJSON("repos.json", function (repoArray) {
     var repolist = $('.repos-' + index);
     repolist.find('a').append(item.name);
     repolist.find('p').append(item.description);
+    repolist.find('span').append(item.updated_at);
 
 
 
