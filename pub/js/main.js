@@ -10,6 +10,9 @@ $.getJSON("jaredstevick.json", function(user) {
     $('aside').find('a').append(user.email),
     $('aside').find('.location').append(user.location),
     $('aside').find('.joined').append(user.created_at);
+    $('aside').find('.followers').prepend(user.followers);
+    $('aside').find('.starred').prepend(user.something);
+    $('aside').find('.following').prepend(user.following);
 });
 
 $.getJSON("repos.json", function (repoArray) {
