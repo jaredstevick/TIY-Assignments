@@ -1,9 +1,11 @@
 $(document).ready(function() {
 
+//make sure i have the data
 $.getJSON("../apis/github/users/jaredstevick/jaredstevick.json", function(json) {
     console.log(json.login); //testing
 });
 
+//user info
 $.getJSON("jaredstevick.json", function(user) {
     $('aside').find('h2').append(user.name),
     $('aside').find('h3').append(user.login),
@@ -15,20 +17,22 @@ $.getJSON("jaredstevick.json", function(user) {
     $('aside').find('.following').prepend(user.following);
 });
 
+//repos
 $.getJSON("repos.json", function (repoArray) {
     $.each(repoArray, function (index, item) {
     var repolist = $('.repos-' + index);
     repolist.find('a').append(item.name);
     repolist.find('p').append(item.description);
     repolist.find('span').append(item.updated_at);
-
-
-
     });
 });
 
+
+
+
+
+
 $('button').click(function makewords() {
-    //function
 $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/comments?access_token=de175947bb3069ad32ac382439d7f929609c5901", JSON.stringify({"body": $("#textbox").val()}), $("#textbox").val(""));
 });
 
