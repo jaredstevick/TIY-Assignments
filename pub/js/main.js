@@ -1,21 +1,25 @@
 $(document).ready(function() {
 
-$.getJSON('jaredstevick.json', function(json) {
+$.getJSON("../apis/github/users/jaredstevick/jaredstevick.json", function(json) {
     console.log(json.login); //testing
 });
 
-
-
-
-
-$.get("jaredstevick.json", function(user) {
+$.getJSON("jaredstevick.json", function(user) {
     $('aside').find('h2').append(user.name),
     $('aside').find('h3').append(user.login),
     $('aside').find('a').append(user.email),
     $('aside').find('.location').append(user.location),
-    $('aside').find('.joined').append(user.created_at);}, "json");
+    $('aside').find('.joined').append(user.created_at);
+});
 
+$.getJSON("repos.json", function (repoArray) {
+    $.each(repoArray, function (index, item) {
+    var repolist = $('.repos-' + index);
+    repolist.find('a').append(item.name);
+    repolist.find('p').append(item.description);
 
+    });
+});
 
 $('button').click(function makewords() {
     //function
