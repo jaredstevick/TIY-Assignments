@@ -96,7 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body {
+    background-color: black;
+}
+#clock {
+    margin: 30ex auto;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
 
 
 
