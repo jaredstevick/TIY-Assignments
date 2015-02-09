@@ -18,7 +18,7 @@ function showTime() {
 //set the background color
     document.body.style.background = colorTime;
 //fill in the blanks
-    document.getElementById("clock").innerHTML = colorTime;
+    document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
 
 
     setInterval(showTime, 1000);
