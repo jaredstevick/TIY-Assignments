@@ -1,6 +1,5 @@
 //where do i even start...
 //maybe with just displaying the time
-//lets display the current time
 var d, h, m, s, colorTime;
 //sorry moment.js, maybe next time
 
@@ -14,11 +13,11 @@ function showTime() {
     if(h <= 9) h = '0' + h;
     if(m <= 9) m = '0' + m;
     if(s <= 9) s = '0' + s;
-
+//how to construct the color
     colorTime = "#" + h + m + s;
-
+//set the background color
     document.body.style.background = colorTime;
-
+//fill in the blanks
     document.getElementById("clock").innerHTML = colorTime;
 
 
