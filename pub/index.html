@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/octicons/octicons.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -31,9 +32,9 @@
         <section role="tabpanel" class="col-md-8 tabpanel">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active hidden-sm hidden-md hidden-lg"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
-                <li role="presentation" class="hidden-xs"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions</a></li>
-                <li role="presentation"><a href="#repositories" aria-controls="repositories" role="tab" data-toggle="tab">Repositories</a></li>
-                <li role="presentation" class="hidden-xs"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab">Public Activity</a></li>
+                <li role="presentation" class="hidden-xs"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab"><span class="octicon octicon-diff-added"></span>Contributions</a></li>
+                <li role="presentation"><a href="#repositories" aria-controls="repositories" role="tab" data-toggle="tab"><span class="octicon octicon-repo"></span>Repositories</a></li>
+                <li role="presentation" class="hidden-xs"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab"><span class="octicon octicon-rss"></span>Public Activity</a></li>
             </ul>
 
         <!-- tab panes -->
@@ -143,9 +144,9 @@
             <h2></h2>
             <h3></h3>
                 <ul>
-                    <li class="location"></li>
-                    <li><a href="mailto:jstevick@gmail.com" id="email"></a></li>
-                    <li class="joined">Joined on </li>
+                    <li class="location"><span class="octicon octicon-location"> </span></li>
+                    <li><span class="octicon octicon-mail"></span><a href="mailto:jstevick@gmail.com" id="email"></a></li>
+                    <li class="joined"><span class="octicon octicon-clock"></span>Joined on </li>
                 </ul>
             <hr>
                 <div class="followstar">
