@@ -99,28 +99,26 @@ textarea {
 
 
 .container {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     padding: 0;
 }
 
-.chessboard {
-    width: 100%;
-
+table {
+    width: 80%;
 }
 
-tr:nth-child(even) td:nth-child(odd),
-tr:nth-child(odd) td:nth-child(even) {
+tbody :nth-child(odd) td:nth-child(odd),
+tbody :nth-child(even) td:nth-child(even) {
     background-color: #515151;
 }
 
-tr, td {
-}
 
-td {
-    width: 12.5%;
-    padding-bottom: 12.5%;
-    position: relative;
+
+tbody td {
+    width: 10%;
+    padding-bottom: 10%;
+/*    position: relative;*/
     background-color: darkgray;
     border: 1px solid black;
 
