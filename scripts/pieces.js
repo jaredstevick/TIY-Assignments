@@ -1,38 +1,51 @@
-alert("hello");
-var assert = chai.assert;
+var assert = require('assert');
 
-function pieceMaker {
+function pieceMaker() {
     //given color white or black
     //given name of piece
     //when
     //then
 }
 
-function Piece(color, name, position){
+function Piece(color, name, position) {
     //attach properties here
     this.color = color;
-    this.name name;
+    this.name = name;
     this.position = position;
 }
 
 Piece.prototype = {
-    //attach methods here
-    getName: function() {
-        return this.name;
-    getFullName = {
-        return this.color + " " + this.name;
-    }
+    position: function() {
+        return this.position; //return the position of the piece
+    },
+    color: function() {
+        return this.color; //return the color of the piece
+    },
+    name: function() {
+        return this.name; //returns the name of the piece
+    },
+    abbrev: function() {
+        return name.substring(0,1); //takes the first letter of the string 'name'
+    },
+    toString: function() {
+        return this.color + " " + this.name + " " + this.position; //returns the parameters of piece as a string
     }
  };
 
-function Rook(color, queenside) {
-    Piece.call(this, color, 'rook', position);
-}
+//function Rook(color, queenside) {
+//    Piece.call(this, color, 'rook', position);
+//}
+//
+//Rook.prototype = new Piece();
 
-Rook.prototype = new Piece();
+it("should have a function called piece", function() {
+    assert(Piece);
+});
 
 
-
+it("should test if piece is a function", function() {
+    assert(typeof Piece == "object");
+});
 
 
 
