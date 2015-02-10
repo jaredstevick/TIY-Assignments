@@ -1,36 +1,3 @@
-//alert("hello");
-//var assert = chai.assert;
-//
-//function pieceMaker {
-//    //given color white or black
-//    //given name of piece
-//    //when
-//    //then
-//}
-//
-//function Piece(color, name, position){
-//    //attach properties here
-//    this.color = color;
-//    this.name name;
-//    this.position = position;
-//}
-//
-//Piece.prototype = {
-//    //attach methods here
-//    getName: function() {
-//        return this.name;
-//    getFullName = {
-//        return this.color + " " + this.name;
-//    }
-//    }
-// };
-//
-//function Rook(color, queenside) {
-//    Piece.call(this, color, 'rook', position);
-//}
-//
-//Rook.prototype = new Piece();
-//
 
 // $(function() {
 //     init();

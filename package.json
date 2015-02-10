@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "dependencies": {
-    "lodash": "^3.0.0"
+    "lodash": "^3.0.0",
+    "chai": "*",
+    "mocha": "*"
   },
   "devDependencies": {},
   "scripts": {
