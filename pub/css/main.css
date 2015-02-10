@@ -97,29 +97,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#clock {
-    margin: 3ex auto;
-    text-align: center;
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.chessboard {
+    width: 100%;
 
 }
 
-h1 {
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #515151;
+}
+
+tr, td {
+}
+
+td {
+    width: 12.5%;
+    padding-bottom: 12.5%;
+    position: relative;
+    background-color: darkgray;
+    border: 1px solid black;
+
+}
+
+.piece {
+    font-size: 4vw;
+    margin-top: 10%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.black {
+    color: black;
+}
+.white {
     color: white;
-    font-size: 15ex;
-    font-family: 'PT Sans';
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

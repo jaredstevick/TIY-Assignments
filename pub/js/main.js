@@ -1,65 +1,161 @@
-////variables
+alert("hello");
+var assert = chai.assert;
 
-var d = new Date()
-, h
-, m
-, s
-, hcolor
-, mcolor
-, scolor
-, colorTime
+function pieceMaker {
+    //given color white or black
+    //given name of piece
+    //when
+    //then
+}
+
+function Piece(color, name, position){
+    //attach properties here
+    this.color = color;
+    this.name name;
+    this.position = position;
+}
+
+Piece.prototype = {
+    //attach methods here
+    getName: function() {
+        return this.name;
+    getFullName = {
+        return this.color + " " + this.name;
+    }
+    }
+ };
+
+function Rook(color, queenside) {
+    Piece.call(this, color, 'rook', position);
+}
+
+Rook.prototype = new Piece();
+
+
+// $(function() {
+//     init();
+//     console.log("Main Init Called");
+
+// });
+
+// function init() {
+//     console.log("init() called");
+// }
 //
-////sorry moment.js, maybe next time
 //
-function showTime() {
-    d.setSeconds(d.getSeconds() + 1);
-
-    h = d.getHours();
-    m = d.getMinutes();
-    s = d.getSeconds();
-
-    //map the time to hex values
-    hcolor = (Math.floor(h * 255/23)).toString(16);
-    mcolor = (Math.floor(m * 255/59)).toString(16);
-    scolor = (Math.floor(s * 255/59)).toString(16);
-
-    //need more zero to keep six digits!
-    if(h <= 9) {
-        h = '0' + h;
-    }
-    if(m <= 9) {
-        m = '0' + m;
-    }
-    if(s <= 9) {
-        s = '0' + s;
-    }
-
-    //same deal for these values
-    if(hcolor.length < 2) {
-        hcolor = '0' + hcolor;
-    }
-    if(mcolor.length < 2) {
-        mcolor = '0' + mcolor;
-    }
-    if(scolor.length < 2) {
-        scolor = '0' + scolor;
-    }
-
-    //construct the color
-    colorTime = "#" + hcolor + mcolor + scolor;
-
-    //set the background color
-    document.body.style.background = colorTime;
-
-//    //fill in the time
-    document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
-
-    document.getElementById('color').innerHTML = hcolor + mcolor + scolor;
-
-};
-
-    //set the interval for refresh
-    setInterval(showTime, 1000);
-
-//run the function
-showTime();
+//function newBoard(board) {
+//   var container = document.getElementById('container');
+//   container.className = "container";
+//    var chessboard = document.createElement('table');
+//   chessboard.className = "chessboard";
+//
+//     _.forEach(board, function(row, key){
+//         var tr = document.createElement('tr');
+//         _.forEach(row, function(square, k){
+//             var td = document.createElement('td');
+//             td.innerHTML = square;
+//             tr.appendChild(td);
+//        });
+//         
+//    chessboard.appendChild(tr);
+//    });
+//
+//var current = container.childNodes[0];
+//container.replaceChild(chessboard, current);
+//}
+//
+//
+//var board = {};
+//board.a = {
+//    'one': '<span class="piece black rook">&#9820;</span>',
+//    'two': '<span class="piece black knight">&#9822;</span>',
+//    'three': '<span class="piece black bishop">&#9821;</span>',
+//    'four': '<span class="piece black queen">&#9819;</span>',
+//    'five': '<span class="piece black king">&#9818;</span>',
+//    'six': '<span class="piece black bishop">&#9821;</span>',
+//    'seven': '<span class="piece black knight">&#9822;</span>',
+//    'eight': '<span class="piece black rook">&#9820;</span>'
+//};
+//board.b = {
+//    'one': '<span class="piece black pawn">&#9823;</span>',
+//    'two': '<span class="piece black pawn">&#9823;</span>',
+//    'three': '<span class="piece black pawn">&#9823;</span>',
+//    'four': '<span class="piece black pawn">&#9823;</span>',
+//    'five': '<span class="piece black pawn">&#9823;</span>',
+//    'six': '<span class="piece black pawn">&#9823;</span>',
+//    'seven': '<span class="piece black pawn">&#9823;</span>',
+//    'eight': '<span class="piece black pawn">&#9823;</span>'
+//};
+//board.c = {
+//    'one': '',
+//    'two': '',
+//    'three': '',
+//    'four': '',
+//    'five': '',
+//    'six': '',
+//    'seven': '',
+//    'eight': ''
+//};
+//board.d = {
+//    'one': '',
+//    'two': '',
+//    'three': '',
+//    'four': '',
+//    'five': '',
+//    'six': '',
+//    'seven': '',
+//    'eight': ''
+//};
+//board.e = {
+//    'one': '',
+//    'two': '',
+//    'three': '',
+//    'four': '',
+//    'five': '',
+//    'six': '',
+//    'seven': '',
+//    'eight': ''
+//};
+//board.f = {
+//    'one': '',
+//    'two': '',
+//    'three': '',
+//    'four': '',
+//    'five': '',
+//    'six': '',
+//    'seven': '',
+//    'eight': ''
+//};
+//board.g = {
+//    'one': '<span class="piece white pawn">&#9823;</span>',
+//    'two': '<span class="piece white pawn">&#9823;</span>',
+//    'three': '<span class="piece white pawn">&#9823;</span>',
+//    'four': '<span class="piece white pawn">&#9823;</span>',
+//    'five': '<span class="piece white pawn">&#9823;</span>',
+//    'six': '<span class="piece white pawn">&#9823;</span>',
+//    'seven': '<span class="piece white pawn">&#9823;</span>',
+//    'eight': '<span class="piece white pawn">&#9823;</span>'
+//};
+//board.h = {
+//    'one': '<span class="piece white rook">&#9820;</span>',
+//    'two': '<span class="piece white knight">&#9822;</span>',
+//    'three': '<span class="piece white bishop">&#9821;</span>',
+//    'four': '<span class="piece white queen">&#9819;</span>',
+//    'five': '<span class="piece white king">&#9818;</span>',
+//    'six': '<span class="piece white bishop">&#9821;</span>',
+//    'seven': '<span class="piece white knight">&#9822;</span>',
+//    'eight': '<span class="piece white rook">&#9820;</span>'
+//};
+//
+//
+////board.c.three = board.a.one;
+////board.a.one = '';
+//
+//newBoard(board);
+//
+//
+//var moveMe = function (container) {
+//    board.c.three = board.a.one;
+//    board.a.one = '';
+//    newBoard(board);
+//};
