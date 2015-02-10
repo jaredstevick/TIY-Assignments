@@ -1,6 +1,6 @@
 
 ////variables for chopping up the time
-x = 1;
+
 var d, h, m, s, hhex, mhex, shex, colorTime;
 //
 ////sorry moment.js, maybe next time
@@ -38,6 +38,7 @@ function showTime() {
 
 //    //set the interval for refresh
     setInterval(showTime, 1000);
+
 };
 //
 ////run the function
