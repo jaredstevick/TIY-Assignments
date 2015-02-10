@@ -98,13 +98,16 @@ textarea {
    ========================================================================== */
 
 #clock {
-    margin: 15ex auto;
+    margin: 5ex auto;
     text-align: center;
 /*    color: white;*/
     font-family: sans-serif;
 }
-h1 {color: white;}
 
+h1 {
+    color: white;
+    font-size: 5em;
+}
 
 
 
