@@ -1,12 +1,19 @@
-
 ////variables
 
-var d, h, m, s, hcolor, mcolor, scolor, colorTime;
+var d = new Date()
+, h
+, m
+, s
+, hcolor
+, mcolor
+, scolor
+, colorTime
 //
 ////sorry moment.js, maybe next time
 //
 function showTime() {
-    d = new Date();
+    d.setSeconds(d.getSeconds() + 1);
+
     h = d.getHours();
     m = d.getMinutes();
     s = d.getSeconds();
@@ -47,11 +54,12 @@ function showTime() {
 //    //fill in the time
     document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
 
-
-//    //set the interval for refresh
-    setTimeout(showTime, 1000);
+    document.getElementById('color').innerHTML = hcolor + mcolor + scolor;
 
 };
+
+    //set the interval for refresh
+    setInterval(showTime, 1000);
 
 //run the function
 showTime();
