@@ -9,7 +9,9 @@
   "dependencies": {
     "lodash": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^2.0.0-beta"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
