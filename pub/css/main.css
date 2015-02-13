@@ -97,29 +97,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#clock {
-    margin: 3ex auto;
-    text-align: center;
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+}
+
+tbody :nth-child(odd) td:nth-child(odd),
+tbody :nth-child(even) td:nth-child(even) {
+    background-color: #515151;
+}
+
+
+
+tbody td {
+    width: 10%;
+    padding-bottom: 10%;
+/*    position: relative;*/
+    background-color: darkgray;
+    border: 1px solid black;
 
 }
 
-h1 {
+.piece {
+    font-size: 4vw;
+    margin-top: 10%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.black {
+    color: black;
+}
+.white {
     color: white;
-    font-size: 15ex;
-    font-family: 'PT Sans';
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
