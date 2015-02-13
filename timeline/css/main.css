@@ -103,7 +103,7 @@ textarea {
 .jumbotron {
     background-color: #fff;
     text-align: center;
-    color: #6cbfee;
+    color: #47a3da;
 }
 
 .jumbotron i {
@@ -116,13 +116,17 @@ textarea {
     margin-top: 2ex;
 }
 .post i {
-    border: .5ex solid #6cbfee;
+    border: .5ex solid #afdcf8;
     border-radius: 50%;
     padding: .5ex;
     background-color: #3594cb;;
     color: #fff;
     float: right;
     margin-top: -1ex;
+}
+
+time {
+    display: block;
 }
 
 time small {
@@ -294,15 +298,43 @@ article h3 {
 .clearfix {
     *zoom: 1;
 }
-
+/* ==========================================================================
+ MEDIA QUERIES
+   ========================================================================== */
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width : 768px) {
+ul {
+    padding-left: 5.8em;
+    border-left: .75em solid #AFDCF8;
+}
 
+time {
+    margin-left: -11em;
+    position: absolute;
+    padding-right: 2em;
+    margin-top: -1ex;
+}
+
+.post i {
+    position: relative;
+    margin-left: .5em;  
+}
+
+.timeline article:before {
+    content: '';
+    width: 0; 
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 10px solid;
+    top: 0;
+    right: 2em; 
+}
+}
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width: @screen-md-min) { }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
