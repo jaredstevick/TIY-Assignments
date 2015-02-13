@@ -98,7 +98,8 @@ textarea {
    ========================================================================== */
 .jumbotron {
     background-color: #fff;
-    text-align: center;;
+    text-align: center;
+    color: lightblue;
 }
 
 .jumbotron i {
@@ -117,10 +118,14 @@ textarea {
     float: right;
 }
 
+time {
+    width: 10%;
+}
 
 time small {
     color: darkgray;
     font-size: 2ex;
+    display: block;
 }
 
 time big {
@@ -142,11 +147,23 @@ time big {
     color: #fff;
     border-radius: 1ex;
     padding: 1ex 1em;
-    margin-top: 5ex;
     margin-bottom: 5ex;
-    clear: right;
-    font-size: 2.5ex;
+    font-size: 2ex;
     font-family: sans-serif;
+    margin-top: 5ex;
+}
+
+.timeline article:before {
+    content: '\23F6';
+    color: red;
+    position: relative;
+    top: -2ex;
+    font-size: 2em;
+}
+
+article h3 {
+    margin-bottom: -.5ex;
+    margin-top: -2ex;
 }
 
 .timeline :nth-child(even) article {
