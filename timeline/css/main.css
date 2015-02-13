@@ -96,6 +96,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 .jumbotron {
     background-color: #fff;
     text-align: center;
