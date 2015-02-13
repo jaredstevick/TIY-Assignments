@@ -47,7 +47,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid;
     margin: 1em 0;
     padding: 0;
 }
@@ -96,14 +96,65 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.jumbotron {
+    background-color: #fff;
+    text-align: center;;
+}
+
+.jumbotron i {
+    color: lightblue;
+    border: .4ex solid lightblue;
+    border-radius: 50%;
+    padding: .5ex;
+}
+
+.post i {
+    border: .5ex solid lightblue;
+    border-radius: 50%;
+    padding: .5ex;
+    background-color: darkblue;
+    color: #fff;
+    float: right;
+}
 
 
+time small {
+    color: darkgray;
+    font-size: 2ex;
+}
 
+time big {
+    color: lightblue;
+    font-size: 3.25ex;
+}
 
+.content {
+    width: 80%;
+    margin: auto;
+}
 
+.content li {
+    list-style: none;
+    margin-left: -2.5em;
+}
 
+.timeline article {
+    color: #fff;
+    border-radius: 1ex;
+    padding: 1ex 1em;
+    margin-top: 5ex;
+    margin-bottom: 5ex;
+    clear: right;
+    font-size: 2.5ex;
+    font-family: sans-serif;
+}
 
-
+.timeline :nth-child(even) article {
+    background-color: darkblue;
+}
+.timeline :nth-child(odd) article {
+    background-color: lightblue;
+}
 
 
 
