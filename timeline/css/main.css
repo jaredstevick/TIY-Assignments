@@ -99,12 +99,12 @@ textarea {
 .jumbotron {
     background-color: #fff;
     text-align: center;
-    color: lightblue;
+    color: #6cbfee;
 }
 
 .jumbotron i {
-    color: lightblue;
-    border: .4ex solid lightblue;
+    color: #6cbfee;
+    border: .4ex solid #6cbfee;
     border-radius: 50%;
     padding: .5ex;
 }
@@ -112,10 +112,10 @@ textarea {
     margin-top: 2ex;
 }
 .post i {
-    border: .5ex solid lightblue;
+    border: .5ex solid #6cbfee;
     border-radius: 50%;
     padding: .5ex;
-    background-color: darkblue;;
+    background-color: #3594cb;;
     color: #fff;
     float: right;
     margin-top: -1ex;
@@ -127,7 +127,7 @@ time small {
 }
 
 time big {
-    color: lightblue;
+    color: #6cbfee;
     font-size: 3.25ex;
 }
 
@@ -163,11 +163,11 @@ time big {
 }
 
 .post:nth-child(even) article:before {
-    color: darkblue;
+    color: #3594cb;
 }
 
 .post:nth-child(odd) article:before {
-    color: lightblue;
+    color: #6cbfee;
 }
 
 article h3 {
@@ -176,10 +176,10 @@ article h3 {
 }
 
 .timeline :nth-child(even) article {
-    background-color: darkblue;
+    background-color: #3594cb;
 }
 .timeline :nth-child(odd) article {
-    background-color: lightblue;
+    background-color: #6cbfee;
 }
 
 
