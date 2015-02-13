@@ -108,24 +108,22 @@ textarea {
     border-radius: 50%;
     padding: .5ex;
 }
-
+.nav p {
+    margin-top: 2ex;
+}
 .post i {
     border: .5ex solid lightblue;
     border-radius: 50%;
     padding: .5ex;
-    background-color: darkblue;
+    background-color: darkblue;;
     color: #fff;
     float: right;
-}
-
-time {
-    width: 10%;
+    margin-top: -1ex;
 }
 
 time small {
     color: darkgray;
     font-size: 2ex;
-    display: block;
 }
 
 time big {
@@ -150,20 +148,31 @@ time big {
     margin-bottom: 5ex;
     font-size: 2ex;
     font-family: sans-serif;
-    margin-top: 5ex;
+    margin-top: 2ex;
 }
 
 .timeline article:before {
-    content: '\23F6';
-    color: red;
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid;
+    top: -4.5ex;
     position: relative;
-    top: -2ex;
-    font-size: 2em;
+}
+
+.post:nth-child(even) article:before {
+    color: darkblue;
+}
+
+.post:nth-child(odd) article:before {
+    color: lightblue;
 }
 
 article h3 {
     margin-bottom: -.5ex;
-    margin-top: -2ex;
+    margin-top: -.5ex;
 }
 
 .timeline :nth-child(even) article {
