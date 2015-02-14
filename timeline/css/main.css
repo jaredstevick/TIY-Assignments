@@ -100,6 +100,8 @@ textarea {
     font-family: 'Lato', sans-serif;
 }
 
+
+
 .jumbotron {
     background-color: #fff;
     text-align: center;
@@ -115,6 +117,12 @@ textarea {
 .nav p {
     margin-top: 2ex;
 }
+.nav p i:hover {
+    background-color: #6cbfee;
+    color: #fff;
+}
+
+
 .post i {
     border: .5ex solid #afdcf8;
     border-radius: 50%;
@@ -146,7 +154,7 @@ ul :nth-child(even) time big {
     }
 
 .content {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -304,13 +312,27 @@ article h3 {
 .clearfix {
     *zoom: 1;
 }
+
+
+
+
+
 /* ==========================================================================
  MEDIA QUERIES
    ========================================================================== */
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
+
+
+
 @media (min-width : 768px) {
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
 ul {
     padding-left: 5.8em;
     border-left: .75em solid #AFDCF8;
@@ -339,12 +361,58 @@ time {
     right: 3em;
     display: block; 
 }
-}
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+
+time {
+    margin-left: -13.4em;
+    margin-top: -2.5ex;
+}
+
+time big {
+    font-size: 5ex;
+}
+
+time small {
+    font-size: 2ex;
+}
+
+time i {
+    margin-left: 5em;
+}
+
+.post h3 {
+    font-size: 3ex;
+}
+
+.post p {
+    font-size: 2.5ex;
+}
+
+.nav {
+    margin-left: -8em;
+}
+.nav h4 {
+    text-align: left;
+}
+
+.nav h1 {
+    font-size: 4.5ex;
+    text-align: left;
+}
+
+.nav p {
+    text-align: right;
+    margin-right: 2em;
+}
+}
+
 
 /* ==========================================================================
    Print styles.
