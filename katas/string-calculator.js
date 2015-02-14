@@ -28,6 +28,13 @@ function plus(A, B){
 	return numbers[A] + numbers[B];
 };
 
+function minus(A, B){
+	return numbers[A] - numbers[B];
+};
+
+function toNum(A){
+	return numbers[A];
+}
 
 it('should add one and purple', function(){
 	assert.equal(plus("one", "purple"), NaN);
@@ -50,5 +57,31 @@ console.log(plus("seven", "one"));
 console.log(plus("four", "three"));
 console.log(plus("twentytwo", "one"));
 
+console.log(minus("twenty", "fifteen"));
 
+it('should subtract ten from eleven', function(){
+	assert.equal(minus("eleven", "ten"), 1);
+});
+
+it('should subtract five from sixteen', function(){
+	assert.equal(minus("sixteen", "five"), 11);
+});
+
+
+console.log(toNum("six"));
+console.log(toNum("eleven") + toNum("five"));
+
+it('should multiply fourteen and fifteen', function(){
+	assert.equal(toNum("fourteen") * toNum("fifteen"), 210);
+})
+
+console.log(toNum("fourteen") * toNum("fifteen"));
+
+it('should divide sixteen by four', function(){
+	assert.equal(toNum("sixteen") / toNum("four"), 4);
+});
+
+it('should subtract five from eleven', function(){
+	assert.equal(toNum("eleven") - toNum("five"), 6);
+});
 
