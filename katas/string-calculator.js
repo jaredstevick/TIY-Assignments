@@ -36,52 +36,62 @@ function toNum(A){
 	return numbers[A];
 }
 
-it('should add one and purple', function(){
-	assert.equal(plus("one", "purple"), NaN);
+it('should add one and eight', function(){
+	assert.equal(plus("one", "eight"), 9);
 })
-	
+console.log(plus("one", "eight"));	
+
 it('should add zero and one', function(){
 	assert.equal(plus("zero", "one"), 1);
 });
+console.log(plus("zero", "one"));
 
 it('should add three and four', function(){
 	assert.equal(plus("three", "four"), 7);
 });
+console.log(plus("three", "four"));
 
 it('should add eleven and nine', function(){
 	assert.equal(plus("eleven", "nine"), 20);
 });
+console.log(plus("eleven", "nine"));
 
-console.log(plus("three", "two"));
-console.log(plus("seven", "one"));
-console.log(plus("four", "three"));
-console.log(plus("twentytwo", "one"));
 
-console.log(minus("twenty", "fifteen"));
 
 it('should subtract ten from eleven', function(){
 	assert.equal(minus("eleven", "ten"), 1);
 });
+console.log(minus("eleven", "ten"));
 
 it('should subtract five from sixteen', function(){
 	assert.equal(minus("sixteen", "five"), 11);
 });
+console.log(minus("sixteen", "five"));
 
 
-console.log(toNum("six"));
-console.log(toNum("eleven") + toNum("five"));
 
 it('should multiply fourteen and fifteen', function(){
 	assert.equal(toNum("fourteen") * toNum("fifteen"), 210);
 })
-
 console.log(toNum("fourteen") * toNum("fifteen"));
 
 it('should divide sixteen by four', function(){
 	assert.equal(toNum("sixteen") / toNum("four"), 4);
 });
+console.log(toNum("sixteen") / toNum("four"));
 
 it('should subtract five from eleven', function(){
 	assert.equal(toNum("eleven") - toNum("five"), 6);
 });
+console.log(toNum("eleven") - toNum("five"));
 
+it('should return the result of twelve % five', function(){
+	assert.equal(toNum("twelve") % toNum("five"), 2);
+});
+console.log(toNum("twelve") % toNum("five"));
+
+it('should return the result of nineteen * seventeen * twenty', function(){
+	assert.equal((toNum("nineteen") * toNum("seventeen")) * toNum("twenty"), 6460);
+});
+
+console.log(toNum("nineteen") * toNum("seventeen") * toNum("twenty"));
