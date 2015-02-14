@@ -36,9 +36,11 @@ function toNum(A){
 	return numbers[A];
 }
 
+
+
 it('should add one and eight', function(){
 	assert.equal(plus("one", "eight"), 9);
-})
+});
 console.log(plus("one", "eight"));	
 
 it('should add zero and one', function(){
@@ -93,5 +95,27 @@ console.log(toNum("twelve") % toNum("five"));
 it('should return the result of nineteen * seventeen * twenty', function(){
 	assert.equal((toNum("nineteen") * toNum("seventeen")) * toNum("twenty"), 6460);
 });
-
 console.log(toNum("nineteen") * toNum("seventeen") * toNum("twenty"));
+
+
+//this is kinda hacky i think, but it totally works
+console.log(("twentytwo").substring(0, 6));
+
+function moreNums(A){
+	if (A.substring(0, 6) === "twenty") {
+		return 20 + toNum(A.substring(6, 11));
+	}
+	if (A.substring(0, 6) === "thirty") {
+		return 30 + toNum(A.substring(6, 11));
+	}
+};
+
+it('should return 29 for twentynine', function(){
+	assert.equal(moreNums("twentynine"), 29);
+});
+console.log(moreNums("twentynine"));
+
+it('should return 34 for thirtyfour', function(){
+	assert.equal(moreNums("thirtyfour"), 34);
+});
+console.log(moreNums("thirtyfour"));
