@@ -135,12 +135,18 @@ time small {
 }
 
 time big {
-    color: #6cbfee;
     font-size: 3.25ex;
 }
+ul :nth-child(odd) time big {
+    color: #6cbfee;   
+}
+
+ul :nth-child(even) time big {
+    color: #3594cb;
+    }
 
 .content {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -163,10 +169,10 @@ time big {
     content: '';
     width: 0; 
     height: 0; 
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid;
-    top: -4.5ex;
+    border-left: 2ex solid transparent;
+    border-right: 2ex solid transparent;
+    border-bottom: 2ex solid;
+    top: -5.2ex;
     position: relative;
 }
 
@@ -326,11 +332,12 @@ time {
     content: '';
     width: 0; 
     height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    border-right: 10px solid;
+    border-top: 2ex solid transparent;
+    border-bottom: 2ex solid transparent; 
+    border-right: 2ex solid;
     top: 0;
-    right: 2em; 
+    right: 3em;
+    display: block; 
 }
 }
 /* Medium devices (desktops, 992px and up) */
