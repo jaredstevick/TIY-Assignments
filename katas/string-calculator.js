@@ -133,6 +133,9 @@ function moreNums(A){
 	if (A.substring(0, 6) === "ninety") {
 		return 90 + toNum(A.substring(6, 11));
 	};
+	if (A.substring(0, 10) == "onehundred") {
+		return 100 + toNum(A.substring(10, 20));
+	};
 
 };
 
@@ -170,3 +173,10 @@ it('should return 95 for ninetyfive', function(){
 	assert.equal(moreNums("ninetyfive"), 95);
 });	
 console.log(moreNums("ninetyfive"));
+
+it('should return 111 for onehundredeleven', function(){
+	assert.equal(moreNums("onehundredeleven"), 111);
+});
+console.log(moreNums("onehundredeleven"));
+
+console.log(moreNums("onehundredfortytwo")); //it stops working here.  needs a refactor
