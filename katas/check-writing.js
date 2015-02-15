@@ -23,16 +23,16 @@ var numbers = [
 	"nineteen", 
 	"twenty" ]
 
-function tocheck(n){
+function toEnglish(n){
 	return numbers[n]
 };
 
 it('should return eleven for 11', function(){
-	assert.equal(tocheck(11), "eleven");
+	assert.equal(toEnglish(11), "eleven");
 });
-console.log(tocheck(11));
+console.log(toEnglish(11));
 
 it('should return nineteen for 19', function(){
-	assert.equal(tocheck(19), "nineteen");
+	assert.equal(toEnglish(19), "nineteen");
 });
-console.log(tocheck(19));
+console.log(toEnglish(19));
