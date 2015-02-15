@@ -39,3 +39,10 @@ console.log(toEnglish(19));
 
 var amount = "1234.51"
 console.log((amount.slice(-2)) +"/100");
+
+var toChange = function(A){
+	return A.slice(-2) + "/100";
+}
+
+console.log(toChange("1234.57"));
+
