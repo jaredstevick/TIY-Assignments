@@ -22,20 +22,161 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <!--nav-->
         <div class="container">
-        <div class="mobile"></div>
-        <div class="desktop">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
+            <div class="mobile"></div>
+            <div class="desktop">
+                <nav class="navbar navbar-default">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">
-                            <img alt="Brand" src="...">
+                        <a class="navbar-brand" href="http://www.github.com/">
+                            <span class="octicon octicon-mark-github"></span>
                         </a>
+                        <div class="input-group"><!--search box-->
+                            <input type="text" class="form-control" placeholder="Search Github">
+                        
+                        <a href="#">Explore </a><a href="#">Gist </a><a href="#">Blog </a><a href="#">Help</a>
+                        </div><!--end of search box-->
+                    </div>        
+                </nav>
+            </div>
+        <!--end of nav-->
+<!--row-->
+    <div class="row">        
+    <!-- aside -->
+        <aside id ="facebox" class="col-md-4">
+            <img src="">
+            <h2></h2>
+            <h3></h3>
+            <ul>
+                <li class="location"><span class="octicon octicon-location"> </span></li>
+                <li><span class="octicon octicon-mail"></span><a href="mailto:jstevick@gmail.com" id="email"></a></li>
+                <li class="joined"><span class="octicon octicon-clock"></span> Joined on </li>
+            </ul>
+            <hr>
+            <div class="followstar">
+                <div class="followers"><br>Follower</div>
+                <div class="starred"><br>Starred</div>
+                <div class="following"><br>Following</div>
+            </div>
+            <hr>
+
+            <h4>Organizations</h4>
+            <img src="https://avatars2.githubusercontent.com/u/8798300?v=3&s=84">
+
+        </aside>
+    <!-- end of aside -->
+
+    <!-- nav tabs -->
+        <section role="tabpanel" class="col-md-8 tabpanel">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active hidden-sm hidden-md hidden-lg"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+                <li role="presentation" class="hidden-xs"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab"><span class="octicon octicon-diff-added"></span> Contributions</a></li>
+                <li role="presentation"><a href="#repositories" aria-controls="repositories" role="tab" data-toggle="tab"><span class="octicon octicon-repo"></span> Repositories</a></li>
+                <li role="presentation" class="hidden-xs"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab"><span class="octicon octicon-rss"></span> Public Activity</a></li>
+            </ul>
+
+        <!-- tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane hidden-sm hidden-md hidden-lg" id="about">...hi</div>
+
+                <div role="tabpanel" class="tab-pane active" id="contributions">
+                    <div class="row">
+                    <div class="panel panel-default col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Popular Repositories</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group repositab">
+                                <li class="list-group-item repos-0"><a href="#"></a><p></p></li>
+                                <li class="list-group-item repos-1"><a href="#"></a><p></p></li>
+                                <li class="list-group-item repos-2"><a href="#"></a><p></p></li>
+                                <li class="list-group-item repos-3"><a href="#"></a><p></p></li>
+                                <li class="list-group-item repos-4"><a href="#"></a><p></p></li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="panel panel-default col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Repositories Contributed To</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">TIY-Chessboard</a></li>
+                                <li class="list-group-item"><a href="#">The Iron Yard--... /FEE-2015-S</a></li>
+                                <li class="list-group-item"><a href="#">ToDoMVC</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading col-md-12">
+                            <h3 class="panel-title">Contributions</h3>
+                        </div>
+                        <div class="panel-body">
+                            <img src="http://lorempixel.com/600/275/">
+                        </div>
+                    </div>
+                    <h4>Contribution Activity</h4>
+                    <h5>N Commits</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Pushed n commits to</a> Date</li>
+                        <li class="list-group-item"><a href="#">Pushed n commits to</a> Date</li>
+                        <li class="list-group-item"><a href="#">Pushed n commits to</a> Date</li>
+                    </ul>
+                     <h5>N Pull Requests</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">PR N <a href="#">Title</a> Date</li>
+                        <li class="list-group-item">PR N <a href="#">Title</a> Date</li>
+                        <li class="list-group-item">PR N <a href="#">Title</a> Date</li>
+                    </ul>
+                    <h5>N Issues Reported</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Issue N<a href="#"> Issue Title</a> Date</li>
+                        <li class="list-group-item">Issue N<a href="#"> Issue Title</a> Date</li>
+                        <li class="list-group-item">Issue N<a href="#"> Issue Title</a> Date</li>
+                    </ul>
+
+                        <div class="container col-md-12">
+                      <h2>Comments</h2>
+
+                      <form id="comments" action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/comments?access_token=de175947bb3069ad32ac382439d7f929609c5901" method="post" enctype="text/plain">
+
+                          <textarea class="form-control" rows="8" form="comments" id="textbox" required></textarea>
+
+                      </form>
+
+                        <button type="button" class="btn btn-success" form="comments" value="submit" onclick="makewords()">Submit</button>
+                    </div>
+
+
+                    </div>
+                    </div>
+
+                <div role="tabpanel" class="tab-pane" id="repositories">
+                    <ul class="list-group repositab repolist">
+                        <li class="list-group-item repos-0"><a href="#"></a><br><span>Updated </span></li>
+                        <li class="list-group-item repos-1"><a href="#"></a><br><span>Updated </span></li>
+                        <li class="list-group-item repos-2"><a href="#"></a><br><span>Updated </span></li>
+                        <li class="list-group-item repos-3"><a href="#"></a><br><span>Updated </span></li>
+                        <li class="list-group-item repos-4"><a href="#"></a><br><span>Updated </span></li>
+                    </ul>
                 </div>
-            </nav>
+
+                <div role="tabpanel" class="tab-pane" id="activity">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                        <li class="list-group-item"><a href="#">username</a>action on type<a href="#">issue or PR</a><p>event detail w<a href="#">link</a></p></li>
+                    </ul>
+                </div>
+            </div>
+        <!-- end of tab panes -->
+        </section>
+    <!-- end of nav tabs -->
         </div>
-        </div>
+<!--end of row-->
+    </div><!--end of container-->
         
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
