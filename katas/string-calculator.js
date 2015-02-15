@@ -179,4 +179,10 @@ it('should return 111 for onehundredeleven', function(){
 });
 console.log(moreNums("onehundredeleven"));
 
+it('should return 119 for onehundrednineteen', function(){
+	assert.equal(moreNums("onehundrednineteen"), 119);
+});
+console.log(moreNums("onehundrednineteen"));
+
+
 console.log(moreNums("onehundredfortytwo")); //it stops working here.  needs a refactor
