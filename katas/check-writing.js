@@ -36,3 +36,6 @@ it('should return nineteen for 19', function(){
 	assert.equal(toEnglish(19), "nineteen");
 });
 console.log(toEnglish(19));
+
+var amount = "1234.51"
+console.log((amount.slice(-2)) +"/100");
