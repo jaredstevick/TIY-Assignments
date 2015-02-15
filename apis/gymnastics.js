@@ -6,6 +6,14 @@ var pushEvents = events.filter(function(item){
 	return item.type == 'PushEvent'
 });
 
+var pullRequests = events.filter(function(item){
+        return item.type == 'PullRequestEvent';
+    });
+
+var issueComment = events.filter(function(item){
+        return item.type == 'IssueCommentEvent';
+    });
+
 /*
 function answer(){
   return {
@@ -23,3 +31,5 @@ function answer(){
 
 console.log(events.length);
 console.log(pushEvents.length);
+console.log(pullRequests.length);
+console.log(issueComment.length);
