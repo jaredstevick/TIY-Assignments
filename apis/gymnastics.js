@@ -22,28 +22,35 @@ var otherEvents = events.filter(function(item){
 	return item.type != 'PushEvent'
 });
 
-var deleteEvent = events.filter(function(item){
-	return item.type == 'DeleteEvent'
-});
-
-var otherEvents = events.filter(function(item){
-	return item.type != 'PushEvent'
-});
-
+function dateCreated(a){ 
+	return _.map(a, 'created_at')
+};
 
 // function theAnswer(){
-//   return {
+//    	return {
 //     'total': events.length,
 //     'PushEvent': {
-//       'total': pushEvents.length,
-//       'perDay': ...  // On average, how many`PushEvent` entries per day?
+//     	'total': pushEvents.length,
+//        	'perDay': ...  // On average, how many`PushEvent` entries per day?
 //     },
-//     'other': {
-//       'total': ...,  // How many _other_ events are in the data?
-//       'perDay': ...  // How many per day, on average?
-//     }
-//   };
-// } // END answer 
+//     'PullRequests': {
+//     	'total':
+//     	'perDay':
+//     },
+//     'IssueComment': {
+//     	'total':
+//     	'perDay':
+//     },
+// 	'CreateEvents': {
+// 		'total':
+// 		'perDay':
+// 	},
+//      'OtherEvents': {
+//        'total': otherEvents.length,
+//        'perDay': ...  // How many per day, on average?
+//      }
+//    };
+//  } // END answer 
 
 it('should have 30 total events', function() {
     assert(events.length === 30);
@@ -57,6 +64,5 @@ console.log(events.length);
 console.log(pushEvents.length);
 console.log(pullRequests.length);
 console.log(issueComment.length);
-console.log(createEvent.length);
-console.log(deleteEvent.length);
 console.log(otherEvents.length);
+console.log(dateCreated(events));
