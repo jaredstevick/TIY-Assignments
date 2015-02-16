@@ -80,22 +80,25 @@
                 <div role="tabpanel" class="tab-pane hidden-sm hidden-md hidden-lg" id="about">...hi</div>
 
                 <div role="tabpanel" class="tab-pane active" id="contributions">
+                   
                     <div class="row">
-                    <div class="panel panel-default col-md-6">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Popular Repositories</h3>
+                        <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Popular Repositories</h3>
+                            </div>
+                            
+                                <ul class="list-group repositab">
+                                    <li class="list-group-item repos-0"><a href="#"></a><p></p></li>
+                                    <li class="list-group-item repos-1"><a href="#"></a><p></p></li>
+                                    <li class="list-group-item repos-2"><a href="#"></a><p></p></li>
+                                    <li class="list-group-item repos-3"><a href="#"></a><p></p></li>
+                                    <li class="list-group-item repos-4"><a href="#"></a><p></p></li>
+                                </ul>
                         </div>
-                        <div class="panel-body">
-                            <ul class="list-group repositab">
-                                <li class="list-group-item repos-0"><a href="#"></a><p></p></li>
-                                <li class="list-group-item repos-1"><a href="#"></a><p></p></li>
-                                <li class="list-group-item repos-2"><a href="#"></a><p></p></li>
-                                <li class="list-group-item repos-3"><a href="#"></a><p></p></li>
-                                <li class="list-group-item repos-4"><a href="#"></a><p></p></li>
-                            </ul>
                         </div>
-                    </div>
-                    <div class="panel panel-default col-md-6">
+                    <div class="col-md-6">
+                    <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Repositories Contributed To</h3>
                         </div>
@@ -107,13 +110,17 @@
                             </ul>
                         </div>
                     </div>
+                    </div>
+                    <div class="col-md-12">
                     <div class="panel panel-default">
-                        <div class="panel-heading col-md-12">
+                        <div class="panel-heading">
                             <h3 class="panel-title">Contributions</h3>
                         </div>
                         <div class="panel-body">
                             <img src="http://lorempixel.com/600/275/">
                         </div>
+                    </div>
+                    </div>
                     </div>
                     <h4>Contribution Activity</h4>
                     <h5>N Commits</h5>
@@ -135,7 +142,7 @@
                         <li class="list-group-item">Issue N<a href="#"> Issue Title</a> Date</li>
                     </ul>
 
-                        <div class="container col-md-12">
+                    <div class="container col-md-12">
                       <h2>Comments</h2>
 
                       <form id="comments" action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/comments?access_token=de175947bb3069ad32ac382439d7f929609c5901" method="post" enctype="text/plain">
