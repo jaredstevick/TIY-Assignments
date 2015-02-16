@@ -1,0 +1,3561 @@
+[
+  {
+    "id": "2583137941",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 56762578,
+        "number": 255,
+        "title": "20 -- Github Revolution -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Not%20Yet",
+            "name": "Not Yet",
+            "color": "fbca04"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": {
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19",
+          "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19/labels",
+          "id": 975470,
+          "number": 19,
+          "title": "20 -- Github-Revolution",
+          "description": "* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh",
+          "creator": {
+            "login": "LoganArnett",
+            "id": 8780547,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8780547?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LoganArnett",
+            "html_url": "https://github.com/LoganArnett",
+            "followers_url": "https://api.github.com/users/LoganArnett/followers",
+            "following_url": "https://api.github.com/users/LoganArnett/following{/other_user}",
+            "gists_url": "https://api.github.com/users/LoganArnett/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/LoganArnett/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/LoganArnett/subscriptions",
+            "organizations_url": "https://api.github.com/users/LoganArnett/orgs",
+            "repos_url": "https://api.github.com/users/LoganArnett/repos",
+            "events_url": "https://api.github.com/users/LoganArnett/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/LoganArnett/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 12,
+          "closed_issues": 0,
+          "state": "open",
+          "created_at": "2015-02-11T15:52:56Z",
+          "updated_at": "2015-02-11T15:53:46Z",
+          "due_on": "2015-02-09T05:00:00Z",
+          "closed_at": null
+        },
+        "comments": 7,
+        "created_at": "2015-02-06T02:41:29Z",
+        "updated_at": "2015-02-16T00:19:08Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [x] M Yak Shaving\r\n  * [x] New WIP `20 -- Github Revolution --`with features and estimates\r\n  * [x] Merge existing branch\r\n  * [x] New feature branch `feature/20--github-revolution`\r\n  * [x] Fix merge conflict (as usual)\r\n\r\n* [x] Start with yesterday's html\r\n  * [ ] L Match Github mobile and desktop layouts\r\n  * [x] L Placeholder text/data sections\r\n  * [x] S Create `.json` file in `apis/github/users/`\r\n  * [x] L Populate page with user data\r\n  * [x] L Create and store comments on WIP issue\r\n  * [x] M Disallow empty comments\r\n  * [x] M Update comments without page refresh\r\n  * [ ] Feedback from 2 peers\r\n  * [x] Link to PR in WIP\r\n  * [x] Link to WIP in PR\r\n\r\n* [ ] XL Attempt Beast Mode\r\n  * [ ] Populate profile with data from the live API for any username\r\n\r\n* [ ] XXXXXL Research Nightmare mode (not likely to do anything with it, but it might be nice to learn about what it would require\r\n* [x] Get some f'ing sleep\r\n\r\n\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74445684",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255#issuecomment-74445684",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 74445684,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-16T00:19:08Z",
+        "updated_at": "2015-02-16T00:19:08Z",
+        "body": "commenting in the matrix"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-16T00:19:08Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2583114774",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 56762578,
+        "number": 255,
+        "title": "20 -- Github Revolution -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Not%20Yet",
+            "name": "Not Yet",
+            "color": "fbca04"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": {
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19",
+          "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19/labels",
+          "id": 975470,
+          "number": 19,
+          "title": "20 -- Github-Revolution",
+          "description": "* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh",
+          "creator": {
+            "login": "LoganArnett",
+            "id": 8780547,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8780547?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LoganArnett",
+            "html_url": "https://github.com/LoganArnett",
+            "followers_url": "https://api.github.com/users/LoganArnett/followers",
+            "following_url": "https://api.github.com/users/LoganArnett/following{/other_user}",
+            "gists_url": "https://api.github.com/users/LoganArnett/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/LoganArnett/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/LoganArnett/subscriptions",
+            "organizations_url": "https://api.github.com/users/LoganArnett/orgs",
+            "repos_url": "https://api.github.com/users/LoganArnett/repos",
+            "events_url": "https://api.github.com/users/LoganArnett/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/LoganArnett/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 12,
+          "closed_issues": 0,
+          "state": "open",
+          "created_at": "2015-02-11T15:52:56Z",
+          "updated_at": "2015-02-11T15:53:46Z",
+          "due_on": "2015-02-09T05:00:00Z",
+          "closed_at": null
+        },
+        "comments": 6,
+        "created_at": "2015-02-06T02:41:29Z",
+        "updated_at": "2015-02-15T23:50:02Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [x] M Yak Shaving\r\n  * [x] New WIP `20 -- Github Revolution --`with features and estimates\r\n  * [x] Merge existing branch\r\n  * [x] New feature branch `feature/20--github-revolution`\r\n  * [x] Fix merge conflict (as usual)\r\n\r\n* [x] Start with yesterday's html\r\n  * [ ] L Match Github mobile and desktop layouts\r\n  * [x] L Placeholder text/data sections\r\n  * [x] S Create `.json` file in `apis/github/users/`\r\n  * [x] L Populate page with user data\r\n  * [x] L Create and store comments on WIP issue\r\n  * [x] M Disallow empty comments\r\n  * [x] M Update comments without page refresh\r\n  * [ ] Feedback from 2 peers\r\n  * [x] Link to PR in WIP\r\n  * [x] Link to WIP in PR\r\n\r\n* [ ] XL Attempt Beast Mode\r\n  * [ ] Populate profile with data from the live API for any username\r\n\r\n* [ ] XXXXXL Research Nightmare mode (not likely to do anything with it, but it might be nice to learn about what it would require\r\n* [x] Get some f'ing sleep\r\n\r\n\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74444470",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255#issuecomment-74444470",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 74444470,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T23:50:02Z",
+        "updated_at": "2015-02-15T23:50:02Z",
+        "body": "test"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T23:50:02Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2583110907",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 56762578,
+        "number": 255,
+        "title": "20 -- Github Revolution -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Not%20Yet",
+            "name": "Not Yet",
+            "color": "fbca04"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": {
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19",
+          "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19/labels",
+          "id": 975470,
+          "number": 19,
+          "title": "20 -- Github-Revolution",
+          "description": "* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh",
+          "creator": {
+            "login": "LoganArnett",
+            "id": 8780547,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8780547?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LoganArnett",
+            "html_url": "https://github.com/LoganArnett",
+            "followers_url": "https://api.github.com/users/LoganArnett/followers",
+            "following_url": "https://api.github.com/users/LoganArnett/following{/other_user}",
+            "gists_url": "https://api.github.com/users/LoganArnett/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/LoganArnett/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/LoganArnett/subscriptions",
+            "organizations_url": "https://api.github.com/users/LoganArnett/orgs",
+            "repos_url": "https://api.github.com/users/LoganArnett/repos",
+            "events_url": "https://api.github.com/users/LoganArnett/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/LoganArnett/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 12,
+          "closed_issues": 0,
+          "state": "open",
+          "created_at": "2015-02-11T15:52:56Z",
+          "updated_at": "2015-02-11T15:53:46Z",
+          "due_on": "2015-02-09T05:00:00Z",
+          "closed_at": null
+        },
+        "comments": 5,
+        "created_at": "2015-02-06T02:41:29Z",
+        "updated_at": "2015-02-15T23:45:09Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [x] M Yak Shaving\r\n  * [x] New WIP `20 -- Github Revolution --`with features and estimates\r\n  * [x] Merge existing branch\r\n  * [x] New feature branch `feature/20--github-revolution`\r\n  * [x] Fix merge conflict (as usual)\r\n\r\n* [x] Start with yesterday's html\r\n  * [ ] L Match Github mobile and desktop layouts\r\n  * [x] L Placeholder text/data sections\r\n  * [x] S Create `.json` file in `apis/github/users/`\r\n  * [x] L Populate page with user data\r\n  * [x] L Create and store comments on WIP issue\r\n  * [x] M Disallow empty comments\r\n  * [x] M Update comments without page refresh\r\n  * [ ] Feedback from 2 peers\r\n  * [x] Link to PR in WIP\r\n  * [x] Link to WIP in PR\r\n\r\n* [ ] XL Attempt Beast Mode\r\n  * [ ] Populate profile with data from the live API for any username\r\n\r\n* [ ] XXXXXL Research Nightmare mode (not likely to do anything with it, but it might be nice to learn about what it would require\r\n* [x] Get some f'ing sleep\r\n\r\n\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74444256",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255#issuecomment-74444256",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 74444256,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T23:45:09Z",
+        "updated_at": "2015-02-15T23:45:09Z",
+        "body": "testing comment box"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T23:45:09Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2583110447",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 56762578,
+        "number": 255,
+        "title": "20 -- Github Revolution -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Not%20Yet",
+            "name": "Not Yet",
+            "color": "fbca04"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": {
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19",
+          "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/19/labels",
+          "id": 975470,
+          "number": 19,
+          "title": "20 -- Github-Revolution",
+          "description": "* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh",
+          "creator": {
+            "login": "LoganArnett",
+            "id": 8780547,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8780547?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LoganArnett",
+            "html_url": "https://github.com/LoganArnett",
+            "followers_url": "https://api.github.com/users/LoganArnett/followers",
+            "following_url": "https://api.github.com/users/LoganArnett/following{/other_user}",
+            "gists_url": "https://api.github.com/users/LoganArnett/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/LoganArnett/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/LoganArnett/subscriptions",
+            "organizations_url": "https://api.github.com/users/LoganArnett/orgs",
+            "repos_url": "https://api.github.com/users/LoganArnett/repos",
+            "events_url": "https://api.github.com/users/LoganArnett/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/LoganArnett/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 12,
+          "closed_issues": 0,
+          "state": "open",
+          "created_at": "2015-02-11T15:52:56Z",
+          "updated_at": "2015-02-11T15:53:46Z",
+          "due_on": "2015-02-09T05:00:00Z",
+          "closed_at": null
+        },
+        "comments": 4,
+        "created_at": "2015-02-06T02:41:29Z",
+        "updated_at": "2015-02-15T23:44:32Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [x] M Yak Shaving\r\n  * [x] New WIP `20 -- Github Revolution --`with features and estimates\r\n  * [x] Merge existing branch\r\n  * [x] New feature branch `feature/20--github-revolution`\r\n  * [x] Fix merge conflict (as usual)\r\n\r\n* [x] Start with yesterday's html\r\n  * [ ] L Match Github mobile and desktop layouts\r\n  * [x] L Placeholder text/data sections\r\n  * [x] S Create `.json` file in `apis/github/users/`\r\n  * [x] L Populate page with user data\r\n  * [x] L Create and store comments on WIP issue\r\n  * [x] M Disallow empty comments\r\n  * [x] M Update comments without page refresh\r\n  * [ ] Feedback from 2 peers\r\n  * [x] Link to PR in WIP\r\n  * [x] Link to WIP in PR\r\n\r\n* [ ] XL Attempt Beast Mode\r\n  * [ ] Populate profile with data from the live API for any username\r\n\r\n* [ ] XXXXXL Research Nightmare mode (not likely to do anything with it, but it might be nice to learn about what it would require\r\n* [x] Get some f'ing sleep\r\n\r\n\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `20 -- Github Revolution`\r\n* _WIP Branch:_ `feature/20--github-revolution`\r\n* **Insert Profile Data Here**\r\n  * Use yesterday's HTML\r\n  * Create `.json` files in `apis/github/users/`\r\n  * Use `jQuery.get()` et al\r\n  * Populate page with _your_ data\r\n* **We Value Your Comments**\r\n  * Load and store comments on your _WIP Issue_\r\n  * Form should _not_ submit empty comments\r\n  * Update comments without a page refresh"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74444218",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/255#issuecomment-74444218",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/255",
+        "id": 74444218,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T23:44:32Z",
+        "updated_at": "2015-02-15T23:44:32Z",
+        "body": "testing"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T23:44:32Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2583104380",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575314631,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "723619fee0dda65a3356c730d7b7567766535a94",
+      "before": "96f8d2708124124b5cfb0d79630dac6297621ca6",
+      "commits": [
+        {
+          "sha": "3f6acbbbfc25ea77185a5405862434b61f47ccc5",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting html and added octicons",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/3f6acbbbfc25ea77185a5405862434b61f47ccc5"
+        },
+        {
+          "sha": "723619fee0dda65a3356c730d7b7567766535a94",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "mf'ing html pretty much done",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/723619fee0dda65a3356c730d7b7567766535a94"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T23:37:08Z"
+  },
+  {
+    "id": "2583053224",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "id": 57550406,
+        "number": 299,
+        "title": "24 -- Helluva Ride -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 5,
+        "created_at": "2015-02-13T02:21:20Z",
+        "updated_at": "2015-02-15T22:35:13Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [x] M Shave all the yaks :water_buffalo: \r\n  * [x] Merge existing branch\r\n  * [x] Create new branch `feature/24--helluva-ride`\r\n  * [x] New WIP - 24--helluva-ride with tasks and estimates\r\n  * [ ] Folder structure\r\n* [x] S Links to each PR in WIP comments\r\n* [x] S Link to WIP in each PR\r\n* [x] S 2x peer review on each PR\r\n* [x] S Create index.md in directory root with links to each index file\r\n\r\n## Assignments\r\n\r\n* [x] L Responsive Vertical Timeline\r\n  * [x] M Mobile first design\r\n  * [x] M Tablet and full size breakpoints\r\n  * [x] S MF'ing HTML\r\n  * [x] S CSS\r\n  * [x] S Glyph icons\r\n  * [x] S Stupid carets\r\n  * [x] M Update bug fixes periodically \r\n\r\n\r\n* [x] L String Calculator\r\n  * [x] S `\"zero\"` through `\"ten\"`\r\n  * [x] S `\"ten\"` through `\"twenty\"`\r\n  * [x] M `\"twenty\"` through `\"thirty\"`\r\n  * [x] M `\"fifty\"` through `\"sixty\"`\r\n  * [x] M `\"ninety\"` through `\"one hundred\"`\r\n  * [x] M `\"one hundred\"` through `\"one hundred twenty\"`\r\n\r\n* [ ] L Check Writing\r\n  * [x] S `\"zero\"` through `\"ten\"`\r\n  * [x] S `\"ten\"` through `\"twenty\"`\r\n  * [ ] M `\"twenty\"` through `\"thirty\"`\r\n  * [ ] M `\"fifty\"` through `\"sixty\"`\r\n  * [ ] M `\"ninety\"` through `\"one hundred\"`\r\n  * [ ] M `\"one hundred\"` through `\"one hundred twenty\"`\r\n\r\n* [x] L API Gymnastics\r\n  * [x] S Checkpoint: Got me some data...\r\n  * [x] S Checkpoint: Count it up right...\r\n  * [x] S Checkpoint: Filtering out just the `PushEvent` entries...\r\n  * [x] S Checkpoint: Now doing the complete opposite...\r\n  * [x] M Checkpoint: I have all the `answers` now!\r\n  * [x] M Mission Complete\r\n\r\n* [x] XL Surf & Paddle RWD\r\n  * [x] S MFing HTML\r\n  * [x] M Mobile Layout\r\n  * [x] M Tablet Layout\r\n  * [x] M Desktop Layout\r\n\r\n* [ ] XL Github Profile\r\n  * [ ] L Responsive layout\r\n  * [ ] L Mobile and desktop views\r\n  * [ ] M Get data\r\n  * [ ] L Populate page with data\r\n  * [ ] M Comment box\r\n    * [ ] comments recorded in location tbd\r\n    * [ ] enable login?\r\n\r\n* [ ] XL Chessboard\r\n  * [ ] M Build chessboard with js or html\r\n  * [ ] L Place pieces on board\r\n  * [ ] L Make pieces move\r\n  * [ ] L Buttons for\r\n    * [ ] S One move forward\r\n    * [ ] S One move backward\r\n    * [ ] S Play all remaining moves\r\n    * [ ] S Reset sequence\r\n    * [ ] S Pause\r\n  * [ ] L Replicate moves of Catalan opening\r\n\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `24 -- Helluva Ride`\r\n  * checklist of assignments and checkpoints\r\n  * link to each PR you merge\r\n* _WIP Branch:_\r\n  * work in: `TIY-Assignments:feature/24--helluva-ride`\r\n  * deploy into: `TIY-Assignments:gh-pages`\r\n* _WIP Files:_\r\n  * `timeline/index.html`\r\n  * `surf+paddle/index.html`\r\n  * `katas/`\r\n    * `string-calculator.js`\r\n    * `check-writing.js`\r\n    * `roman-numerals.js`\r\n    * `euler-1.js` -- formerly `3s+5s.js`\r\n    * `euler-2.js` -- even Fibonacci\r\n    * `euler-4.js` -- largest palindrome\r\n    * `euler-5.js` -- smallest multiple\r\n  * `apis/gymnastics.js`\r\n  * `chessboard/`\r\n    * `index.html`\r\n    * `css/main.css`\r\n    * `js/main.js`\r\n  * `github/`\r\n    * `index.html`\r\n    * `css/main.css`\r\n    * `js/main.js`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74441207",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299#issuecomment-74441207",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "id": 74441207,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T22:35:13Z",
+        "updated_at": "2015-02-15T22:35:13Z",
+        "body": "PR for Github Page:\r\nhttps://github.com/jaredstevick/TIY-Assignments/pull/31"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T22:35:14Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2583052547",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 31,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/31",
+        "id": 29342481,
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/31",
+        "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/31.diff",
+        "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/31.patch",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/31",
+        "number": 31,
+        "state": "open",
+        "locked": false,
+        "title": "Feature/24 helluva ride -- github",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-15T22:34:32Z",
+        "updated_at": "2015-02-15T22:34:32Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "85fe063cd2b54fa85ca628125407a1af969d3520",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/31/commits",
+        "review_comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/31/comments",
+        "review_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/31/comments",
+        "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/96f8d2708124124b5cfb0d79630dac6297621ca6",
+        "head": {
+          "label": "jaredstevick:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "96f8d2708124124b5cfb0d79630dac6297621ca6",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T22:14:42Z",
+            "pushed_at": "2015-02-15T22:31:10Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 1,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jaredstevick:master",
+          "ref": "master",
+          "sha": "7c973f7b058912ccf566a6f9d4e664d0c0a76a6e",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T22:14:42Z",
+            "pushed_at": "2015-02-15T22:31:10Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 1,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/31"
+          },
+          "html": {
+            "href": "https://github.com/jaredstevick/TIY-Assignments/pull/31"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/31"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/31/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/31/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/31/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/96f8d2708124124b5cfb0d79630dac6297621ca6"
+          }
+        },
+        "merged": false,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 1652,
+        "deletions": 0,
+        "changed_files": 17
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T22:34:32Z"
+  },
+  {
+    "id": "2583049757",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575289816,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "96f8d2708124124b5cfb0d79630dac6297621ca6",
+      "before": "73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+      "commits": [
+        {
+          "sha": "96f8d2708124124b5cfb0d79630dac6297621ca6",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting github page",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/96f8d2708124124b5cfb0d79630dac6297621ca6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T22:31:10Z"
+  },
+  {
+    "id": "2583035410",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575283168,
+      "size": 6,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "7c973f7b058912ccf566a6f9d4e664d0c0a76a6e",
+      "before": "c17b2452d237fa7d59bbe0cbeec20ae06ff86c4e",
+      "commits": [
+        {
+          "sha": "562ebd4de1b20a429d9c7743fd94640b0a0f7e86",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "created surf+paddle directory",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/562ebd4de1b20a429d9c7743fd94640b0a0f7e86"
+        },
+        {
+          "sha": "d9ec874c77879419d55726feac902d2110076b5d",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting with boilerplate",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/d9ec874c77879419d55726feac902d2110076b5d"
+        },
+        {
+          "sha": "378d7f07a087e1a45a189bd6ce9bee8f5b04fafc",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added bootstrap and google fonts",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/378d7f07a087e1a45a189bd6ce9bee8f5b04fafc"
+        },
+        {
+          "sha": "77bcd40587c5f46e012d8e49a46cbe41eaa07627",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "mf'ing surf and paddle",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/77bcd40587c5f46e012d8e49a46cbe41eaa07627"
+        },
+        {
+          "sha": "73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "surf n paddlin. css all done. wat",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af"
+        },
+        {
+          "sha": "7c973f7b058912ccf566a6f9d4e664d0c0a76a6e",
+          "author": {
+            "email": "jaredstevick@users.noreply.github.com",
+            "name": "Jared Stevick"
+          },
+          "message": "Merge pull request #30 from jaredstevick/feature/24--helluva-ride\n\nFeature/24 helluva ride -- surf+paddle #28",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/7c973f7b058912ccf566a6f9d4e664d0c0a76a6e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T22:14:42Z"
+  },
+  {
+    "id": "2583035406",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 30,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30",
+        "id": 29329936,
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30",
+        "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30.diff",
+        "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30.patch",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30",
+        "number": 30,
+        "state": "closed",
+        "locked": false,
+        "title": "Feature/24 helluva ride -- surf+paddle #28",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-15T04:32:11Z",
+        "updated_at": "2015-02-15T22:14:42Z",
+        "closed_at": "2015-02-15T22:14:42Z",
+        "merged_at": "2015-02-15T22:14:42Z",
+        "merge_commit_sha": "39f3bfdd37688b16f201b23ac766ea159f0ab7d9",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/commits",
+        "review_comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/comments",
+        "review_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/comments",
+        "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+        "head": {
+          "label": "jaredstevick:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T04:13:31Z",
+            "pushed_at": "2015-02-15T22:14:42Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jaredstevick:master",
+          "ref": "master",
+          "sha": "c17b2452d237fa7d59bbe0cbeec20ae06ff86c4e",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T04:13:31Z",
+            "pushed_at": "2015-02-15T22:14:42Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30"
+          },
+          "html": {
+            "href": "https://github.com/jaredstevick/TIY-Assignments/pull/30"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 3,
+        "review_comments": 0,
+        "commits": 5,
+        "additions": 2660,
+        "deletions": 0,
+        "changed_files": 17
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T22:14:42Z"
+  },
+  {
+    "id": "2583003394",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575268683,
+      "size": 26,
+      "distinct_size": 0,
+      "ref": "refs/heads/gh-pages",
+      "head": "73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+      "before": "758b585189ac3f39781b602ab63d850f2588fecb",
+      "commits": [
+        {
+          "sha": "9c62b5fe63364b50de9bacb84f668a3059ab39bb",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "started string calculator",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/9c62b5fe63364b50de9bacb84f668a3059ab39bb"
+        },
+        {
+          "sha": "21800fbe9f9156f56bdd088b0f345af9610611e6",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added numbers 11-20",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/21800fbe9f9156f56bdd088b0f345af9610611e6"
+        },
+        {
+          "sha": "8f9c2e89006843236f62784175cd841adc03c2b7",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "restarting, following directions this time.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/8f9c2e89006843236f62784175cd841adc03c2b7"
+        },
+        {
+          "sha": "2b373c32b8a52ed8a198201e905da486e64713a2",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "more string calc, expanding technology and running tests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/2b373c32b8a52ed8a198201e905da486e64713a2"
+        },
+        {
+          "sha": "8680c3512cf459ae63ec994ce446b855f72dd84f",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "more tests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/8680c3512cf459ae63ec994ce446b855f72dd84f"
+        },
+        {
+          "sha": "f5ad0dbb346ec827eea27efb3d679ab08f365027",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "might have a solution for numbers > 20",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/f5ad0dbb346ec827eea27efb3d679ab08f365027"
+        },
+        {
+          "sha": "918ed4741ea90afae26b7ad1b29211ad1337a72b",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added numbers up to 100",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/918ed4741ea90afae26b7ad1b29211ad1337a72b"
+        },
+        {
+          "sha": "39e25fd178585a4a525d0f5dd56b308dee7fb4b9",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "works all the way up to 120, moving on",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/39e25fd178585a4a525d0f5dd56b308dee7fb4b9"
+        },
+        {
+          "sha": "e94dfabda1d6683631374b065ca1b5386270a43a",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "it's ugly but it works. moving on to check writing",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/e94dfabda1d6683631374b065ca1b5386270a43a"
+        },
+        {
+          "sha": "d9bb14b865fbf18d160aa35c408e8ad334485ea6",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting check writing",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/d9bb14b865fbf18d160aa35c408e8ad334485ea6"
+        },
+        {
+          "sha": "b9c86a38713975042ec3f9dba4e4095d929a3807",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "checkwriting 1-20",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/b9c86a38713975042ec3f9dba4e4095d929a3807"
+        },
+        {
+          "sha": "df61ec174e530b6387720be23d463718bc2935cf",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "renamed function",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/df61ec174e530b6387720be23d463718bc2935cf"
+        },
+        {
+          "sha": "47cf9a227532b77a1a41a4148f8bd7aaf6861338",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "i think i figured out how to do the change",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/47cf9a227532b77a1a41a4148f8bd7aaf6861338"
+        },
+        {
+          "sha": "75b3aa115cd9c24e62ab64fc2e4f57510e66c0e7",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "as far as i'm gonna get with string calc tonight.  have to move on",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/75b3aa115cd9c24e62ab64fc2e4f57510e66c0e7"
+        },
+        {
+          "sha": "6373b1c5c24bbcbb62a9a164263d7ff763ec6e89",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting gymnastics",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6373b1c5c24bbcbb62a9a164263d7ff763ec6e89"
+        },
+        {
+          "sha": "6e6d60d0b66cc6a9790f6c63818e3e59058bc997",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "pulled data for events",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6e6d60d0b66cc6a9790f6c63818e3e59058bc997"
+        },
+        {
+          "sha": "478d9d7b39da4eb9713bfd9b69e4b806e0b9c8f2",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "making sure i have 30 events. checking out how many are push events",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/478d9d7b39da4eb9713bfd9b69e4b806e0b9c8f2"
+        },
+        {
+          "sha": "6a541b80f642516efcbbf854fd27e2633ba468ee",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "adding a few more data requests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6a541b80f642516efcbbf854fd27e2633ba468ee"
+        },
+        {
+          "sha": "361974b92bbeb1a8b39a8800ece8ad665c7ad521",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added a few more requests and wrote a couple of tests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/361974b92bbeb1a8b39a8800ece8ad665c7ad521"
+        },
+        {
+          "sha": "845085b1caa9ef9299e85672635d71c6fd3ab284",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting to refactor and fill out answer function",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/845085b1caa9ef9299e85672635d71c6fd3ab284"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T21:38:17Z"
+  },
+  {
+    "id": "2583002946",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575268500,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+      "before": "77bcd40587c5f46e012d8e49a46cbe41eaa07627",
+      "commits": [
+        {
+          "sha": "73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "surf n paddlin. css all done. wat",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/73d1bf6f8cf6aedbb82e6cb5adbbd8447c83f0af"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T21:37:47Z"
+  },
+  {
+    "id": "2582891897",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29",
+        "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29/labels{/name}",
+        "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29/comments",
+        "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29/events",
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/29",
+        "id": 57742148,
+        "number": 29,
+        "title": "PR for feature/24--helluva-ride-stringcalc",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-02-15T19:24:25Z",
+        "updated_at": "2015-02-15T19:26:43Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/29",
+          "html_url": "https://github.com/mfees/TIY-Assignments/pull/29",
+          "diff_url": "https://github.com/mfees/TIY-Assignments/pull/29.diff",
+          "patch_url": "https://github.com/mfees/TIY-Assignments/pull/29.patch"
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/293"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/74432302",
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/29#issuecomment-74432302",
+        "issue_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29",
+        "id": 74432302,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T19:26:43Z",
+        "updated_at": "2015-02-15T19:26:43Z",
+        "body": ":+1: most excellent"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T19:26:44Z"
+  },
+  {
+    "id": "2582441802",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30",
+        "id": 57717516,
+        "number": 30,
+        "title": "Feature/24 helluva ride -- surf+paddle #28",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-02-15T04:32:11Z",
+        "updated_at": "2015-02-15T07:45:23Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/74407762",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30#issuecomment-74407762",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30",
+        "id": 74407762,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T07:45:23Z",
+        "updated_at": "2015-02-15T07:45:23Z",
+        "body": "Link to WIP:\r\nhttps://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T07:45:24Z"
+  },
+  {
+    "id": "2582441496",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29",
+        "id": 57714561,
+        "number": 29,
+        "title": "Feature/24  helluva ride -- gymnastics",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-02-15T02:14:07Z",
+        "updated_at": "2015-02-15T07:44:43Z",
+        "closed_at": "2015-02-15T04:13:30Z",
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/74407744",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29#issuecomment-74407744",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29",
+        "id": 74407744,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T07:44:42Z",
+        "updated_at": "2015-02-15T07:44:42Z",
+        "body": "Link to WIP:\r\nhttps://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T07:44:43Z"
+  },
+  {
+    "id": "2582441109",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28",
+        "id": 57711943,
+        "number": 28,
+        "title": "Feature/24  helluva ride -- katas",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2015-02-15T00:18:58Z",
+        "updated_at": "2015-02-15T07:43:53Z",
+        "closed_at": "2015-02-15T02:03:40Z",
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/28",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/74407720",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28#issuecomment-74407720",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28",
+        "id": 74407720,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T07:43:53Z",
+        "updated_at": "2015-02-15T07:43:53Z",
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T07:43:54Z"
+  },
+  {
+    "id": "2582372948",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574987964,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "77bcd40587c5f46e012d8e49a46cbe41eaa07627",
+      "before": "378d7f07a087e1a45a189bd6ce9bee8f5b04fafc",
+      "commits": [
+        {
+          "sha": "77bcd40587c5f46e012d8e49a46cbe41eaa07627",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "mf'ing surf and paddle",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/77bcd40587c5f46e012d8e49a46cbe41eaa07627"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T05:13:44Z"
+  },
+  {
+    "id": "2582360430",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/26",
+        "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/26/labels{/name}",
+        "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/26/comments",
+        "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/26/events",
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/26",
+        "id": 57714218,
+        "number": 26,
+        "title": "feature/24--Helluva-Ride -- api gymnastics",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-02-15T01:54:46Z",
+        "updated_at": "2015-02-15T04:46:07Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/26",
+          "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/26",
+          "diff_url": "https://github.com/johnalxndr/TIY-Assignments/pull/26.diff",
+          "patch_url": "https://github.com/johnalxndr/TIY-Assignments/pull/26.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/74403962",
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/26#issuecomment-74403962",
+        "issue_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/26",
+        "id": 74403962,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T04:46:07Z",
+        "updated_at": "2015-02-15T04:46:07Z",
+        "body": ":+1:  :facepunch: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:46:08Z"
+  },
+  {
+    "id": "2582357638",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574980880,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "378d7f07a087e1a45a189bd6ce9bee8f5b04fafc",
+      "before": "d9ec874c77879419d55726feac902d2110076b5d",
+      "commits": [
+        {
+          "sha": "378d7f07a087e1a45a189bd6ce9bee8f5b04fafc",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added bootstrap and google fonts",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/378d7f07a087e1a45a189bd6ce9bee8f5b04fafc"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:39:48Z"
+  },
+  {
+    "id": "2582355397",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574979822,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "d9ec874c77879419d55726feac902d2110076b5d",
+      "before": "562ebd4de1b20a429d9c7743fd94640b0a0f7e86",
+      "commits": [
+        {
+          "sha": "d9ec874c77879419d55726feac902d2110076b5d",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting with boilerplate",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/d9ec874c77879419d55726feac902d2110076b5d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:34:54Z"
+  },
+  {
+    "id": "2582354470",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "id": 57550406,
+        "number": 299,
+        "title": "24 -- Helluva Ride -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2015-02-13T02:21:20Z",
+        "updated_at": "2015-02-15T04:32:43Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [x] M Shave all the yaks :water_buffalo: \r\n  * [x] Merge existing branch\r\n  * [x] Create new branch `feature/24--helluva-ride`\r\n  * [x] New WIP - 24--helluva-ride with tasks and estimates\r\n  * [ ] Folder structure\r\n* [ ] S Links to each PR in WIP comments\r\n* [ ] S Link to WIP in each PR\r\n* [ ] S 2x peer review on each PR\r\n* [ ] S Create index.md in directory root with links to each index file\r\n\r\n## Assignments\r\n\r\n* [x] L Responsive Vertical Timeline\r\n  * [x] M Mobile first design\r\n  * [x] M Tablet and full size breakpoints\r\n  * [x] S MF'ing HTML\r\n  * [x] S CSS\r\n  * [x] S Glyph icons\r\n  * [x] S Stupid carets\r\n  * [ ] M Update bug fixes periodically \r\n\r\n\r\n* [x] L String Calculator\r\n  * [x] S `\"zero\"` through `\"ten\"`\r\n  * [x] S `\"ten\"` through `\"twenty\"`\r\n  * [x] M `\"twenty\"` through `\"thirty\"`\r\n  * [x] M `\"fifty\"` through `\"sixty\"`\r\n  * [x] M `\"ninety\"` through `\"one hundred\"`\r\n  * [x] M `\"one hundred\"` through `\"one hundred twenty\"`\r\n\r\n* [ ] L Check Writing\r\n  * [x] S `\"zero\"` through `\"ten\"`\r\n  * [x] S `\"ten\"` through `\"twenty\"`\r\n  * [ ] M `\"twenty\"` through `\"thirty\"`\r\n  * [ ] M `\"fifty\"` through `\"sixty\"`\r\n  * [ ] M `\"ninety\"` through `\"one hundred\"`\r\n  * [ ] M `\"one hundred\"` through `\"one hundred twenty\"`\r\n\r\n* [x] L API Gymnastics\r\n  * [x] S Checkpoint: Got me some data...\r\n  * [x] S Checkpoint: Count it up right...\r\n  * [x] S Checkpoint: Filtering out just the `PushEvent` entries...\r\n  * [x] S Checkpoint: Now doing the complete opposite...\r\n  * [x] M Checkpoint: I have all the `answers` now!\r\n  * [x] M Mission Complete\r\n\r\n* [ ] XL Surf & Paddle RWD\r\n  * [ ] S MFing HTML\r\n  * [ ] M Mobile Layout\r\n  * [ ] M Tablet Layout\r\n  * [ ] M Desktop Layout\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `24 -- Helluva Ride`\r\n  * checklist of assignments and checkpoints\r\n  * link to each PR you merge\r\n* _WIP Branch:_\r\n  * work in: `TIY-Assignments:feature/24--helluva-ride`\r\n  * deploy into: `TIY-Assignments:gh-pages`\r\n* _WIP Files:_\r\n  * `timeline/index.html`\r\n  * `surf+paddle/index.html`\r\n  * `katas/`\r\n    * `string-calculator.js`\r\n    * `check-writing.js`\r\n    * `roman-numerals.js`\r\n    * `euler-1.js` -- formerly `3s+5s.js`\r\n    * `euler-2.js` -- even Fibonacci\r\n    * `euler-4.js` -- largest palindrome\r\n    * `euler-5.js` -- smallest multiple\r\n  * `apis/gymnastics.js`\r\n  * `chessboard/`\r\n    * `index.html`\r\n    * `css/main.css`\r\n    * `js/main.js`\r\n  * `github/`\r\n    * `index.html`\r\n    * `css/main.css`\r\n    * `js/main.js`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74403711",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299#issuecomment-74403711",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "id": 74403711,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T04:32:43Z",
+        "updated_at": "2015-02-15T04:32:43Z",
+        "body": "PR for Surf & Paddle: \r\nhttps://github.com/jaredstevick/TIY-Assignments/pull/30\r\n\r\n## Surf & Paddle Known Issues\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:32:44Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2582354234",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 30,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30",
+        "id": 29329936,
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30",
+        "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30.diff",
+        "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/30.patch",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30",
+        "number": 30,
+        "state": "open",
+        "locked": false,
+        "title": "Feature/24 helluva ride -- surf+paddle #28",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-15T04:32:11Z",
+        "updated_at": "2015-02-15T04:32:11Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/commits",
+        "review_comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/comments",
+        "review_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/comments",
+        "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/562ebd4de1b20a429d9c7743fd94640b0a0f7e86",
+        "head": {
+          "label": "jaredstevick:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "562ebd4de1b20a429d9c7743fd94640b0a0f7e86",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T04:13:31Z",
+            "pushed_at": "2015-02-15T04:30:16Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 1,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jaredstevick:master",
+          "ref": "master",
+          "sha": "c17b2452d237fa7d59bbe0cbeec20ae06ff86c4e",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T04:13:31Z",
+            "pushed_at": "2015-02-15T04:30:16Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 1,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30"
+          },
+          "html": {
+            "href": "https://github.com/jaredstevick/TIY-Assignments/pull/30"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/30/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/30/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/562ebd4de1b20a429d9c7743fd94640b0a0f7e86"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 0,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:32:11Z"
+  },
+  {
+    "id": "2582353406",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574978931,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "562ebd4de1b20a429d9c7743fd94640b0a0f7e86",
+      "before": "55b678f2f4999686433f65f2630b22dd0615c827",
+      "commits": [
+        {
+          "sha": "562ebd4de1b20a429d9c7743fd94640b0a0f7e86",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "created surf+paddle directory",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/562ebd4de1b20a429d9c7743fd94640b0a0f7e86"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:30:17Z"
+  },
+  {
+    "id": "2582347188",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22",
+        "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/labels{/name}",
+        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/comments",
+        "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/events",
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22",
+        "id": 57709940,
+        "number": 22,
+        "title": "String-calculator",
+        "user": {
+          "login": "carolinapowers",
+          "id": 10137641,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/carolinapowers",
+          "html_url": "https://github.com/carolinapowers",
+          "followers_url": "https://api.github.com/users/carolinapowers/followers",
+          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
+          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
+          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
+          "repos_url": "https://api.github.com/users/carolinapowers/repos",
+          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-02-14T23:02:16Z",
+        "updated_at": "2015-02-15T04:15:55Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22",
+          "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22",
+          "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22.diff",
+          "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/74403405",
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22#issuecomment-74403405",
+        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22",
+        "id": 74403405,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T04:15:55Z",
+        "updated_at": "2015-02-15T04:15:55Z",
+        "body": ":+1:  nice work!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:15:56Z"
+  },
+  {
+    "id": "2582346595",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "id": 57550406,
+        "number": 299,
+        "title": "24 -- Helluva Ride -- Jared Stevick",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-02-13T02:21:20Z",
+        "updated_at": "2015-02-15T04:14:38Z",
+        "closed_at": null,
+        "body": "## Tasks\r\n* [ ] M Shave all the yaks :water_buffalo: \r\n  * [x] Merge existing branch\r\n  * [x] Create new branch `feature/24--helluva-ride`\r\n  * [ ] New WIP - 24--helluva-ride with tasks and estimates\r\n  * [ ] Folder structure\r\n* [ ] S Links to each PR in WIP comments\r\n* [ ] S Link to WIP in each PR\r\n* [ ] S 2x peer review on each PR\r\n* [ ] S Create index.md in directory root with links to each index file\r\n\r\n## Assignments\r\n\r\n* [x] L Responsive Vertical Timeline\r\n  * [x] M Mobile first design\r\n  * [x] M Tablet and full size breakpoints\r\n  * [x] S MF'ing HTML\r\n  * [x] S CSS\r\n  * [x] S Glyph icons\r\n  * [x] S Stupid carets\r\n  * [ ] M Update bug fixes periodically \r\n\r\n\r\n* [x] L String Calculator\r\n  * [x] S `\"zero\"` through `\"ten\"`\r\n  * [x] S `\"ten\"` through `\"twenty\"`\r\n  * [x] M `\"twenty\"` through `\"thirty\"`\r\n  * [x] M `\"fifty\"` through `\"sixty\"`\r\n  * [x] M `\"ninety\"` through `\"one hundred\"`\r\n  * [x] M `\"one hundred\"` through `\"one hundred twenty\"`\r\n\r\n* [ ] L Check Writing\r\n  * [x] S `\"zero\"` through `\"ten\"`\r\n  * [x] S `\"ten\"` through `\"twenty\"`\r\n  * [ ] M `\"twenty\"` through `\"thirty\"`\r\n  * [ ] M `\"fifty\"` through `\"sixty\"`\r\n  * [ ] M `\"ninety\"` through `\"one hundred\"`\r\n  * [ ] M `\"one hundred\"` through `\"one hundred twenty\"`\r\n\r\n## Requirements\r\n\r\n* _WIP Issue:_ `24 -- Helluva Ride`\r\n  * checklist of assignments and checkpoints\r\n  * link to each PR you merge\r\n* _WIP Branch:_\r\n  * work in: `TIY-Assignments:feature/24--helluva-ride`\r\n  * deploy into: `TIY-Assignments:gh-pages`\r\n* _WIP Files:_\r\n  * `timeline/index.html`\r\n  * `surf+paddle/index.html`\r\n  * `katas/`\r\n    * `string-calculator.js`\r\n    * `check-writing.js`\r\n    * `roman-numerals.js`\r\n    * `euler-1.js` -- formerly `3s+5s.js`\r\n    * `euler-2.js` -- even Fibonacci\r\n    * `euler-4.js` -- largest palindrome\r\n    * `euler-5.js` -- smallest multiple\r\n  * `apis/gymnastics.js`\r\n  * `chessboard/`\r\n    * `index.html`\r\n    * `css/main.css`\r\n    * `js/main.js`\r\n  * `github/`\r\n    * `index.html`\r\n    * `css/main.css`\r\n    * `js/main.js`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74403382",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/299#issuecomment-74403382",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/299",
+        "id": 74403382,
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T04:14:38Z",
+        "updated_at": "2015-02-15T04:14:38Z",
+        "body": "PR for API Gymnastics:\r\nhttps://github.com/jaredstevick/TIY-Assignments/pull/29\r\n\r\n## API Gymnastics Known Issues\r\n* [ ] What other data can I pull?\r\n* [ ] Everything could probably be refactored a bit to be cleaner"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:14:38Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2582346086",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574975494,
+      "size": 8,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "c17b2452d237fa7d59bbe0cbeec20ae06ff86c4e",
+      "before": "607281a6a65e5cd788bfdd64f089d60f5d5a52ed",
+      "commits": [
+        {
+          "sha": "6373b1c5c24bbcbb62a9a164263d7ff763ec6e89",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting gymnastics",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6373b1c5c24bbcbb62a9a164263d7ff763ec6e89"
+        },
+        {
+          "sha": "6e6d60d0b66cc6a9790f6c63818e3e59058bc997",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "pulled data for events",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6e6d60d0b66cc6a9790f6c63818e3e59058bc997"
+        },
+        {
+          "sha": "478d9d7b39da4eb9713bfd9b69e4b806e0b9c8f2",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "making sure i have 30 events. checking out how many are push events",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/478d9d7b39da4eb9713bfd9b69e4b806e0b9c8f2"
+        },
+        {
+          "sha": "6a541b80f642516efcbbf854fd27e2633ba468ee",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "adding a few more data requests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6a541b80f642516efcbbf854fd27e2633ba468ee"
+        },
+        {
+          "sha": "361974b92bbeb1a8b39a8800ece8ad665c7ad521",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added a few more requests and wrote a couple of tests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/361974b92bbeb1a8b39a8800ece8ad665c7ad521"
+        },
+        {
+          "sha": "845085b1caa9ef9299e85672635d71c6fd3ab284",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting to refactor and fill out answer function",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/845085b1caa9ef9299e85672635d71c6fd3ab284"
+        },
+        {
+          "sha": "55b678f2f4999686433f65f2630b22dd0615c827",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "i think i actually got it to work.  thanks for the help @taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/55b678f2f4999686433f65f2630b22dd0615c827"
+        },
+        {
+          "sha": "c17b2452d237fa7d59bbe0cbeec20ae06ff86c4e",
+          "author": {
+            "email": "jaredstevick@users.noreply.github.com",
+            "name": "Jared Stevick"
+          },
+          "message": "Merge pull request #29 from jaredstevick/feature/24--helluva-ride\n\nFeature/24  helluva ride -- gymnastics",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/c17b2452d237fa7d59bbe0cbeec20ae06ff86c4e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:13:31Z"
+  },
+  {
+    "id": "2582346080",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 29,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29",
+        "id": 29328791,
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29",
+        "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29.diff",
+        "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29.patch",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29",
+        "number": 29,
+        "state": "closed",
+        "locked": false,
+        "title": "Feature/24  helluva ride -- gymnastics",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-15T02:14:07Z",
+        "updated_at": "2015-02-15T04:13:30Z",
+        "closed_at": "2015-02-15T04:13:30Z",
+        "merged_at": "2015-02-15T04:13:30Z",
+        "merge_commit_sha": "1db4e1c04d5df9f3f9a56e98802b0b0aac644e97",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29/commits",
+        "review_comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29/comments",
+        "review_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/comments",
+        "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/55b678f2f4999686433f65f2630b22dd0615c827",
+        "head": {
+          "label": "jaredstevick:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "55b678f2f4999686433f65f2630b22dd0615c827",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T02:03:43Z",
+            "pushed_at": "2015-02-15T04:13:30Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jaredstevick:master",
+          "ref": "master",
+          "sha": "607281a6a65e5cd788bfdd64f089d60f5d5a52ed",
+          "user": {
+            "login": "jaredstevick",
+            "id": 9483436,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaredstevick",
+            "html_url": "https://github.com/jaredstevick",
+            "followers_url": "https://api.github.com/users/jaredstevick/followers",
+            "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+            "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+            "repos_url": "https://api.github.com/users/jaredstevick/repos",
+            "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28697055,
+            "name": "TIY-Assignments",
+            "full_name": "jaredstevick/TIY-Assignments",
+            "owner": {
+              "login": "jaredstevick",
+              "id": 9483436,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jaredstevick",
+              "html_url": "https://github.com/jaredstevick",
+              "followers_url": "https://api.github.com/users/jaredstevick/followers",
+              "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+              "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+              "repos_url": "https://api.github.com/users/jaredstevick/repos",
+              "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/releases{/id}",
+            "created_at": "2015-01-01T22:17:20Z",
+            "updated_at": "2015-02-15T02:03:43Z",
+            "pushed_at": "2015-02-15T04:13:30Z",
+            "git_url": "git://github.com/jaredstevick/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jaredstevick/TIY-Assignments.git",
+            "clone_url": "https://github.com/jaredstevick/TIY-Assignments.git",
+            "svn_url": "https://github.com/jaredstevick/TIY-Assignments",
+            "homepage": null,
+            "size": 31584,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29"
+          },
+          "html": {
+            "href": "https://github.com/jaredstevick/TIY-Assignments/pull/29"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jaredstevick/TIY-Assignments/statuses/55b678f2f4999686433f65f2630b22dd0615c827"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 2,
+        "review_comments": 0,
+        "commits": 7,
+        "additions": 2724,
+        "deletions": 1230,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:13:31Z"
+  },
+  {
+    "id": "2582334284",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574970193,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "55b678f2f4999686433f65f2630b22dd0615c827",
+      "before": "845085b1caa9ef9299e85672635d71c6fd3ab284",
+      "commits": [
+        {
+          "sha": "55b678f2f4999686433f65f2630b22dd0615c827",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "i think i actually got it to work.  thanks for the help @taylorfoster90",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/55b678f2f4999686433f65f2630b22dd0615c827"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T03:48:37Z"
+  },
+  {
+    "id": "2582312309",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574960359,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "845085b1caa9ef9299e85672635d71c6fd3ab284",
+      "before": "6a541b80f642516efcbbf854fd27e2633ba468ee",
+      "commits": [
+        {
+          "sha": "361974b92bbeb1a8b39a8800ece8ad665c7ad521",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "added a few more requests and wrote a couple of tests",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/361974b92bbeb1a8b39a8800ece8ad665c7ad521"
+        },
+        {
+          "sha": "845085b1caa9ef9299e85672635d71c6fd3ab284",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "starting to refactor and fill out answer function",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/845085b1caa9ef9299e85672635d71c6fd3ab284"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T03:03:48Z"
+  },
+  {
+    "id": "2582293901",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9483436,
+      "login": "jaredstevick",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaredstevick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9483436?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574951920,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "6a541b80f642516efcbbf854fd27e2633ba468ee",
+      "before": "478d9d7b39da4eb9713bfd9b69e4b806e0b9c8f2",
+      "commits": [
+        {
+          "sha": "6a541b80f642516efcbbf854fd27e2633ba468ee",
+          "author": {
+            "email": "jstevick@gmail.com",
+            "name": "Jared Stevick"
+          },
+          "message": "adding a few more data requests",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/commits/6a541b80f642516efcbbf854fd27e2633ba468ee"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T02:26:42Z"
+  }
+]
