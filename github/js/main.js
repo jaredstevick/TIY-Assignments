@@ -11,7 +11,7 @@ $.getJSON("jaredstevick.json", function(user) {
     $('aside').find('h3').append(user.login),
     $('aside').find('a').append(user.email),
     $('aside').find('.location').append(user.location),
-    $('aside').find('.joined').append(user.created_at);
+    $('aside').find('.joined').append(user.created_at.substring(0,10));
     $('aside').find('.followers').prepend(user.followers);
     $('aside').find('.starred').prepend(user.something);
     $('aside').find('.following').prepend(user.following);
