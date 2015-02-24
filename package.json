@@ -1,7 +1,6 @@
 {
   "name": "TIY-Assignments",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -12,6 +11,8 @@
     "mocha": "*"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.3",
+    "gulp": "^3.8.11",
     "node-sass": "^2.0.0-beta"
   },
   "scripts": {
