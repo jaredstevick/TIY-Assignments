@@ -12,7 +12,9 @@
     "mocha": "*"
   },
   "devDependencies": {
-    "node-sass": "^2.0.0-beta"
+    "node-sass": "^2.0.0-beta",
+    "bootstrap-sass": "^3.3.3",
+    "gulp": "^3.8.11"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
