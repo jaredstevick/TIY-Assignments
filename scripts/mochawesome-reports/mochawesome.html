@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">scripts</h1>
+          <h3 class="report-date">Tuesday, February 24 2015, 02:30pm</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">16<span>MS</span></li>
+              <li class="qs-item summary-suites" title="Suites">0</li>
+              <li class="qs-item summary-tests" title="Tests">13</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">13</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">16<span>MS</span></h1>
+              <h4 class="summary-label">MS</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">13</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">13</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+        <section class="suite-wrap">
+          <div id="cd250577-c92a-4916-921e-22b7b955555e" class="suite root-suite has-tests has-passed">
+            <h3 class="suite-title">&nbsp;</h3>
+            <h5 class="suite-filename">&nbsp;</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="cd250577-c92a-4916-921e-22b7b955555e" class="suite-chart" width="50" height="50" data-total-passes="13" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">13</li>
+                <li class="suite-summary-item passed">13</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#cd250577-c92a-4916-921e-22b7b955555e-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="cd250577-c92a-4916-921e-22b7b955555e-test-list" class="list-group test-list collapse in">
+                    <div id="0cd2734a-4757-4f1e-810e-d6ef59bcfa5e" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should have a &#x60;fromEnglish&#x60; function
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0cd2734a-4757-4f1e-810e-d6ef59bcfa5e > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert(fromEnglish);
+                     assert.equal(<span class="hljs-keyword">typeof</span> fromEnglish, <span class="hljs-string">'function'</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="e4e0c65b-a903-4854-b906-e1af4c92f9ba" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          return an integer for an english number word
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e4e0c65b-a903-4854-b906-e1af4c92f9ba > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">0</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">1</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">2</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">3</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">4</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">20</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="1b4541c2-6552-4363-a802-19803d4ff4ba" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#1b4541c2-6552-4363-a802-19803d4ff4ba > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">0</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">1</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">2</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">3</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">4</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"zero"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">20</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="6051aa08-47d5-49a8-8618-63e9c5720b35" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#6051aa08-47d5-49a8-8618-63e9c5720b35 > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">1</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">2</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">3</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">4</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"one"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">21</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="8f38ceb4-4a3f-4e27-9021-8e08de0b210a" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#8f38ceb4-4a3f-4e27-9021-8e08de0b210a > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">2</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">3</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">4</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"two"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">22</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="17f5a9a6-3b21-47bd-a56f-851b3ae54a08" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#17f5a9a6-3b21-47bd-a56f-851b3ae54a08 > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">3</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">4</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"three"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">23</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="9707de9f-efa1-4795-a983-329b4fad5f91" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#9707de9f-efa1-4795-a983-329b4fad5f91 > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">4</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"four"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">24</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="a2734a31-1bcb-48de-a8a3-8d31ec8baa0d" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a2734a31-1bcb-48de-a8a3-8d31ec8baa0d > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">5</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">24</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"five"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">25</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="c5378c3d-86b6-4bbe-a024-04be62a4441e" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c5378c3d-86b6-4bbe-a024-04be62a4441e > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">6</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">24</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">25</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"six"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">26</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="dba05f41-597e-4e7b-8935-277f117c57cf" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#dba05f41-597e-4e7b-8935-277f117c57cf > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">7</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">24</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">25</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">26</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"seven"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">27</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="e4504a3e-668f-4f95-b7de-2b9eb3ffff84" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e4504a3e-668f-4f95-b7de-2b9eb3ffff84 > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">8</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">24</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">25</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">26</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">27</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eight"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">28</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="b445a95e-11a7-4e13-bf85-90d06f731e2a" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b445a95e-11a7-4e13-bf85-90d06f731e2a > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">9</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">24</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">25</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">26</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">27</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">28</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"nine"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">29</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>            <div id="ef374e28-59ea-4b40-83d6-27b0794dcdb6" class="list-group-item test passed">
+                      <!-- Test Heading -->
+                      <div class="test-heading">
+                        <h4 class="test-title">
+                          <span class="text-muted hidden"> it </span>
+                          should do math on two string numbers and return the result as an integer
+                        </h4>
+                        <div class="pull-right">
+                          <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ef374e28-59ea-4b40-83d6-27b0794dcdb6 > .test-code.collapse">Code</button>
+                          <span class="test-duration fast">0 ms</span>
+                        </div>
+                      </div>
+                      <!-- Test Errors -->
+                      <!-- Test Code -->
+                      <div class="test-code collapse">
+                        <pre><code class="hljs javascript small">assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"zero"</span>), <span class="hljs-number">10</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"one"</span>), <span class="hljs-number">11</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"two"</span>), <span class="hljs-number">12</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"three"</span>), <span class="hljs-number">13</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"four"</span>), <span class="hljs-number">14</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"five"</span>), <span class="hljs-number">15</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"six"</span>), <span class="hljs-number">16</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"seven"</span>), <span class="hljs-number">17</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"eight"</span>), <span class="hljs-number">18</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"nine"</span>), <span class="hljs-number">19</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"ten"</span>), <span class="hljs-number">20</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"eleven"</span>), <span class="hljs-number">21</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"twelve"</span>), <span class="hljs-number">22</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"thirteen"</span>), <span class="hljs-number">23</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"fourteen"</span>), <span class="hljs-number">24</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"fifteen"</span>), <span class="hljs-number">25</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"sixteen"</span>), <span class="hljs-number">26</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"seventeen"</span>), <span class="hljs-number">27</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"eighteen"</span>), <span class="hljs-number">28</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">29</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"ten"</span>) + fromEnglish(<span class="hljs-string">"twenty"</span>), <span class="hljs-number">30</span>);
+                    assert.equal(fromEnglish(<span class="hljs-string">"eleven"</span>) + fromEnglish(<span class="hljs-string">"nineteen"</span>), <span class="hljs-number">30</span>);</code></pre>
+                      </div>
+                      <!-- Test Error Stack -->
+                    </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="https://github.dowjones.net/grubera/mochawesome" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2015.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
