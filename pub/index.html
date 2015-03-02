@@ -54,7 +54,7 @@
                     <div ng-show="tab.isSet(3)">
                         <ul>
                             <h4>Reviews</h4>
-                            <li>
+                            <li ng-repeat="review in product.reviews">
                                 <blockquote>
                                     <strong>{{review.stars}} Stars</strong>
                                     {{review.body}}
@@ -63,10 +63,11 @@
                             </li>  
                         </ul>
 
-                        <form name="reviewForm">
+                        <form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewForm.$valid && reviewCtrl.addReview(product)" novalidate>
                             <blockquote>
-                                <strong>Stars</strong>
-                                <cite class="clearfix">-</cite>
+                                <strong>{{reviewCtrl.review.stars}} Stars</strong>
+                                {{reviewCtrl.review.body}}
+                                <cite class="clearfix">-{{reviewCtrl.review.author}}</cite>
                             </blockquote>
 
                             <h4>Submit a Review</h4>
@@ -77,11 +78,11 @@
                             </fieldset>
                             
                             <fieldset class="form-group">
-                                <textarea ng-model="review.body" class="form-control" placeholder="Write a short review of the gems, yo" title="Review"></textarea>
+                                <textarea ng-model="reviewCtrl.review.body" class="form-control" placeholder="Write a short review of the gems, yo" title="Review"></textarea>
                             </fieldset>
 
                             <fieldset class="form-goup">
-                                <input ng-model="review.author" type="email" class="form-control" placeholder="AbeFroman@sausageking.com" title="Email">
+                                <input ng-model="reviewCtrl.review.author" type="email" class="form-control" placeholder="AbeFroman@sausageking.com" title="Email">
                             </fieldset>
 
                             <fieldset class="form-group">
